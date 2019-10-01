@@ -1,0 +1,215 @@
+# Hydrotherm Data-Input Form
+# Version 3.2
+#      Notes:
+#      Syntax of input line is denoted by # ..
+#      A suffix letter indicates an exclusive record choice must be made.
+#             i.e. A or B or C
+#      (O) - Optional data with conditions for requirement
+#      [a|b] - Indicates that either A or B must be entered
+#      {nnn} - Indicates that the default number, nnn, is used if a zero
+#              is entered for that variable
+#      [T/F] - Indicates a logical variable
+#      [I] - Indicates an integer variable
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+#   Start of the data file
+# TITLE
+# ..  TITLE:   title line 1
+# ..  VER3.2:  title line 2
+TITLE  Steady-state 2-d vs2d verification problem #5 VS2D manual
+VER3.2 thermal problem; bottom heat flux; seepage b.c.; thin cell column along seepage surface
+# DIMENSIONS
+# ..  nx[I],ny[I],nz[I],tmstr,iyear[I]
+   61,     1,    42,   0.0,      1
+# TIME STEP
+# ..A  tstepmx[I],tmincr{1.3},%PchgTS{10.},%HchgTS{5.},Wsatn{0.03},relax{1.},
+# ..       deltmin,n_tmcut{10}; confined flow
+# ..B  tstepmx[I],tmincr{1.3},PchgTS{1.e5},%HchgTS{5.},Wsatn{0.03},relax{1.},
+# ..       deltmin,n_tmcut{10}; unconfined flow
+     1500,    1.25,     6.e4   5.,   0.05   1.0,   1.     10
+# N-R ITERATION
+# ..A  itermx{10},resmas{1.e-12},reseng{1.e-2},nphasechg{10},%PchgNR{0.1},
+# ..        %HchgNR{0.1}; confined flow
+# ..B  itermx{10},resmas{1.e-12},reseng{1.e-2},nphasechg{10},PchgNR{1.e5},
+# ..        %HchgNR{0.1}; unconfined flow
+   10,    1.0e-12,  1.0e-2,     60            1.e5       0.1
+# LINEAR EQUATION SOLVER
+# .. slmeth[I]
+ 2
+#    SSOR SOLVER CONTROL
+# ..A  ssormx[I]{10},tol{0.05},ssorw0{1.0}; (O) - slmeth = 1
+#    GMRES SOLVER CONTROL
+# ..B  m_save_dir{5},stop_tol_gmres{1.e-10},maxit_gmres{100},ilu_method{2},lev_fill{5},
+# ..       drop_tol{0.001}; (O) - slmeth = 2
+ 10  1.e-10 100 1  16  1.e-4
+# WEIGHTING AND AVERAGING
+# ..  ioptupst[T/F],potdif{0.0002},theta{1.0}
+    t           0.0002,    1.
+# RELATIVE PERMEABILITY
+# ..  kodrp,wsatn{0.3},ssatn{0.0}
+    1,         0.0,   0.0
+# ROCK PROPERTIES
+# ..  heatcpty{1.e7},rxden,rxcmprss{0.},grav{981.},initphi[T/F]
+    -1  -1     0.0,   981.0,   F
+# ..  initphi_filename{IC_pressporo.xxx}; (O) - initphi = T
+# CYLINDRICAL COORDINATES
+# ..  irad[T/F],wellrad(cm),radiusmax(cm)
+    f,           0,         0
+# PRINT/PLOT CONTROL
+# ..  wide[I],long[I],v-avg[I]
+   1,    1,     0
+# PRINT 1
+# ..  pres_pr_intrv,enth_pr_intrv,temp_pr_intrv,satn_pr_intrv,iprsat[I]
+ 2.592e6            0.       2.592e6       2.592e6     1
+# PRINT 2
+# ..  dens_pr_intrv,iprden[I],vis_pr_intrv,iprvis[I],potential_pr_intrv,iprpot[I]
+ 2.592e6       10     0.    0    2.592e6         10
+# PRINT 3
+# ..  velocity_pr_intrv,iprvel[I],bcflow_pr_intrv,iprbcflow[I],source_pr_intrv,iprsource[I]
+  2.592e6       10,      2.592e6       1    0.      1
+# PRINT 4
+# ..  pm_properties_pr_intrv,iprmprop[I],poros_pr_intrv,permeability_pr_intrv
+    2.592e6              01,    0.      2.592e6 
+# PRINT 5
+# ..  balance_pr_intrv,dimno_pr_intrv,iprdimno[I],residuals_pr_intrv,dump_pr_intrv
+  -1.    0.   0        0.      0.
+# PRINT 6
+# ..  plotscalar_pr_intrv,plotvector_pr_intrv,plotfile_type[I],time_series_pr_intrv
+    2.592e6           0.         5            0.
+# ..  num_locations,(i(n),j(n),k(n),n=1 to num_locations)(all [I]); (O) - time_series_pr_intrv > 0
+# SLICE number
+# ..  start_location: [TOP|BOTTOM]
+# ..  index_of_rock_type(i,k),i=1 to nx, k=1 to nz (or k=nz to 1)[I]
+BOT
+1, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
+-3001, 60*1
++1, 60*1
+# UNCONFINED
+# ..  unconfined[T/F],patm
+    T            1.013e6 
+# SATURATION FUNCTION
+#     LINEAR
+# ..A pwb,pwr; (O) -  kodrp = 0 and unconfined
+#     COREY
+# ..B pwb,lambda[I]; (O) - kodrp = 1 and unconfined
+  9.9437e5  2
+#     COOLEY
+# ..C pwb,bb,cc; (O) - kodrp = 3 and unconfined
+# -----------------------------------
+# Start of Keyword Data Block section
+# PARAMETER 
+# Sample format for data block
+# ..  array_identifier,(units)
+# ..  format_specifier
+# ..  data record set
+# ........
+XSPACING (m)
+FREE
+0.005 60*0.1
+YSPACING (m)
+CONSTANT
+1.0
+ZSPACING (m)
+CONSTANT
+0.029048
+POROSITY (-)
+CONSTANT
+0.348
+XPERMEABILITY (m^2)
+CONSTANT
+1.0241e-11
+YPERMEABILITY (m^2)
+CALC
+1.0
+ZPERMEABILITY (m^2)
+CALC
+1.0
+RDEN (g/cm^3)
+CONSTANT
+2.50
+SPECIFIC HEAT (J/kg-K)
+CONSTANT
+890.
+THERMAL CONDUCTIVITY (W/m-K)
+CONSTANT
+0.1157
+CONDUCTIVE Heat Input along Base (mW/m^2)
+CONSTANT
+1.1954e4
+PRESSURE (dynes/cm^2)
+CALCULATE
+1, 9.5556e5
+TEMPERATURE (C)
+CONSTANT
+4.
+PRECIP (m^3/s-m^2)
+CONSTANT
+1.1979e-6
+TFLUX  (C)
+CONSTANT
+5.
+# End of Keyword Data Block section
+# ---------------------------------
+# Transient data
+# TIME PERIOD
+# .. tchg,delt,nsrce[I],lchgpr[T/F],nparms[I]
+ 2.592e6      1.0                 0,         f      0
+# ---------------------------------
+# Start of Source Keyword Data Block section
+# SOURCE/SINK number; (O) - nsrce > 0
+# ..  WELL,(unit_flow),(unit_enth)
+# ..  i[I],j[I],well_flow,well_enth,n-openint[I]
+# ..  NODE,(unit_flow),(unit_enth)
+# ..  i[I],j[I],k[I],node_flow,node_enth
+# End of Source Keyword Data Block section
+# ---------------------------------
+# ..  PRINT/PLOT data records, PRINT n, as above; (O) - lchgpr = true
+# ..  PARAMETER keyword data block records, as above; (O) - nparms > 0
+# ---------------------------------
+# Insert additional groups of transient data as necessary
+# ---------------------------------
+# TIME PERIOD: End of simulation record
+# ..  tchg
+-1 / 
+#  .. End of the data file
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------

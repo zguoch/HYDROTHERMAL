@@ -1,0 +1,76 @@
+          Examples: Table of Contents
+
+Example 01:   One-Cell Problem - Constant-Enthalpy Injection
+Example 02:   One-Cell Problem - Constant-Pressure Expansion
+Example 03:   Steady, Uniform Upflow Problem; Constant-Flux Boundary
+              Constant temperature at base maintained by injection and heat flux
+Example 04:   Steady, Uniform Upflow Problem; Constant-Temperature Boundary
+              Constant temperature at base maintained by a low permeability, high thermal conductivity cell
+Example 05:   Radial Flow to a Well; Cylindrical coordinate system; Confined flow
+              Two-phase mixture; Semi-analytical solution of O'Sullivan and Pruess (1980)
+Example 06:   Expanding Two-Phase System; 1-dimensional geothermal reservoir as vertical column
+Example 07:   Expanding Two-Phase System; 3-dimensional reservoir; Pruess (1980)
+Example 08:   Geyser problem; 10x11 grid; Region dimensions 100 x 1 x 200 m; 
+              Conduit 0.5 x 1 x 200 m; symmetry
+Example 09:   Free convection near the critical point; 10 m x 10 m region; Upper boundary at 220 bar,
+              and 375 deg. C; Bottom boundary at 385 deg. C
+Example 10:   Cooling pluton with single magma injection; Model E of Hayba and Ingebritsen (1997) 
+Example 11:   Transient unsaturated infiltration into vertical column; From VS2D manual, example #1
+Example 12:   Horizontal unsaturated flow into column; From Huyakorn and others (1984)
+Example 13:   Steady-state, 2-d drainage with seepage surface; From VS2D manual, verification problem #5 
+Example 14:   Steady-state, 2-d drainage with seepage surface; basal heat flux and precipitation warmer 
+              than initial temperature
+
+		Characteristics and Specifications
+
+Example 01:   One-Cell
+	      Node source, injection	
+Example 02:   One-Cell 
+              Base heat flux
+Example 03:   1-dimension; Steady, Uniform Upflow
+              Constant-Flux Boundary
+              specified p & h b.c.
+              base heat flux
+              node source, micro rate injection
+              Constant temperature at base maintained by injection and heat flux
+Example 04:   1-dimension; Steady, Uniform Upflow Problem; 
+              specified p & T b.c. top and bottom
+              well source near bottom
+              Constant temperature at base maintained by a low permeability, high thermal conductivity cell
+Example 05:   Radial Flow to a Well; Cylindrical coordinate system; Confined flow
+              well sink              
+              Two-phase mixture
+Example 06:   1-dimension geothermal reservoir as vertical column
+              specified p & T b.c. top
+              well sink at bottom
+Example 07:   3-dimensional; expanding 2-phase zone
+              specified p & h b.c. top, bottom, right side
+              point sink
+              four simulation periods; different production rates
+Example 08:   2-dimensional
+              specified p & h b.c. top and left side
+              base heat flux
+              two simulation periods with change in printout
+              Conduit 0.5 x 1 x 200 m; symmetry
+Example 09:   2-dimensional 
+              specified p & T b.c. top and bottom
+              T perturbation i.c.
+              2 simulation periods, no changes, historical b.c. change after equilibration
+Example 10:   2 dimensional
+              specified p & T b.c. at top
+              3 simulation periods, imposed p & T internal
+Example 11:   1-dimension; unsaturated
+              isothermal
+              specified p b.c. top
+              node source at top
+Example 12:   1-dimension; unsaturated
+              isothermal
+              specified p b.c. left and right end
+Example 13:   2-dimensions; unconfined
+              isothermal
+              surface of seepage left side; specified p to start
+              precipitation flux top
+Example 14:   2-dimensions; unconfined
+              surface of seepage left side; specified p to start
+              precipitation flux top
+              base heat flux 

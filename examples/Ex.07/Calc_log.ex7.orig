@@ -1,0 +1,2769 @@
+
+--- Run Information ---
+          Input filename:  Dat.ex7.orig
+          Input format version:  VER3.2  
+          Output filename suffix for this run:  .ex7.orig                               
+          Execution Date and Time:   17 Feb 2016 08:40:41
+
+--- Program Version ---
+          HYDROTHERM  Version: v3_2_0   
+
+          Initial Time ..........  0.000     (yr)
+--- Linear Equation Solver ---
+
+--- GMRES Linear Equation Solver selected
+
+--- Printing Controls ---
+          Printout formatted for 132 columns
+          Partial output written to Calc_log file and terminal screen
+          ASCII IDL plotfile written
+          Fluxes for source/sink nodes printed to Out_source
+          Fluxes for specified value nodes, specified flux nodes, 
+               and seepage nodes printed to Out_bcflow
+          Time series data written to Plot_timeseries file for  2 nodes
+          Number of Variable Arrays Selected to be Printed:  5
+
+--- Solver Information ---
+          Number of non-zero elements in A ...........     5024
+          Number of non-zero elements in ILU(k,tol) ..     4620
+
+--- Read X, Y, and Z dimensions of cells ---
+          Reading Input Array - XSPA
+          Reading Input Array - YSPA
+          Reading Input Array - ZSPA
+
+--- Read the remaining  8 arrays ---
+          Reading Input Array - PORO
+          Reading Input Array - XPER
+          Reading Input Array - YPER
+          Reading Input Array - ZPER
+          Reading Input Array - THER
+          Reading Input Array - COND
+          Reading Input Array - PRES
+          Reading Input Array - ENTH
+
+--- Simulation Period Number  1 ---
+          Period begins       0.000000     (yr)
+          Period ends         2.000000     (yr)
+          Initial time step  1.0000000E-02 (yr)
+          Number of parameters with new data input:  0
+          Print/plot options are not changed
+          New values input for well or point sources or sinks
+
+--- Begin Time Step No.     1 ---  Time Step Length: 1.000000E-02 (yr)
+        Time step set to input value for initial step
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...    8
+     Relative norm of residual .............................  2.3186E-09
+   1  1 Max Diff:  -5.753E+06 in P at    1   1   3;   1.829E+06 in H at    1   1   3
+   1  1 Max %diff:   -5.60     in P at    1   1   3;  1.471E-02 in H at    1   1   3
+   1  1 Max Resid: -3.92E-11 g/s-cm^3 at   1   1   4;   4.91E-01 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...    8
+     Relative norm of residual .............................  7.8930E-09
+   1  2 Max Diff:  -3.789E+04 in P at    1   1   4;   3.908E+04 in H at    1   1   4
+   1  2 Max %diff:  -4.499E-02 in P at    1   1   4;  3.154E-04 in H at    1   1   4
+   1  2 Max Resid: -7.07E-15 g/s-cm^3 at   2   4   4;   9.33E-05 erg/s-cm^3 at   2   4   5
+   1    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+   1    Max % change in P =     -5.319;  Max % change in H =      0.015
+   1    Max Saturation change: -0.0015;  Steam in region: 5.2440E+12 (g)
+Step Number    1 completed; Simulation time .................... 1.000000E-02 (yr)
+
+--- Begin Time Step No.     2 ---  Time Step Length: 1.300000E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  1.0221E-09
+   2  1 Max Diff:  -1.369E+06 in P at    1   1   3;   1.516E+06 in H at    1   1   5
+   2  1 Max %diff:   -1.35     in P at    1   1   3;  1.219E-02 in H at    1   1   5
+   2  1 Max Resid: -5.37E-12 g/s-cm^3 at   1   1   4;  -6.60E-02 erg/s-cm^3 at   1   1   4
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  1.6732E-09
+   2  2 Max Diff:  -5.548E+03 in P at    1   1   4;   2.748E+03 in H at    1   1   3
+   2  2 Max %diff:  -6.649E-03 in P at    1   1   4;  2.211E-05 in H at    1   1   3
+   2  2 Max Resid: -2.93E-15 g/s-cm^3 at   4   2   4;  -3.91E-05 erg/s-cm^3 at   4   2   4
+   2    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+   2    Max % change in P =     -1.335;  Max % change in H =      0.012
+   2    Max Saturation change: -0.0026;  Steam in region: 5.2564E+12 (g)
+Step Number    2 completed; Simulation time .................... 2.300000E-02 (yr)
+
+--- Begin Time Step No.     3 ---  Time Step Length: 1.690000E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  5.5361E-09
+   3  1 Max Diff:  -3.578E+05 in P at    1   1   3;   2.094E+06 in H at    1   1   5
+   3  1 Max %diff:  -0.354     in P at    1   1   3;  1.683E-02 in H at    1   1   5
+   3  1 Max Resid: -2.27E-12 g/s-cm^3 at   1   1   5;  -2.58E-02 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  4.0565E-09
+   3  2 Max Diff:  -2.300E+03 in P at    1   1   4;   7.989E+03 in H at    1   1   5
+   3  2 Max %diff:  -2.765E-03 in P at    1   1   4;  6.420E-05 in H at    1   1   5
+   3  2 Max Resid: -1.06E-15 g/s-cm^3 at   3   5   4;  -1.42E-05 erg/s-cm^3 at   3   5   4
+   3    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+   3    Max % change in P =     -0.354;  Max % change in H =      0.017
+   3    Max Saturation change: -0.0036;  Steam in region: 5.2755E+12 (g)
+Step Number    3 completed; Simulation time .................... 3.990000E-02 (yr)
+
+--- Begin Time Step No.     4 ---  Time Step Length: 2.197000E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  4.1734E-09
+   4  1 Max Diff:  -1.316E+05 in P at    1   1   2;   2.729E+06 in H at    1   1   5
+   4  1 Max %diff:  -0.135     in P at    1   1   4;  2.192E-02 in H at    1   1   5
+   4  1 Max Resid: -4.86E-12 g/s-cm^3 at   1   1   5;  -5.72E-02 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  9.7087E-09
+   4  2 Max Diff:   -852.     in P at    1   1   4;   1.575E+04 in H at    1   1   5
+   4  2 Max %diff:  -1.025E-03 in P at    1   1   4;  1.265E-04 in H at    1   1   5
+   4  2 Max Resid: -1.08E-16 g/s-cm^3 at   4   4   4;  -1.43E-06 erg/s-cm^3 at   4   4   4
+   4    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+   4    Max % change in P =     -0.136;  Max % change in H =      0.022
+   4    Max Saturation change: -0.0046;  Steam in region: 5.3014E+12 (g)
+Step Number    4 completed; Simulation time .................... 6.187000E-02 (yr)
+
+--- Begin Time Step No.     5 ---  Time Step Length: 2.856100E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  8.8935E-10
+   5  1 Max Diff:  -9.380E+04 in P at    1   1   4;   3.497E+06 in H at    1   1   5
+   5  1 Max %diff:  -0.113     in P at    1   1   4;  2.808E-02 in H at    1   1   5
+   5  1 Max Resid: -6.75E-12 g/s-cm^3 at   1   1   5;  -7.99E-02 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  1.1082E-09
+   5  2 Max Diff:   -416.     in P at    1   1   4;   2.682E+04 in H at    1   1   5
+   5  2 Max %diff:  -5.011E-04 in P at    1   1   4;  2.154E-04 in H at    1   1   5
+   5  2 Max Resid: -2.36E-16 g/s-cm^3 at   1   1   5;  -2.76E-06 erg/s-cm^3 at   1   1   5
+   5    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+   5    Max % change in P =     -0.113;  Max % change in H =      0.028
+   5    Max Saturation change: -0.0059;  Steam in region: 5.3355E+12 (g)
+Step Number    5 completed; Simulation time .................... 9.043100E-02 (yr)
+
+--- Begin Time Step No.     6 ---  Time Step Length: 3.712930E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  1.1983E-09
+   6  1 Max Diff:  -1.076E+05 in P at    1   1   4;   4.444E+06 in H at    1   1   5
+   6  1 Max %diff:  -0.130     in P at    1   1   4;  3.568E-02 in H at    1   1   5
+   6  1 Max Resid: -8.52E-12 g/s-cm^3 at   1   1   5;  -1.01E-01 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  1.2208E-09
+   6  2 Max Diff:   -362.     in P at    1   1   4;   4.351E+04 in H at    1   1   5
+   6  2 Max %diff:  -4.366E-04 in P at    1   1   4;  3.493E-04 in H at    1   1   5
+   6  2 Max Resid: -5.18E-16 g/s-cm^3 at   1   1   5;  -6.09E-06 erg/s-cm^3 at   1   1   5
+   6    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+   6    Max % change in P =     -0.130;  Max % change in H =      0.036
+   6    Max Saturation change: -0.0073;  Steam in region: 5.3799E+12 (g)
+Step Number    6 completed; Simulation time .................... 0.127560     (yr)
+
+--- Begin Time Step No.     7 ---  Time Step Length: 4.826809E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  1.8176E-09
+   7  1 Max Diff:  -1.323E+05 in P at    1   1   4;   5.607E+06 in H at    1   1   5
+   7  1 Max %diff:  -0.160     in P at    1   1   4;  4.499E-02 in H at    1   1   5
+   7  1 Max Resid: -1.04E-11 g/s-cm^3 at   1   1   5;  -1.24E-01 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  1.6599E-09
+   7  2 Max Diff:   -459.     in P at    1   2   4;   6.886E+04 in H at    1   1   5
+   7  2 Max %diff:  -5.429E-04 in P at    1   2   4;  5.526E-04 in H at    1   1   5
+   7  2 Max Resid: -1.03E-15 g/s-cm^3 at   1   1   5;  -1.22E-05 erg/s-cm^3 at   1   1   5
+   7    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+   7    Max % change in P =     -0.160;  Max % change in H =      0.046
+   7    Max Saturation change: -0.0091;  Steam in region: 5.4374E+12 (g)
+Step Number    7 completed; Simulation time .................... 0.175828     (yr)
+
+--- Begin Time Step No.     8 ---  Time Step Length: 6.274852E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  3.3030E-09
+   8  1 Max Diff:  -1.638E+05 in P at    1   1   4;   7.008E+06 in H at    1   1   5
+   8  1 Max %diff:  -0.198     in P at    1   1   4;  5.621E-02 in H at    1   1   5
+   8  1 Max Resid: -1.24E-11 g/s-cm^3 at   1   1   5;  -1.48E-01 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  2.6528E-09
+   8  2 Max Diff:   -679.     in P at    1   2   4;   1.068E+05 in H at    1   1   5
+   8  2 Max %diff:  -8.045E-04 in P at    1   2   4;  8.564E-04 in H at    1   1   5
+   8  2 Max Resid: -1.98E-15 g/s-cm^3 at   1   1   5;  -2.35E-05 erg/s-cm^3 at   1   1   5
+   8    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+   8    Max % change in P =     -0.199;  Max % change in H =      0.057
+   8    Max Saturation change: -0.0112;  Steam in region: 5.5117E+12 (g)
+Step Number    8 completed; Simulation time .................... 0.238577     (yr)
+
+--- Begin Time Step No.     9 ---  Time Step Length: 1.142309E-02 (yr)
+        Time step set to time for writing output data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...    8
+     Relative norm of residual .............................  8.7241E-09
+   9  1 Max Diff:  -2.972E+04 in P at    1   1   4;   1.299E+06 in H at    1   1   5
+   9  1 Max %diff:  -3.600E-02 in P at    1   1   4;  1.042E-02 in H at    1   1   5
+   9  1 Max Resid: -2.09E-12 g/s-cm^3 at   1   1   5;  -2.47E-02 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  1.4441E-09
+   9  2 Max Diff:   -17.4     in P at    1   2   4;   3.565E+03 in H at    1   1   5
+   9  2 Max %diff:  -2.055E-05 in P at    1   2   4;  2.859E-05 in H at    1   1   5
+   9  2 Max Resid: -9.83E-18 g/s-cm^3 at   1   1   5;  -1.26E-07 erg/s-cm^3 at   4   4   4
+   9    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+   9    Max % change in P =     -0.036;  Max % change in H =      0.010
+   9    Max Saturation change: -0.0020;  Steam in region: 5.5251E+12 (g)
+Step Number    9 completed; Simulation time .................... 0.250000     (yr)
+
+--- Begin Time Step No.    10 ---  Time Step Length: 6.274852E-02 (yr)
+        Time step reset to value before writing output
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  3.7162E-09
+  10  1 Max Diff:  -1.559E+05 in P at    1   1   4;   6.738E+06 in H at    1   1   5
+  10  1 Max %diff:  -0.189     in P at    1   1   4;  5.401E-02 in H at    1   1   5
+  10  1 Max Resid: -1.10E-11 g/s-cm^3 at   1   1   5;  -1.31E-01 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  2.7151E-09
+  10  2 Max Diff:   -584.     in P at    1   2   4;   9.726E+04 in H at    1   1   5
+  10  2 Max %diff:  -6.917E-04 in P at    1   2   4;  7.795E-04 in H at    1   1   5
+  10  2 Max Resid: -1.61E-15 g/s-cm^3 at   1   1   5;  -1.91E-05 erg/s-cm^3 at   1   1   5
+  10    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  10    Max % change in P =     -0.189;  Max % change in H =      0.055
+  10    Max Saturation change: -0.0104;  Steam in region: 5.5987E+12 (g)
+Step Number   10 completed; Simulation time .................... 0.312749     (yr)
+
+--- Begin Time Step No.    11 ---  Time Step Length: 8.157307E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  6.4877E-09
+  11  1 Max Diff:  -1.922E+05 in P at    1   1   4;   8.317E+06 in H at    1   1   5
+  11  1 Max %diff:  -0.234     in P at    1   1   4;  6.662E-02 in H at    1   1   5
+  11  1 Max Resid: -1.29E-11 g/s-cm^3 at   1   1   5;  -1.54E-01 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  6.7038E-09
+  11  2 Max Diff:   -867.     in P at    1   2   4;   1.475E+05 in H at    1   1   5
+  11  2 Max %diff:  -1.030E-03 in P at    1   2   4;  1.181E-03 in H at    1   1   5
+  11  2 Max Resid: -2.98E-15 g/s-cm^3 at   1   1   5;  -3.55E-05 erg/s-cm^3 at   1   1   5
+  11    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  11    Max % change in P =     -0.234;  Max % change in H =      0.068
+  11    Max Saturation change: -0.0126;  Steam in region: 5.6933E+12 (g)
+Step Number   11 completed; Simulation time .................... 0.394322     (yr)
+
+--- Begin Time Step No.    12 ---  Time Step Length: 0.105678     (yr)
+        Time step set to time for writing output data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  2.1773E-09
+  12  1 Max Diff:  -2.333E+05 in P at    1   1   4;   1.008E+07 in H at    1   1   5
+  12  1 Max %diff:  -0.285     in P at    1   1   4;  8.065E-02 in H at    1   1   5
+  12  1 Max Resid: -1.47E-11 g/s-cm^3 at   1   1   5;  -1.76E-01 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  1.4820E-09
+  12  2 Max Diff:  -1.234E+03 in P at    1   2   4;   2.162E+05 in H at    1   1   5
+  12  2 Max %diff:  -1.468E-03 in P at    1   2   4;  1.730E-03 in H at    1   1   5
+  12  2 Max Resid: -5.24E-15 g/s-cm^3 at   1   1   5;  -6.27E-05 erg/s-cm^3 at   1   1   5
+  12    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  12    Max % change in P =     -0.285;  Max % change in H =      0.082
+  12    Max Saturation change: -0.0149;  Steam in region: 5.8142E+12 (g)
+Step Number   12 completed; Simulation time .................... 0.500000     (yr)
+
+--- Begin Time Step No.    13 ---  Time Step Length: 0.137382     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  4.2386E-09
+  13  1 Max Diff:  -2.801E+05 in P at    1   1   4;   1.200E+07 in H at    1   1   5
+  13  1 Max %diff:  -0.343     in P at    1   1   4;  9.596E-02 in H at    1   1   5
+  13  1 Max Resid: -1.63E-11 g/s-cm^3 at   1   1   5;  -1.97E-01 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  2.7707E-09
+  13  2 Max Diff:  -1.684E+03 in P at    1   2   4;   3.086E+05 in H at    1   1   5
+  13  2 Max %diff:   2.018E-03 in P at    1   1   6;  2.467E-03 in H at    1   1   5
+  13  2 Max Resid: -8.87E-15 g/s-cm^3 at   1   1   5;  -1.07E-04 erg/s-cm^3 at   1   1   5
+  13    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  13    Max % change in P =     -0.343;  Max % change in H =      0.099
+  13    Max Saturation change: -0.0174;  Steam in region: 5.9686E+12 (g)
+Step Number   13 completed; Simulation time .................... 0.637382     (yr)
+
+--- Begin Time Step No.    14 ---  Time Step Length: 0.112618     (yr)
+        Time step set to time for writing output data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  3.3108E-09
+  14  1 Max Diff:  -2.158E+05 in P at    1   1   4;   9.295E+06 in H at    1   1   5
+  14  1 Max %diff:  -0.265     in P at    1   1   4;  7.426E-02 in H at    1   1   5
+  14  1 Max Resid: -1.11E-11 g/s-cm^3 at   1   1   5;  -1.34E-01 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  1.9583E-09
+  14  2 Max Diff:   -879.     in P at    1   2   4;   1.849E+05 in H at    1   1   5
+  14  2 Max %diff:   1.336E-03 in P at    1   1   6;  1.477E-03 in H at    1   1   5
+  14  2 Max Resid: -3.42E-15 g/s-cm^3 at   1   1   5;  -4.10E-05 erg/s-cm^3 at   1   1   5
+  14    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  14    Max % change in P =     -0.264;  Max % change in H =      0.076
+  14    Max Saturation change: -0.0131;  Steam in region: 6.0933E+12 (g)
+Step Number   14 completed; Simulation time .................... 0.750000     (yr)
+
+--- Begin Time Step No.    15 ---  Time Step Length: 0.146403     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  5.1004E-09
+  15  1 Max Diff:  -2.596E+05 in P at    1   1   4;   1.094E+07 in H at    1   1   5
+  15  1 Max %diff:  -0.320     in P at    1   1   4;  8.734E-02 in H at    1   1   5
+  15  1 Max Resid: -1.24E-11 g/s-cm^3 at   1   1   5;  -1.50E-01 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  3.7125E-09
+  15  2 Max Diff:  -1.175E+03 in P at    1   2   4;   2.641E+05 in H at    1   1   5
+  15  2 Max %diff:   2.011E-03 in P at    1   1   6;  2.108E-03 in H at    1   1   5
+  15  2 Max Resid: -5.82E-15 g/s-cm^3 at   1   1   5;  -7.00E-05 erg/s-cm^3 at   1   1   5
+  15    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  15    Max % change in P =     -0.319;  Max % change in H =      0.090
+  15    Max Saturation change: -0.0152;  Steam in region: 6.2522E+12 (g)
+Step Number   15 completed; Simulation time .................... 0.896403     (yr)
+
+--- Begin Time Step No.    16 ---  Time Step Length: 0.103597     (yr)
+        Time step set to time for writing output data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  2.7768E-09
+  16  1 Max Diff:  -1.740E+05 in P at    1   1   4;   7.344E+06 in H at    1   1   5
+  16  1 Max %diff:  -0.215     in P at    1   1   4;  5.858E-02 in H at    1   1   5
+  16  1 Max Resid: -7.25E-12 g/s-cm^3 at   1   1   5;  -8.71E-02 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  2.6464E-09
+  16  2 Max Diff:   -488.     in P at    2   2   4;   1.196E+05 in H at    1   1   5
+  16  2 Max %diff:   9.698E-04 in P at    1   1   6;  9.538E-04 in H at    1   1   5
+  16  2 Max Resid: -1.38E-15 g/s-cm^3 at   1   1   5;  -1.65E-05 erg/s-cm^3 at   1   1   5
+  16    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  16    Max % change in P =     -0.214;  Max % change in H =      0.060
+  16    Max Saturation change: -0.0100;  Steam in region: 6.3631E+12 (g)
+Step Number   16 completed; Simulation time ....................  1.00000     (yr)
+
+--- Begin Time Step No.    17 ---  Time Step Length: 0.146403     (yr)
+        Time step reset to value before writing output
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  8.2715E-09
+  17  1 Max Diff:  -2.290E+05 in P at    1   1   4;   9.300E+06 in H at    1   1   5
+  17  1 Max %diff:  -0.283     in P at    1   1   4;  7.414E-02 in H at    1   1   5
+  17  1 Max Resid: -9.01E-12 g/s-cm^3 at   1   1   5;  -1.09E-01 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  6.4783E-09
+  17  2 Max Diff:   -863.     in P at    1   3   4;   2.034E+05 in H at    1   1   5
+  17  2 Max %diff:   1.682E-03 in P at    1   1   6;  1.621E-03 in H at    1   1   5
+  17  2 Max Resid: -3.18E-15 g/s-cm^3 at   1   1   5;  -3.83E-05 erg/s-cm^3 at   1   1   5
+  17    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  17    Max % change in P =     -0.282;  Max % change in H =      0.076
+  17    Max Saturation change: -0.0128;  Steam in region: 6.5167E+12 (g)
+Step Number   17 completed; Simulation time ....................  1.14640     (yr)
+
+--- Begin Time Step No.    18 ---  Time Step Length: 0.103597     (yr)
+        Time step set to time for writing output data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  2.1713E-09
+  18  1 Max Diff:  -1.541E+05 in P at    1   1   4;   6.193E+06 in H at    1   1   5
+  18  1 Max %diff:  -0.191     in P at    1   1   4;  4.935E-02 in H at    1   1   5
+  18  1 Max Resid: -5.26E-12 g/s-cm^3 at   1   1   5;  -6.32E-02 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  3.5746E-09
+  18  2 Max Diff:   -375.     in P at    1   3   4;   9.167E+04 in H at    1   1   5
+  18  2 Max %diff:   7.954E-04 in P at    1   1   6;  7.304E-04 in H at    1   1   5
+  18  2 Max Resid: -7.51E-16 g/s-cm^3 at   1   1   5;  -8.97E-06 erg/s-cm^3 at   1   1   5
+  18    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  18    Max % change in P =     -0.190;  Max % change in H =      0.050
+  18    Max Saturation change: -0.0084;  Steam in region: 6.6238E+12 (g)
+Step Number   18 completed; Simulation time ....................  1.25000     (yr)
+
+--- Begin Time Step No.    19 ---  Time Step Length: 0.146403     (yr)
+        Time step reset to value before writing output
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  9.7831E-09
+  19  1 Max Diff:  -2.040E+05 in P at    1   1   4;   7.770E+06 in H at    1   1   5
+  19  1 Max %diff:  -0.254     in P at    1   1   4;  6.187E-02 in H at    1   1   5
+  19  1 Max Resid: -6.61E-12 g/s-cm^3 at   1   1   5;  -7.98E-02 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  5.4687E-09
+  19  2 Max Diff:   -673.     in P at    1   3   4;   1.575E+05 in H at    1   1   5
+  19  2 Max %diff:   1.372E-03 in P at    1   1   6;  1.254E-03 in H at    1   1   5
+  19  2 Max Resid: -1.77E-15 g/s-cm^3 at   1   1   5;  -2.12E-05 erg/s-cm^3 at   1   1   5
+  19    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  19    Max % change in P =     -0.252;  Max % change in H =      0.063
+  19    Max Saturation change: -0.0108;  Steam in region: 6.7721E+12 (g)
+Step Number   19 completed; Simulation time ....................  1.39640     (yr)
+
+--- Begin Time Step No.    20 ---  Time Step Length: 0.103597     (yr)
+        Time step set to time for writing output data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  3.1181E-09
+  20  1 Max Diff:  -1.377E+05 in P at    1   1   4;   5.127E+06 in H at    1   1   5
+  20  1 Max %diff:  -0.171     in P at    1   1   4;  4.081E-02 in H at    1   1   5
+  20  1 Max Resid: -3.86E-12 g/s-cm^3 at   1   1   5;  -4.65E-02 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  3.6151E-09
+  20  2 Max Diff:    329.     in P at    1   1   4;   7.054E+04 in H at    1   1   5
+  20  2 Max %diff:   6.422E-04 in P at    1   1   6;  5.615E-04 in H at    1   1   5
+  20  2 Max Resid: -4.15E-16 g/s-cm^3 at   1   1   5;  -4.95E-06 erg/s-cm^3 at   1   1   5
+  20    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  20    Max % change in P =     -0.171;  Max % change in H =      0.041
+  20    Max Saturation change: -0.0072;  Steam in region: 6.8754E+12 (g)
+Step Number   20 completed; Simulation time ....................  1.50000     (yr)
+
+--- Begin Time Step No.    21 ---  Time Step Length: 0.146403     (yr)
+        Time step reset to value before writing output
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  9.0181E-09
+  21  1 Max Diff:  -1.834E+05 in P at    1   1   4;   6.350E+06 in H at    1   1   5
+  21  1 Max %diff:  -0.229     in P at    1   1   4;  5.052E-02 in H at    1   1   5
+  21  1 Max Resid: -4.89E-12 g/s-cm^3 at   1   1   5;  -5.91E-02 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  5.1257E-09
+  21  2 Max Diff:    587.     in P at    1   1   4;   1.222E+05 in H at    1   1   5
+  21  2 Max %diff:   1.107E-03 in P at    1   1   6;  9.724E-04 in H at    1   1   5
+  21  2 Max Resid: -9.91E-16 g/s-cm^3 at   1   1   5;  -1.19E-05 erg/s-cm^3 at   1   1   5
+  21    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  21    Max % change in P =     -0.228;  Max % change in H =      0.052
+  21    Max Saturation change: -0.0093;  Steam in region: 7.0184E+12 (g)
+Step Number   21 completed; Simulation time ....................  1.64640     (yr)
+
+--- Begin Time Step No.    22 ---  Time Step Length: 0.103597     (yr)
+        Time step set to time for writing output data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  6.6699E-09
+  22  1 Max Diff:  -1.242E+05 in P at    1   1   4;   4.142E+06 in H at    1   1   5
+  22  1 Max %diff:  -0.155     in P at    1   1   4;  3.294E-02 in H at    1   1   5
+  22  1 Max Resid: -2.86E-12 g/s-cm^3 at   1   1   5;  -3.45E-02 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  4.7285E-09
+  22  2 Max Diff:    332.     in P at    1   1   4;   5.436E+04 in H at    1   1   5
+  22  2 Max %diff:   5.148E-04 in P at    1   1   6;  4.323E-04 in H at    1   1   5
+  22  2 Max Resid: -2.32E-16 g/s-cm^3 at   1   1   5;  -2.76E-06 erg/s-cm^3 at   1   1   5
+  22    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  22    Max % change in P =     -0.155;  Max % change in H =      0.033
+  22    Max Saturation change: -0.0062;  Steam in region: 7.1180E+12 (g)
+Step Number   22 completed; Simulation time ....................  1.75000     (yr)
+
+--- Begin Time Step No.    23 ---  Time Step Length: 0.146403     (yr)
+        Time step reset to value before writing output
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  9.8523E-09
+  23  1 Max Diff:  -1.663E+05 in P at    1   1   4;   5.038E+06 in H at    1   1   5
+  23  1 Max %diff:  -0.208     in P at    1   1   4;  4.005E-02 in H at    1   1   5
+  23  1 Max Resid: -3.65E-12 g/s-cm^3 at   1   1   5;  -4.41E-02 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  6.7298E-09
+  23  2 Max Diff:    592.     in P at    1   1   4;   9.490E+04 in H at    1   1   5
+  23  2 Max %diff:   8.882E-04 in P at    1   1   6;  7.544E-04 in H at    1   1   5
+  23  2 Max Resid: -5.61E-16 g/s-cm^3 at   1   1   5;  -6.71E-06 erg/s-cm^3 at   1   1   5
+  23    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  23    Max % change in P =     -0.207;  Max % change in H =      0.041
+  23    Max Saturation change: -0.0080;  Steam in region: 7.2556E+12 (g)
+Step Number   23 completed; Simulation time ....................  1.89640     (yr)
+
+--- Begin Time Step No.    24 ---  Time Step Length: 0.103597     (yr)
+        Time step set to time for reading new input data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  4.9079E-09
+  24  1 Max Diff:  -1.130E+05 in P at    1   1   4;   3.271E+06 in H at    1   2   5
+  24  1 Max %diff:  -0.142     in P at    1   1   4;  2.609E-02 in H at    1   2   5
+  24  1 Max Resid: -2.13E-12 g/s-cm^3 at   1   1   5;  -2.57E-02 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  6.8108E-09
+  24  2 Max Diff:    320.     in P at    1   1   4;   4.185E+04 in H at    1   1   5
+  24  2 Max %diff:   4.115E-04 in P at    1   1   6;  3.326E-04 in H at    1   1   5
+  24  2 Max Resid: -1.30E-16 g/s-cm^3 at   1   1   5;  -1.55E-06 erg/s-cm^3 at   1   1   5
+  24    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  24    Max % change in P =     -0.141;  Max % change in H =      0.026
+  24    Max Saturation change: -0.0053;  Steam in region: 7.3514E+12 (g)
+Step Number   24 completed; Simulation time ....................  2.00000     (yr)
+
+--- Simulation Period Number  2 ---
+          Period begins       2.000000     (yr)
+          Period ends         4.000000     (yr)
+          Initial time step  1.0000000E-02 (yr)
+          Number of parameters with new data input:  0
+          Print/plot options are not changed
+          New values input for well or point sources or sinks
+
+--- Begin Time Step No.    25 ---  Time Step Length: 1.000000E-02 (yr)
+        Time step set to input value for initial step
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...    8
+     Relative norm of residual .............................  7.3080E-09
+  25  1 Max Diff:  -1.081E+04 in P at    1   1   4;   3.192E+05 in H at    1   2   5
+  25  1 Max %diff:  -1.356E-02 in P at    1   1   4;  2.546E-03 in H at    1   2   5
+  25  1 Max Resid: -6.25E-09 g/s-cm^3 at   1   1   3;  -7.77E+01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  7.5734E-10
+  25  2 Max Diff:  -9.559E+06 in P at    1   1   3;   3.136E+06 in H at    1   1   3
+  25  2 Max %diff:   -10.8     in P at    1   1   3;  2.523E-02 in H at    1   1   3
+  25  2 Max Resid:  1.11E-11 g/s-cm^3 at   1   1   3;   2.86E-01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...    8
+     Relative norm of residual .............................  5.6548E-09
+  25  3 Max Diff:   1.889E+04 in P at    1   1   3;   7.905E+04 in H at    1   1   3
+  25  3 Max %diff:   2.130E-02 in P at    1   1   3;  6.360E-04 in H at    1   1   3
+  25  3 Max Resid: -2.37E-17 g/s-cm^3 at   1   1   4;  -1.93E-07 erg/s-cm^3 at   1   1   4
+  25    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+  25    Max % change in P =     -9.718;  Max % change in H =      0.026
+  25    Max Saturation change: -0.0011;  Steam in region: 7.3671E+12 (g)
+Step Number   25 completed; Simulation time ....................  2.01000     (yr)
+
+--- Begin Time Step No.    26 ---  Time Step Length: 1.000000E-02 (yr)
+        Time step not adjusted
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  3.8778E-09
+  26  1 Max Diff:  -2.800E+06 in P at    1   1   3;   1.302E+06 in H at    1   1   5
+  26  1 Max %diff:   -3.26     in P at    1   1   3;  1.034E-02 in H at    1   1   5
+  26  1 Max Resid: -1.91E-12 g/s-cm^3 at   1   1   4;   2.33E-02 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  3.5103E-09
+  26  2 Max Diff:  -3.108E+03 in P at    1   1   4;   7.814E+03 in H at    1   1   3
+  26  2 Max %diff:  -4.273E-03 in P at    1   1   4;  6.286E-05 in H at    1   1   3
+  26  2 Max Resid:  5.03E-18 g/s-cm^3 at   1   1   4;  -2.24E-07 erg/s-cm^3 at   5   2   4
+  26    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  26    Max % change in P =     -3.157;  Max % change in H =      0.010
+  26    Max Saturation change: -0.0014;  Steam in region: 7.3878E+12 (g)
+Step Number   26 completed; Simulation time ....................  2.02000     (yr)
+
+--- Begin Time Step No.    27 ---  Time Step Length: 1.300000E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  1.5066E-09
+  27  1 Max Diff:  -1.242E+06 in P at    1   1   3;   1.854E+06 in H at    1   1   5
+  27  1 Max %diff:   -1.57     in P at    1   1   4;  1.473E-02 in H at    1   1   5
+  27  1 Max Resid: -1.51E-12 g/s-cm^3 at   1   2   4;  -1.79E-02 erg/s-cm^3 at   1   2   4
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  1.5781E-09
+  27  2 Max Diff:  -3.591E+03 in P at    1   1   4;   3.100E+03 in H at    1   1   5
+  27  2 Max %diff:  -5.015E-03 in P at    1   1   4;  2.463E-05 in H at    1   1   5
+  27  2 Max Resid: -3.81E-18 g/s-cm^3 at   1   1   4;  -1.35E-07 erg/s-cm^3 at   5   3   4
+  27    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  27    Max % change in P =     -1.551;  Max % change in H =      0.015
+  27    Max Saturation change: -0.0020;  Steam in region: 7.4194E+12 (g)
+Step Number   27 completed; Simulation time ....................  2.03300     (yr)
+
+--- Begin Time Step No.    28 ---  Time Step Length: 1.690000E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  8.2740E-09
+  28  1 Max Diff:  -5.891E+05 in P at    1   1   3;   2.462E+06 in H at    1   1   5
+  28  1 Max %diff:  -0.791     in P at    1   1   4;  1.956E-02 in H at    1   1   5
+  28  1 Max Resid: -2.11E-12 g/s-cm^3 at   1   1   5;  -2.46E-02 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  3.4599E-09
+  28  2 Max Diff:  -2.521E+03 in P at    1   1   4;   8.921E+03 in H at    1   1   5
+  28  2 Max %diff:  -3.549E-03 in P at    1   1   4;  7.086E-05 in H at    1   1   5
+  28  2 Max Resid: -1.23E-17 g/s-cm^3 at   1   2   4;   2.11E-07 erg/s-cm^3 at   5   3   5
+  28    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  28    Max % change in P =     -0.789;  Max % change in H =      0.020
+  28    Max Saturation change: -0.0026;  Steam in region: 7.4637E+12 (g)
+Step Number   28 completed; Simulation time ....................  2.04990     (yr)
+
+--- Begin Time Step No.    29 ---  Time Step Length: 2.197000E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  4.4021E-09
+  29  1 Max Diff:  -3.229E+05 in P at    1   1   4;   3.163E+06 in H at    1   1   5
+  29  1 Max %diff:  -0.457     in P at    1   1   4;  2.512E-02 in H at    1   1   5
+  29  1 Max Resid: -3.43E-12 g/s-cm^3 at   1   1   5;  -4.04E-02 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  2.4042E-09
+  29  2 Max Diff:  -1.469E+03 in P at    1   2   4;   1.724E+04 in H at    1   1   5
+  29  2 Max %diff:  -1.964E-03 in P at    1   1   4;  1.369E-04 in H at    1   1   5
+  29  2 Max Resid: -5.67E-17 g/s-cm^3 at   1   1   5;  -6.58E-07 erg/s-cm^3 at   1   1   5
+  29    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  29    Max % change in P =     -0.456;  Max % change in H =      0.025
+  29    Max Saturation change: -0.0033;  Steam in region: 7.5232E+12 (g)
+Step Number   29 completed; Simulation time ....................  2.07187     (yr)
+
+--- Begin Time Step No.    30 ---  Time Step Length: 2.856100E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  5.0769E-09
+  30  1 Max Diff:  -2.494E+05 in P at    1   1   4;   3.989E+06 in H at    1   1   5
+  30  1 Max %diff:  -0.354     in P at    1   1   4;  3.166E-02 in H at    1   1   5
+  30  1 Max Resid: -4.82E-12 g/s-cm^3 at   1   1   5;  -5.72E-02 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  3.6711E-09
+  30  2 Max Diff:   -875.     in P at    1   3   4;   3.027E+04 in H at    1   1   5
+  30  2 Max %diff:  -1.069E-03 in P at    1   3   4;  2.403E-04 in H at    1   1   5
+  30  2 Max Resid: -1.70E-16 g/s-cm^3 at   1   1   5;  -2.00E-06 erg/s-cm^3 at   1   1   5
+  30    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  30    Max % change in P =     -0.353;  Max % change in H =      0.032
+  30    Max Saturation change: -0.0042;  Steam in region: 7.6014E+12 (g)
+Step Number   30 completed; Simulation time ....................  2.10043     (yr)
+
+--- Begin Time Step No.    31 ---  Time Step Length: 3.712930E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  7.4123E-09
+  31  1 Max Diff:  -2.543E+05 in P at    1   1   4;   4.960E+06 in H at    1   1   5
+  31  1 Max %diff:  -0.362     in P at    1   1   4;  3.936E-02 in H at    1   1   5
+  31  1 Max Resid: -5.82E-12 g/s-cm^3 at   1   1   5;  -6.92E-02 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  7.0764E-09
+  31  2 Max Diff:   -897.     in P at    1   3   4;   4.733E+04 in H at    1   1   5
+  31  2 Max %diff:  -1.098E-03 in P at    1   3   4;  3.756E-04 in H at    1   1   5
+  31  2 Max Resid: -3.36E-16 g/s-cm^3 at   1   1   5;  -3.95E-06 erg/s-cm^3 at   1   1   5
+  31    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  31    Max % change in P =     -0.361;  Max % change in H =      0.040
+  31    Max Saturation change: -0.0053;  Steam in region: 7.7030E+12 (g)
+Step Number   31 completed; Simulation time ....................  2.13756     (yr)
+
+--- Begin Time Step No.    32 ---  Time Step Length: 4.826809E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  7.4397E-09
+  32  1 Max Diff:  -2.965E+05 in P at    1   1   4;   6.073E+06 in H at    1   1   5
+  32  1 Max %diff:  -0.424     in P at    1   1   4;  4.817E-02 in H at    1   1   5
+  32  1 Max Resid: -7.06E-12 g/s-cm^3 at   1   1   5;  -8.40E-02 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  8.5318E-09
+  32  2 Max Diff:  -1.160E+03 in P at    1   3   4;   7.404E+04 in H at    1   1   5
+  32  2 Max %diff:  -1.424E-03 in P at    1   3   4;  5.873E-04 in H at    1   1   5
+  32  2 Max Resid: -6.66E-16 g/s-cm^3 at   1   1   5;  -7.87E-06 erg/s-cm^3 at   1   1   5
+  32    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  32    Max % change in P =     -0.422;  Max % change in H =      0.049
+  32    Max Saturation change: -0.0066;  Steam in region: 7.8343E+12 (g)
+Step Number   32 completed; Simulation time ....................  2.18583     (yr)
+
+--- Begin Time Step No.    33 ---  Time Step Length: 6.417161E-02 (yr)
+        Time step set to time for writing output data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   12
+     Relative norm of residual .............................  2.2934E-09
+  33  1 Max Diff:  -3.661E+05 in P at    1   1   4;   7.448E+06 in H at    1   1   5
+  33  1 Max %diff:  -0.526     in P at    1   1   4;  5.904E-02 in H at    1   1   5
+  33  1 Max Resid: -8.51E-12 g/s-cm^3 at   1   1   5;  -1.02E-01 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   12
+     Relative norm of residual .............................  4.3206E-09
+  33  2 Max Diff:  -1.751E+03 in P at    1   3   4;   1.176E+05 in H at    1   1   5
+  33  2 Max %diff:  -2.154E-03 in P at    1   3   4;  9.324E-04 in H at    1   1   5
+  33  2 Max Resid: -1.34E-15 g/s-cm^3 at   1   1   5;  -1.59E-05 erg/s-cm^3 at   1   1   5
+  33    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  33    Max % change in P =     -0.523;  Max % change in H =      0.060
+  33    Max Saturation change: -0.0082;  Steam in region: 8.0074E+12 (g)
+Step Number   33 completed; Simulation time ....................  2.25000     (yr)
+
+--- Begin Time Step No.    34 ---  Time Step Length: 8.342309E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   12
+     Relative norm of residual .............................  3.9033E-09
+  34  1 Max Diff:  -4.429E+05 in P at    1   1   4;   8.721E+06 in H at    1   1   5
+  34  1 Max %diff:  -0.641     in P at    1   1   4;  6.908E-02 in H at    1   1   5
+  34  1 Max Resid: -9.70E-12 g/s-cm^3 at   1   1   5;  -1.16E-01 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   13
+     Relative norm of residual .............................  3.2488E-09
+  34  2 Max Diff:  -2.785E+03 in P at    1   4   4;   1.736E+05 in H at    1   1   5
+  34  2 Max %diff:  -3.333E-03 in P at    1   4   4;  1.375E-03 in H at    1   1   5
+  34  2 Max Resid: -2.36E-15 g/s-cm^3 at   1   1   5;  -2.81E-05 erg/s-cm^3 at   1   1   5
+  34    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  34    Max % change in P =     -0.636;  Max % change in H =      0.071
+  34    Max Saturation change: -0.0100;  Steam in region: 8.2292E+12 (g)
+Step Number   34 completed; Simulation time ....................  2.33342     (yr)
+
+--- Begin Time Step No.    35 ---  Time Step Length: 0.108450     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   12
+     Relative norm of residual .............................  6.5784E-09
+  35  1 Max Diff:  -5.308E+05 in P at    1   1   4;   9.882E+06 in H at    1   1   5
+  35  1 Max %diff:  -0.774     in P at    1   1   4;  7.821E-02 in H at    1   1   5
+  35  1 Max Resid: -1.07E-11 g/s-cm^3 at   1   1   5;  -1.28E-01 erg/s-cm^3 at   1   1   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   13
+     Relative norm of residual .............................  6.7172E-09
+  35  2 Max Diff:  -4.482E+03 in P at    1   4   4;   2.479E+05 in H at    1   1   5
+  35  2 Max %diff:  -5.380E-03 in P at    1   4   4;  1.962E-03 in H at    1   1   5
+  35  2 Max Resid: -3.89E-15 g/s-cm^3 at   1   1   5;  -4.63E-05 erg/s-cm^3 at   1   1   5
+  35    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  35    Max % change in P =     -0.767;  Max % change in H =      0.080
+  35    Max Saturation change: -0.0119;  Steam in region: 8.5124E+12 (g)
+Step Number   35 completed; Simulation time ....................  2.44187     (yr)
+
+--- Begin Time Step No.    36 ---  Time Step Length: 5.812689E-02 (yr)
+        Time step set to time for writing output data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   12
+     Relative norm of residual .............................  7.4549E-09
+  36  1 Max Diff:  -2.723E+05 in P at    1   1   4;   5.089E+06 in H at    1   2   5
+  36  1 Max %diff:  -0.399     in P at    1   1   4;  4.042E-02 in H at    1   2   5
+  36  1 Max Resid: -4.79E-12 g/s-cm^3 at   1   2   5;  -5.72E-02 erg/s-cm^3 at   1   2   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   13
+     Relative norm of residual .............................  3.6467E-09
+  36  2 Max Diff:  -1.182E+03 in P at    1   4   4;   6.229E+04 in H at    1   1   5
+  36  2 Max %diff:  -1.421E-03 in P at    1   4   4;  4.928E-04 in H at    1   1   5
+  36  2 Max Resid: -3.51E-16 g/s-cm^3 at   1   1   5;  -4.15E-06 erg/s-cm^3 at   1   1   5
+  36    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  36    Max % change in P =     -0.396;  Max % change in H =      0.041
+  36    Max Saturation change: -0.0061;  Steam in region: 8.6624E+12 (g)
+Step Number   36 completed; Simulation time ....................  2.50000     (yr)
+
+--- Begin Time Step No.    37 ---  Time Step Length: 0.108450     (yr)
+        Time step reset to value before writing output
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   12
+     Relative norm of residual .............................  8.2987E-09
+  37  1 Max Diff:  -4.735E+05 in P at    1   1   4;   8.442E+06 in H at    1   2   5
+  37  1 Max %diff:  -0.698     in P at    1   1   4;  6.701E-02 in H at    1   2   5
+  37  1 Max Resid: -8.17E-12 g/s-cm^3 at   1   2   5;  -9.81E-02 erg/s-cm^3 at   1   2   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   14
+     Relative norm of residual .............................  1.4322E-09
+  37  2 Max Diff:  -4.090E+03 in P at    1   4   4;   1.887E+05 in H at    1   1   5
+  37  2 Max %diff:  -4.930E-03 in P at    1   4   4;  1.492E-03 in H at    1   1   5
+  37  2 Max Resid: -2.04E-15 g/s-cm^3 at   1   1   5;  -2.43E-05 erg/s-cm^3 at   1   1   5
+  37    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  37    Max % change in P =     -0.692;  Max % change in H =      0.068
+  37    Max Saturation change: -0.0106;  Steam in region: 8.9371E+12 (g)
+Step Number   37 completed; Simulation time ....................  2.60845     (yr)
+
+--- Begin Time Step No.    38 ---  Time Step Length: 0.141550     (yr)
+        Time step set to time for writing output data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   13
+     Relative norm of residual .............................  7.1307E-09
+  38  1 Max Diff:  -5.675E+05 in P at    1   1   4;   9.702E+06 in H at    1   3   5
+  38  1 Max %diff:  -0.844     in P at    1   1   4;  7.729E-02 in H at    1   3   5
+  38  1 Max Resid: -9.10E-12 g/s-cm^3 at   1   2   5;  -1.10E-01 erg/s-cm^3 at   1   2   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   14
+     Relative norm of residual .............................  4.2093E-09
+  38  2 Max Diff:  -6.738E+03 in P at    1   5   4;   2.639E+05 in H at    1   1   5
+  38  2 Max %diff:  -8.035E-03 in P at    1   5   4;  2.085E-03 in H at    1   1   5
+  38  2 Max Resid: -3.40E-15 g/s-cm^3 at   1   2   5;  -4.06E-05 erg/s-cm^3 at   1   2   5
+  38    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  38    Max % change in P =     -0.836;  Max % change in H =      0.079
+  38    Max Saturation change: -0.0130;  Steam in region: 9.2862E+12 (g)
+Step Number   38 completed; Simulation time ....................  2.75000     (yr)
+
+--- Begin Time Step No.    39 ---  Time Step Length: 0.184015     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   14
+     Relative norm of residual .............................  6.8706E-09
+  39  1 Max Diff:  -6.678E+05 in P at    1   1   4;   1.131E+07 in H at    1   3   5
+  39  1 Max %diff:   -1.00     in P at    1   1   4;  8.998E-02 in H at    1   3   5
+  39  1 Max Resid: -9.70E-12 g/s-cm^3 at   1   2   5;  -1.17E-01 erg/s-cm^3 at   1   2   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   14
+     Relative norm of residual .............................  6.3803E-09
+  39  2 Max Diff:  -1.102E+04 in P at    1   5   4;   3.494E+05 in H at    1   1   5
+  39  2 Max %diff:  -1.319E-02 in P at    1   5   4;  2.759E-03 in H at    1   1   5
+  39  2 Max Resid: -5.19E-15 g/s-cm^3 at   1   2   5;  -6.21E-05 erg/s-cm^3 at   1   2   5
+  39    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  39    Max % change in P =     -0.992;  Max % change in H =      0.092
+  39    Max Saturation change: -0.0154;  Steam in region: 9.7239E+12 (g)
+Step Number   39 completed; Simulation time ....................  2.93401     (yr)
+
+--- Begin Time Step No.    40 ---  Time Step Length: 6.598503E-02 (yr)
+        Time step set to time for writing output data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   14
+     Relative norm of residual .............................  1.4424E-09
+  40  1 Max Diff:  -2.309E+05 in P at    1   1   4;   4.021E+06 in H at    1   3   5
+  40  1 Max %diff:  -0.348     in P at    1   1   4;  3.199E-02 in H at    1   3   5
+  40  1 Max Resid: -2.93E-12 g/s-cm^3 at   1   3   5;  -3.50E-02 erg/s-cm^3 at   1   3   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   12
+     Relative norm of residual .............................  9.9829E-09
+  40  2 Max Diff:  -1.313E+03 in P at    1   5   4;   3.995E+04 in H at    1   2   5
+  40  2 Max %diff:  -1.574E-03 in P at    1   5   4;  3.166E-04 in H at    1   2   5
+  40  2 Max Resid: -1.35E-16 g/s-cm^3 at   2   1   5;  -1.59E-06 erg/s-cm^3 at   2   1   5
+  40    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  40    Max % change in P =     -0.346;  Max % change in H =      0.032
+  40    Max Saturation change: -0.0054;  Steam in region: 9.8785E+12 (g)
+Step Number   40 completed; Simulation time ....................  3.00000     (yr)
+
+--- Begin Time Step No.    41 ---  Time Step Length: 0.184015     (yr)
+        Time step reset to value before writing output
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   14
+     Relative norm of residual .............................  9.6232E-09
+  41  1 Max Diff:  -5.916E+05 in P at    1   1   4;   9.913E+06 in H at    1   4   5
+  41  1 Max %diff:  -0.899     in P at    1   1   4;  7.910E-02 in H at    1   4   5
+  41  1 Max Resid: -7.23E-12 g/s-cm^3 at   1   3   5;  -8.75E-02 erg/s-cm^3 at   1   3   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   14
+     Relative norm of residual .............................  4.9493E-09
+  41  2 Max Diff:  -1.019E+04 in P at    1   5   4;   2.604E+05 in H at    1   2   5
+  41  2 Max %diff:  -1.226E-02 in P at    1   5   4;  2.062E-03 in H at    1   2   5
+  41  2 Max Resid: -2.72E-15 g/s-cm^3 at   2   1   5;  -3.25E-05 erg/s-cm^3 at   2   1   5
+  41    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  41    Max % change in P =     -0.891;  Max % change in H =      0.081
+  41    Max Saturation change: -0.0142;  Steam in region: 1.0293E+13 (g)
+Step Number   41 completed; Simulation time ....................  3.18401     (yr)
+
+--- Begin Time Step No.    42 ---  Time Step Length: 6.598503E-02 (yr)
+        Time step set to time for writing output data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   13
+     Relative norm of residual .............................  4.3188E-09
+  42  1 Max Diff:  -2.056E+05 in P at    1   1   4;   3.590E+06 in H at    1   4   5
+  42  1 Max %diff:  -0.314     in P at    1   1   4;  2.863E-02 in H at    1   4   5
+  42  1 Max Resid: -2.34E-12 g/s-cm^3 at   1   3   5;  -2.80E-02 erg/s-cm^3 at   1   3   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   13
+     Relative norm of residual .............................  8.2463E-09
+  42  2 Max Diff:  -1.188E+03 in P at    1   5   4;   3.158E+04 in H at    1   3   5
+  42  2 Max %diff:  -1.433E-03 in P at    1   5   4;  2.510E-04 in H at    1   3   5
+  42  2 Max Resid: -8.63E-17 g/s-cm^3 at   1   3   5;  -1.02E-06 erg/s-cm^3 at   1   3   5
+  42    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  42    Max % change in P =     -0.312;  Max % change in H =      0.029
+  42    Max Saturation change: -0.0050;  Steam in region: 1.0440E+13 (g)
+Step Number   42 completed; Simulation time ....................  3.25000     (yr)
+
+--- Begin Time Step No.    43 ---  Time Step Length: 0.184015     (yr)
+        Time step reset to value before writing output
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   14
+     Relative norm of residual .............................  3.8039E-09
+  43  1 Max Diff:  -5.319E+05 in P at    1   1   4;   9.251E+06 in H at    1   4   5
+  43  1 Max %diff:  -0.818     in P at    1   1   4;  7.856E-02 in H at    1   1   6
+  43  1 Max Resid: -5.85E-12 g/s-cm^3 at   1   3   5;  -7.09E-02 erg/s-cm^3 at   1   3   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   14
+     Relative norm of residual .............................  4.2929E-09
+  43  2 Max Diff:  -9.067E+03 in P at    1   5   4;   1.993E+05 in H at    1   3   5
+  43  2 Max %diff:  -1.098E-02 in P at    1   5   4;  1.583E-03 in H at    1   3   5
+  43  2 Max Resid: -1.58E-15 g/s-cm^3 at   2   2   5;  -1.89E-05 erg/s-cm^3 at   2   2   5
+  43    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  43    Max % change in P =     -0.811;  Max % change in H =      0.079
+  43    Max Saturation change: -0.0133;  Steam in region: 1.0831E+13 (g)
+Step Number   43 completed; Simulation time ....................  3.43401     (yr)
+
+--- Begin Time Step No.    44 ---  Time Step Length: 6.598503E-02 (yr)
+        Time step set to time for writing output data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   13
+     Relative norm of residual .............................  3.4227E-09
+  44  1 Max Diff:  -1.856E+05 in P at    1   1   4;   3.326E+06 in H at    1   4   5
+  44  1 Max %diff:  -0.286     in P at    1   1   4;  2.873E-02 in H at    1   1   6
+  44  1 Max Resid: -2.02E-12 g/s-cm^3 at   1   4   5;  -2.41E-02 erg/s-cm^3 at   1   4   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   14
+     Relative norm of residual .............................  1.8560E-09
+  44  2 Max Diff:  -1.029E+03 in P at    1   5   4;   2.578E+04 in H at    1   3   5
+  44  2 Max %diff:  -1.248E-03 in P at    1   5   4;  2.051E-04 in H at    1   4   5
+  44  2 Max Resid: -5.51E-17 g/s-cm^3 at   1   3   5;  -6.48E-07 erg/s-cm^3 at   1   3   5
+  44    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  44    Max % change in P =     -0.285;  Max % change in H =      0.029
+  44    Max Saturation change: -0.0047;  Steam in region: 1.0969E+13 (g)
+Step Number   44 completed; Simulation time ....................  3.50000     (yr)
+
+--- Begin Time Step No.    45 ---  Time Step Length: 0.184015     (yr)
+        Time step reset to value before writing output
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   14
+     Relative norm of residual .............................  6.6394E-09
+  45   1     Node Changed from Water to Two-Phase     at I,J,K=    1   1   4
+            P & H of node:  6.437248E+07 1.238573E+10  
+          P&H previous time step 6.485586E+07 1.238615E+10 ; At this P, HW= 1.239975E+10
+          P&H will be adjusted from  6.437248E+07 1.238573E+10 ; At this P, HW= 1.237376E+10
+                         to  6.459483E+07 1.238592E+10 ; At this P, HW= 1.238573E+10
+  45  1 Max Diff:  -4.721E+05 in P at    1   2   4;   8.864E+06 in H at    1   5   5
+  45  1 Max %diff:  -0.658     in P at    1   2   4;  8.355E-02 in H at    1   1   6
+  45  1 Max Resid: -1.86E-10 g/s-cm^3 at   1   1   4;  -2.32E+00 erg/s-cm^3 at   1   1   4
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   12
+     Relative norm of residual .............................  4.3685E-09
+  45  2 Max Diff:   1.476E+05 in P at    1   1   3;   9.156E+05 in H at    1   1   4
+  45  2 Max %diff:   0.188     in P at    1   1   3;  7.392E-03 in H at    1   1   4
+  45  2 Max Resid: -1.37E-13 g/s-cm^3 at   1   1   4;  -1.68E-03 erg/s-cm^3 at   1   1   4
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  7.8596E-09
+  45  3 Max Diff:   -14.3     in P at    1   1   4;   2.139E+03 in H at    1   1   4
+  45  3 Max %diff:  -2.214E-05 in P at    1   1   4;  1.726E-05 in H at    1   1   4
+  45  3 Max Resid: -1.09E-18 g/s-cm^3 at   1   1   4;  -1.33E-08 erg/s-cm^3 at   1   1   4
+  45    Convergence: criterion met- Residuals    ;  3 NR iters;  1 nodes changed to/from 2-phase
+  45    Max % change in P =     -0.511;  Max % change in H =      0.084
+  45    Max Saturation change: -0.0128;  Steam in region: 1.1339E+13 (g)
+Step Number   45 completed; Simulation time ....................  3.68401     (yr)
+
+--- Begin Time Step No.    46 ---  Time Step Length: 6.598503E-02 (yr)
+        Time step set to time for writing output data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  6.5074E-09
+  46  1 Max Diff:  -1.213E+05 in P at    1   4   4;   3.169E+06 in H at    1   5   5
+  46  1 Max %diff:  -0.151     in P at    1   3   4;  3.036E-02 in H at    1   1   6
+  46  1 Max Resid: -1.85E-12 g/s-cm^3 at   1   5   5;  -2.21E-02 erg/s-cm^3 at   1   5   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  5.6852E-09
+  46  2 Max Diff:   -496.     in P at    2   5   4;   2.319E+04 in H at    1   4   5
+  46  2 Max %diff:  -5.983E-04 in P at    2   5   4;  1.846E-04 in H at    1   4   5
+  46  2 Max Resid: -5.14E-17 g/s-cm^3 at   1   4   5;  -6.05E-07 erg/s-cm^3 at   1   4   5
+  46    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  46    Max % change in P =     -0.151;  Max % change in H =      0.030
+  46    Max Saturation change: -0.0045;  Steam in region: 1.1470E+13 (g)
+Step Number   46 completed; Simulation time ....................  3.75000     (yr)
+
+--- Begin Time Step No.    47 ---  Time Step Length: 0.184015     (yr)
+        Time step reset to value before writing output
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   12
+     Relative norm of residual .............................  9.5511E-09
+  47  1 Max Diff:  -3.183E+05 in P at    1   4   4;   8.130E+06 in H at    1   5   5
+  47  1 Max %diff:  -0.397     in P at    1   4   4;  8.720E-02 in H at    1   1   6
+  47  1 Max Resid: -4.64E-12 g/s-cm^3 at   1   4   5;  -5.64E-02 erg/s-cm^3 at   1   4   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   13
+     Relative norm of residual .............................  2.0539E-09
+  47  2 Max Diff:  -3.184E+03 in P at    2   5   4;   1.456E+05 in H at    1   4   5
+  47  2 Max %diff:  -3.852E-03 in P at    2   5   4;  1.158E-03 in H at    1   4   5
+  47  2 Max Resid: -1.01E-15 g/s-cm^3 at   1   4   5;  -1.21E-05 erg/s-cm^3 at   1   4   5
+  47    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  47    Max % change in P =     -0.397;  Max % change in H =      0.087
+  47    Max Saturation change: -0.0120;  Steam in region: 1.1821E+13 (g)
+Step Number   47 completed; Simulation time ....................  3.93401     (yr)
+
+--- Begin Time Step No.    48 ---  Time Step Length: 6.598503E-02 (yr)
+        Time step set to time for reading new input data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  2.9807E-09
+  48  1 Max Diff:  -1.132E+05 in P at    1   4   4;   2.910E+06 in H at    1   5   5
+  48  1 Max %diff:  -0.141     in P at    1   4   4;  3.158E-02 in H at    1   1   6
+  48  1 Max Resid: -1.67E-12 g/s-cm^3 at   1   5   5;  -2.00E-02 erg/s-cm^3 at   1   5   5
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  4.4710E-09
+  48  2 Max Diff:   -336.     in P at    2   5   4;   2.064E+04 in H at    1   5   5
+  48  2 Max %diff:  -4.071E-04 in P at    2   5   4;  1.645E-04 in H at    1   5   5
+  48  2 Max Resid: -4.05E-17 g/s-cm^3 at   1   5   5;  -4.77E-07 erg/s-cm^3 at   1   5   5
+  48    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  48    Max % change in P =     -0.141;  Max % change in H =      0.032
+  48    Max Saturation change: -0.0042;  Steam in region: 1.1944E+13 (g)
+Step Number   48 completed; Simulation time ....................  4.00000     (yr)
+
+--- Simulation Period Number  3 ---
+          Period begins       4.000000     (yr)
+          Period ends         6.000000     (yr)
+          Initial time step  1.0000000E-02 (yr)
+          Number of parameters with new data input:  0
+          Print/plot options are not changed
+          New values input for well or point sources or sinks
+
+--- Begin Time Step No.    49 ---  Time Step Length: 1.000000E-02 (yr)
+        Time step set to input value for initial step
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...    8
+     Relative norm of residual .............................  3.6212E-09
+  49  1 Max Diff:  -1.715E+04 in P at    1   5   4;   4.447E+05 in H at    1   5   5
+  49  1 Max %diff:  -2.141E-02 in P at    1   4   4;  4.794E-03 in H at    1   1   6
+  49  1 Max Resid: -6.25E-09 g/s-cm^3 at   1   1   3;  -7.76E+01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...    8
+     Relative norm of residual .............................  2.0459E-09
+  49  2 Max Diff:  -6.984E+06 in P at    1   1   3;   2.869E+06 in H at    1   1   4
+  49  2 Max %diff:   -9.82     in P at    1   1   3;  2.315E-02 in H at    1   1   4
+  49  2 Max Resid: -2.00E-11 g/s-cm^3 at   1   1   4;  -2.34E-01 erg/s-cm^3 at   1   1   4
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...    8
+     Relative norm of residual .............................  1.6217E-09
+  49  3 Max Diff:   8.929E+03 in P at    1   1   3;   4.196E+04 in H at    1   1   3
+  49  3 Max %diff:   1.256E-02 in P at    1   1   3;  3.377E-04 in H at    1   1   3
+  49  3 Max Resid: -4.09E-16 g/s-cm^3 at   1   1   4;  -4.73E-06 erg/s-cm^3 at   1   1   4
+  49    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+  49    Max % change in P =     -8.942;  Max % change in H =      0.025
+  49    Max Saturation change: -0.0066;  Steam in region: 1.1976E+13 (g)
+Step Number   49 completed; Simulation time ....................  4.01000     (yr)
+
+--- Begin Time Step No.    50 ---  Time Step Length: 1.118317E-02 (yr)
+        Time step set for maximum Pressure change
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...    8
+     Relative norm of residual .............................  8.8562E-09
+  50  1 Max Diff:  -1.233E+06 in P at    1   1   3;   4.239E+06 in H at    1   1   4
+  50  1 Max %diff:   -1.76     in P at    1   1   3;  3.418E-02 in H at    1   1   4
+  50  1 Max Resid: -3.53E-11 g/s-cm^3 at   1   1   4;  -4.18E-01 erg/s-cm^3 at   1   1   4
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  2.5014E-09
+  50  2 Max Diff:   -344.     in P at    1   5   4;   4.717E+04 in H at    1   1   4
+  50  2 Max %diff:  -4.292E-04 in P at    1   4   4;  3.804E-04 in H at    1   1   4
+  50  2 Max Resid: -2.39E-15 g/s-cm^3 at   1   1   4;  -2.80E-05 erg/s-cm^3 at   1   1   4
+  50    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  50    Max % change in P =     -1.734;  Max % change in H =      0.035
+  50    Max Saturation change: -0.0089;  Steam in region: 1.2016E+13 (g)
+Step Number   50 completed; Simulation time ....................  4.02118     (yr)
+
+--- Begin Time Step No.    51 ---  Time Step Length: 1.453813E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  7.3128E-09
+  51  1 Max Diff:  -3.526E+05 in P at    1   2   3;   5.920E+06 in H at    1   1   4
+  51  1 Max %diff:  -0.462     in P at    1   1   3;  4.772E-02 in H at    1   1   4
+  51  1 Max Resid: -5.07E-11 g/s-cm^3 at   1   1   4;  -6.00E-01 erg/s-cm^3 at   1   1   4
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  8.8361E-09
+  51  2 Max Diff:   -513.     in P at    1   5   4;   8.932E+04 in H at    1   1   4
+  51  2 Max %diff:  -6.371E-04 in P at    1   2   4;  7.199E-04 in H at    1   1   4
+  51  2 Max Resid: -6.49E-15 g/s-cm^3 at   1   1   4;  -7.60E-05 erg/s-cm^3 at   1   1   4
+  51    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  51    Max % change in P =     -0.460;  Max % change in H =      0.048
+  51    Max Saturation change: -0.0121;  Steam in region: 1.2069E+13 (g)
+Step Number   51 completed; Simulation time ....................  4.03572     (yr)
+
+--- Begin Time Step No.    52 ---  Time Step Length: 1.889956E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  1.9575E-09
+  52  1 Max Diff:  -1.947E+05 in P at    1   3   3;   8.088E+06 in H at    1   1   4
+  52  1 Max %diff:  -0.248     in P at    1   3   4;  6.515E-02 in H at    1   1   4
+  52  1 Max Resid: -6.86E-11 g/s-cm^3 at   1   1   4;  -8.13E-01 erg/s-cm^3 at   1   1   4
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  7.2455E-09
+  52  2 Max Diff:   -546.     in P at    1   5   4;   1.620E+05 in H at    1   1   4
+  52  2 Max %diff:  -6.745E-04 in P at    1   5   4;  1.305E-03 in H at    1   1   4
+  52  2 Max Resid: -1.56E-14 g/s-cm^3 at   1   1   4;  -1.83E-04 erg/s-cm^3 at   1   1   4
+  52    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  52    Max % change in P =     -0.248;  Max % change in H =      0.066
+  52    Max Saturation change: -0.0160;  Steam in region: 1.2140E+13 (g)
+Step Number   52 completed; Simulation time ....................  4.05462     (yr)
+
+--- Begin Time Step No.    53 ---  Time Step Length: 2.456943E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  6.3521E-09
+  53  1 Max Diff:  -1.400E+05 in P at    1   3   3;   1.105E+07 in H at    1   1   4
+  53  1 Max %diff:  -0.188     in P at    1   2   4;  8.894E-02 in H at    1   1   4
+  53  1 Max Resid: -9.13E-11 g/s-cm^3 at   1   1   4;  -1.08E+00 erg/s-cm^3 at   1   1   4
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  1.9381E-09
+  53  2 Max Diff:   -525.     in P at    1   5   4;   2.926E+05 in H at    1   1   4
+  53  2 Max %diff:  -6.949E-04 in P at    1   1   4;  2.355E-03 in H at    1   1   4
+  53  2 Max Resid: -3.67E-14 g/s-cm^3 at   1   1   4;  -4.29E-04 erg/s-cm^3 at   1   1   4
+  53    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  53    Max % change in P =     -0.188;  Max % change in H =      0.091
+  53    Max Saturation change: -0.0208;  Steam in region: 1.2233E+13 (g)
+Step Number   53 completed; Simulation time ....................  4.07919     (yr)
+
+--- Begin Time Step No.    54 ---  Time Step Length: 3.194026E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  9.9080E-09
+  54  1 Max Diff:  -1.281E+05 in P at    1   2   4;   1.524E+07 in H at    1   1   4
+  54  1 Max %diff:  -0.185     in P at    1   1   4;  0.123     in H at    1   1   4
+  54  1 Max Resid: -3.78E-10 g/s-cm^3 at   1   1   3;  -4.68E+00 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  1.6786E-09
+  54  2 Max Diff:  -4.864E+05 in P at    1   1   3;   2.076E+05 in H at    1   1   3
+  54  2 Max %diff:  -0.708     in P at    1   1   3;  1.671E-03 in H at    1   1   3
+  54  2 Max Resid: -1.24E-13 g/s-cm^3 at   1   1   4;  -1.56E-03 erg/s-cm^3 at   1   1   4
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  2.3322E-09
+  54  3 Max Diff:    54.7     in P at    1   1   3;  -1.872E+03 in H at    1   1   3
+  54  3 Max %diff:   7.972E-05 in P at    1   1   3; -1.507E-05 in H at    1   1   3
+  54  3 Max Resid:  2.11E-17 g/s-cm^3 at   1   1   3;   8.87E-07 erg/s-cm^3 at   1   1   3
+  54    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+  54    Max % change in P =     -0.880;  Max % change in H =      0.123
+  54    Max Saturation change: -0.0263;  Steam in region: 1.2353E+13 (g)
+Step Number   54 completed; Simulation time ....................  4.11113     (yr)
+
+--- Begin Time Step No.    55 ---  Time Step Length: 3.638987E-02 (yr)
+        Time step set for maximum Water Saturation change
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  7.0085E-09
+  55  1 Max Diff:  -1.933E+06 in P at    1   1   3;   1.637E+07 in H at    1   1   4
+  55  1 Max %diff:   -2.90     in P at    1   1   3;  0.131     in H at    1   1   4
+  55  1 Max Resid: -1.04E-10 g/s-cm^3 at   1   1   4;  -1.23E+00 erg/s-cm^3 at   1   1   4
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  8.4009E-09
+  55  2 Max Diff:  -5.055E+04 in P at    1   1   3;   5.168E+05 in H at    1   1   4
+  55  2 Max %diff:  -7.581E-02 in P at    1   1   3;  4.149E-03 in H at    1   1   4
+  55  2 Max Resid: -5.34E-14 g/s-cm^3 at   1   1   4;  -6.18E-04 erg/s-cm^3 at   1   1   4
+  55    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  55    Max % change in P =     -2.889;  Max % change in H =      0.136
+  55    Max Saturation change: -0.0269;  Steam in region: 1.2484E+13 (g)
+Step Number   55 completed; Simulation time ....................  4.14752     (yr)
+
+--- Begin Time Step No.    56 ---  Time Step Length: 4.051039E-02 (yr)
+        Time step set for maximum Water Saturation change
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   12
+     Relative norm of residual .............................  2.2719E-09
+  56   1     Node Changed from Water to Two-Phase     at I,J,K=    1   1   3
+            P & H of node:  6.453872E+07 1.242261E+10  
+          P&H previous time step 6.668482E+07 1.242265E+10 ; At this P, HW= 1.249710E+10
+          P&H will be adjusted from  6.453872E+07 1.242261E+10 ; At this P, HW= 1.238271E+10
+                         to  6.526840E+07 1.242262E+10 ; At this P, HW= 1.242184E+10
+  56  1 Max Diff:  -1.416E+06 in P at    1   1   3;   1.762E+07 in H at    1   1   4
+  56  1 Max %diff:   -2.17     in P at    1   1   3;  0.141     in H at    1   1   4
+  56  1 Max Resid: -4.03E-10 g/s-cm^3 at   1   1   3;  -4.88E+00 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  1.3434E-09
+  56  2 Max Diff:   2.486E+05 in P at    1   2   3;   1.148E+06 in H at    1   1   3
+  56  2 Max %diff:   0.286     in P at    1   2   3;  9.243E-03 in H at    1   1   3
+  56  2 Max Resid: -3.10E-13 g/s-cm^3 at   1   1   3;  -3.55E-03 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  9.2674E-09
+  56  3 Max Diff:    13.9     in P at    1   2   4;   1.926E+03 in H at    1   1   3
+  56  3 Max %diff:   2.029E-05 in P at    1   2   4;  1.551E-05 in H at    1   1   3
+  56  3 Max Resid: -2.62E-18 g/s-cm^3 at   1   2   4;  -1.24E-07 erg/s-cm^3 at   1   2   4
+  56    Convergence: criterion met- Residuals    ;  3 NR iters;  1 nodes changed to/from 2-phase
+  56    Max % change in P =     -2.129;  Max % change in H =      0.137
+  56    Max Saturation change: -0.0254;  Steam in region: 1.2629E+13 (g)
+Step Number   56 completed; Simulation time ....................  4.18803     (yr)
+
+--- Begin Time Step No.    57 ---  Time Step Length: 4.785648E-02 (yr)
+        Time step set for maximum Water Saturation change
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  3.4745E-09
+  57  1 Max Diff:  -1.901E+05 in P at    1   3   4;   1.535E+07 in H at    1   1   4
+  57  1 Max %diff:  -0.256     in P at    1   3   4;  0.123     in H at    1   1   4
+  57  1 Max Resid: -1.37E-10 g/s-cm^3 at   1   1   4;  -1.67E+00 erg/s-cm^3 at   1   1   4
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  3.8444E-09
+  57  2 Max Diff:  -2.568E+03 in P at    1   1   4;   7.042E+05 in H at    1   1   4
+  57  2 Max %diff:  -4.027E-03 in P at    1   1   4;  5.638E-03 in H at    1   1   4
+  57  2 Max Resid: -2.19E-13 g/s-cm^3 at   1   1   4;  -2.65E-03 erg/s-cm^3 at   1   1   4
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  1.2582E-09
+  57  3 Max Diff:   -3.59     in P at    1   1   4;   1.158E+03 in H at    1   1   4
+  57  3 Max %diff:  -5.623E-06 in P at    1   1   4;  9.270E-06 in H at    1   1   4
+  57  3 Max Resid: -6.28E-19 g/s-cm^3 at   1   1   4;  -7.62E-09 erg/s-cm^3 at   1   1   4
+  57    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+  57    Max % change in P =     -0.256;  Max % change in H =      0.129
+  57    Max Saturation change: -0.0222;  Steam in region: 1.2802E+13 (g)
+Step Number   57 completed; Simulation time ....................  4.23589     (yr)
+
+--- Begin Time Step No.    58 ---  Time Step Length: 1.411270E-02 (yr)
+        Time step set to time for writing output data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  8.9677E-10
+  58  1 Max Diff:  -4.812E+04 in P at    1   4   4;   4.456E+06 in H at    1   1   4
+  58  1 Max %diff:  -6.311E-02 in P at    1   3   4;  3.566E-02 in H at    1   1   4
+  58  1 Max Resid: -2.09E-11 g/s-cm^3 at   1   1   4;  -2.50E-01 erg/s-cm^3 at   1   1   4
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  6.8192E-09
+  58  2 Max Diff:   -90.2     in P at    1   1   4;   4.274E+04 in H at    1   1   4
+  58  2 Max %diff:  -1.414E-04 in P at    1   1   4;  3.420E-04 in H at    1   1   4
+  58  2 Max Resid: -1.39E-15 g/s-cm^3 at   1   1   4;  -1.65E-05 erg/s-cm^3 at   1   1   4
+  58    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  58    Max % change in P =     -0.063;  Max % change in H =      0.036
+  58    Max Saturation change: -0.0060;  Steam in region: 1.2853E+13 (g)
+Step Number   58 completed; Simulation time ....................  4.25000     (yr)
+
+--- Begin Time Step No.    59 ---  Time Step Length: 4.785648E-02 (yr)
+        Time step reset to value before writing output
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  4.0402E-09
+  59  1 Max Diff:  -1.390E+05 in P at    1   4   4;   1.181E+07 in H at    1   1   4
+  59  1 Max %diff:  -0.180     in P at    1   3   4;  9.439E-02 in H at    1   1   4
+  59  1 Max Resid: -6.53E-11 g/s-cm^3 at   1   1   4;  -7.92E-01 erg/s-cm^3 at   1   1   4
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  8.8312E-09
+  59  2 Max Diff:  -1.218E+03 in P at    1   1   4;   3.707E+05 in H at    1   1   4
+  59  2 Max %diff:  -1.913E-03 in P at    1   1   4;  2.964E-03 in H at    1   1   4
+  59  2 Max Resid: -5.09E-14 g/s-cm^3 at   1   1   4;  -6.15E-04 erg/s-cm^3 at   1   1   4
+  59    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  59    Max % change in P =     -0.180;  Max % change in H =      0.097
+  59    Max Saturation change: -0.0192;  Steam in region: 1.3025E+13 (g)
+Step Number   59 completed; Simulation time ....................  4.29786     (yr)
+
+--- Begin Time Step No.    60 ---  Time Step Length: 6.221342E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   12
+     Relative norm of residual .............................  3.3359E-09
+  60  1 Max Diff:  -1.698E+05 in P at    1   5   4;   1.549E+07 in H at    1   1   3
+  60  1 Max %diff:  -0.219     in P at    1   3   4;  0.124     in H at    1   1   3
+  60  1 Max Resid: -5.27E-11 g/s-cm^3 at   1   1   4;  -6.41E-01 erg/s-cm^3 at   1   1   4
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  2.5261E-09
+  60  2 Max Diff:  -1.318E+03 in P at    1   1   4;   5.027E+05 in H at    1   1   3
+  60  2 Max %diff:  -2.071E-03 in P at    1   1   4;  4.036E-03 in H at    1   1   3
+  60  2 Max Resid: -4.42E-14 g/s-cm^3 at   1   1   4;  -5.37E-04 erg/s-cm^3 at   1   1   4
+  60    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  60    Max % change in P =     -0.219;  Max % change in H =      0.129
+  60    Max Saturation change: -0.0304;  Steam in region: 1.3246E+13 (g)
+Step Number   60 completed; Simulation time ....................  4.36007     (yr)
+
+--- Begin Time Step No.    61 ---  Time Step Length: 6.142463E-02 (yr)
+        Time step set for maximum Water Saturation change
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  4.7202E-09
+  61  1 Max Diff:  -1.637E+05 in P at    1   5   4;   1.896E+07 in H at    1   1   3
+  61  1 Max %diff:  -0.219     in P at    1   1   3;  0.152     in H at    1   1   3
+  61  1 Max Resid: -7.94E-11 g/s-cm^3 at   1   1   3;  -9.33E-01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  4.4388E-09
+  61  2 Max Diff:   -752.     in P at    1   1   4;   7.582E+05 in H at    1   1   3
+  61  2 Max %diff:  -1.183E-03 in P at    1   1   4;  6.077E-03 in H at    1   1   3
+  61  2 Max Resid: -7.71E-14 g/s-cm^3 at   1   1   3;  -9.00E-04 erg/s-cm^3 at   1   1   3
+     Time-step Saturation change of-0.0336 exceeds limit (0.0300); I,J,K:   1  1  3
+
+  61    TIME STEP CUT,  new step length: 5.482150E-02 (yr)
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  3.3924E-09
+  61  1 Max Diff:  -1.465E+05 in P at    1   5   4;   1.672E+07 in H at    1   1   3
+  61  1 Max %diff:  -0.195     in P at    1   1   3;  0.134     in H at    1   1   3
+  61  1 Max Resid: -7.04E-11 g/s-cm^3 at   1   1   3;  -8.27E-01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  3.8826E-09
+  61  2 Max Diff:   -584.     in P at    1   1   4;   5.907E+05 in H at    1   1   3
+  61  2 Max %diff:  -9.190E-04 in P at    1   1   4;  4.736E-03 in H at    1   1   3
+  61  2 Max Resid: -5.34E-14 g/s-cm^3 at   1   1   3;  -6.21E-04 erg/s-cm^3 at   1   1   3
+  61    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  61    Max % change in P =     -0.196;  Max % change in H =      0.139
+  61    Max Saturation change: -0.0297;  Steam in region: 1.3438E+13 (g)
+Step Number   61 completed; Simulation time ....................  4.41489     (yr)
+
+--- Begin Time Step No.    62 ---  Time Step Length: 5.482150E-02 (yr)
+        Time step not adjusted
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  1.7004E-09
+  62  1 Max Diff:  -1.445E+05 in P at    1   5   4;   1.971E+07 in H at    1   1   3
+  62  1 Max %diff:  -0.202     in P at    1   1   3;  0.158     in H at    1   1   3
+  62  1 Max Resid: -9.16E-11 g/s-cm^3 at   1   1   3;  -1.10E+00 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  3.1610E-09
+  62  2 Max Diff:  -1.812E+03 in P at    1   1   3;   7.221E+05 in H at    1   1   3
+  62  2 Max %diff:  -2.802E-03 in P at    1   1   3;  5.779E-03 in H at    1   1   3
+  62  2 Max Resid: -8.97E-14 g/s-cm^3 at   1   1   3;  -1.11E-03 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  1.7955E-09
+  62  3 Max Diff:   -3.67     in P at    1   1   3;    577.     in H at    1   1   3
+  62  3 Max %diff:  -5.681E-06 in P at    1   1   3;  4.618E-06 in H at    1   1   3
+  62  3 Max Resid: -7.91E-20 g/s-cm^3 at   1   1   3;  -9.80E-10 erg/s-cm^3 at   1   2   4
+  62    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+  62    Max % change in P =     -0.204;  Max % change in H =      0.164
+  62    Max Saturation change: -0.0319;  Steam in region: 1.3629E+13 (g)
+Step Number   62 completed; Simulation time ....................  4.46971     (yr)
+
+--- Begin Time Step No.    63 ---  Time Step Length: 3.028709E-02 (yr)
+        Time step set to time for writing output data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  3.6226E-09
+  63  1 Max Diff:  -7.957E+04 in P at    1   5   4;   1.218E+07 in H at    1   1   3
+  63  1 Max %diff:  -0.116     in P at    1   1   3;  9.742E-02 in H at    1   1   3
+  63  1 Max Resid: -5.96E-11 g/s-cm^3 at   1   1   3;  -7.32E-01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  7.8029E-09
+  63  2 Max Diff:  -1.283E+03 in P at    1   1   3;   2.290E+05 in H at    1   1   3
+  63  2 Max %diff:  -1.986E-03 in P at    1   1   3;  1.831E-03 in H at    1   1   3
+  63  2 Max Resid: -2.01E-14 g/s-cm^3 at   1   1   3;  -2.51E-04 erg/s-cm^3 at   1   1   3
+  63    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  63    Max % change in P =     -0.118;  Max % change in H =      0.099
+  63    Max Saturation change: -0.0182;  Steam in region: 1.3733E+13 (g)
+Step Number   63 completed; Simulation time ....................  4.50000     (yr)
+
+--- Begin Time Step No.    64 ---  Time Step Length: 5.482150E-02 (yr)
+        Time step reset to value before writing output
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  1.7404E-09
+  64  1 Max Diff:  -1.489E+05 in P at    1   1   3;   2.377E+07 in H at    1   1   3
+  64  1 Max %diff:  -0.231     in P at    1   1   3;  0.190     in H at    1   1   3
+  64  1 Max Resid: -1.17E-10 g/s-cm^3 at   1   1   3;  -1.59E+00 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  3.1509E-09
+  64  2 Max Diff:  -1.474E+04 in P at    1   1   3;   2.992E+05 in H at    1   1   3
+  64  2 Max %diff:  -2.288E-02 in P at    1   1   3;  2.388E-03 in H at    1   1   3
+  64  2 Max Resid: -1.15E-13 g/s-cm^3 at   1   1   3;  -1.82E-03 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  6.4605E-09
+  64  3 Max Diff:   -28.9     in P at    1   1   3;   -554.     in H at    1   1   3
+  64  3 Max %diff:  -4.481E-05 in P at    1   1   3; -4.423E-06 in H at    1   1   3
+  64  3 Max Resid: -1.21E-18 g/s-cm^3 at   1   1   3;  -3.31E-08 erg/s-cm^3 at   1   1   3
+     Time-step Saturation change of-0.0343 exceeds limit (0.0300); I,J,K:   1  1  3
+
+  64    TIME STEP CUT,  new step length: 4.800391E-02 (yr)
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  9.3330E-09
+  64  1 Max Diff:  -1.294E+05 in P at    1   1   3;   2.075E+07 in H at    1   1   3
+  64  1 Max %diff:  -0.201     in P at    1   1   3;  0.166     in H at    1   1   3
+  64  1 Max Resid: -1.02E-10 g/s-cm^3 at   1   1   3;  -1.36E+00 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  2.3210E-09
+  64  2 Max Diff:  -9.594E+03 in P at    1   1   3;   3.231E+05 in H at    1   1   3
+  64  2 Max %diff:  -1.488E-02 in P at    1   1   3;  2.579E-03 in H at    1   1   3
+  64  2 Max Resid: -8.15E-14 g/s-cm^3 at   1   1   3;  -1.20E-03 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  4.1188E-09
+  64  3 Max Diff:   -13.7     in P at    1   1   3;   -97.5     in H at    1   1   3
+  64  3 Max %diff:  -2.122E-05 in P at    1   1   3; -7.787E-07 in H at    1   1   3
+  64  3 Max Resid: -1.02E-19 g/s-cm^3 at   1   2   4;  -3.50E-09 erg/s-cm^3 at   1   2   4
+  64    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+  64    Max % change in P =     -0.215;  Max % change in H =      0.169
+  64    Max Saturation change: -0.0299;  Steam in region: 1.3897E+13 (g)
+Step Number   64 completed; Simulation time ....................  4.54800     (yr)
+
+--- Begin Time Step No.    65 ---  Time Step Length: 4.800391E-02 (yr)
+        Time step not adjusted
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  8.9541E-09
+  65  1 Max Diff:  -1.671E+05 in P at    1   1   3;   2.124E+07 in H at    1   1   3
+  65  1 Max %diff:  -0.260     in P at    1   1   3;  0.169     in H at    1   1   3
+  65  1 Max Resid: -1.10E-10 g/s-cm^3 at   1   1   3;  -1.65E+00 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  2.7599E-09
+  65  2 Max Diff:  -2.112E+04 in P at    1   1   3;  -2.235E+05 in H at    1   1   3
+  65  2 Max %diff:  -3.286E-02 in P at    1   1   3; -1.781E-03 in H at    1   1   3
+  65  2 Max Resid: -6.57E-14 g/s-cm^3 at   1   1   3;  -1.32E-03 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  6.9882E-09
+  65  3 Max Diff:   -29.7     in P at    1   1   3;  -1.134E+03 in H at    1   1   3
+  65  3 Max %diff:  -4.618E-05 in P at    1   1   3; -9.037E-06 in H at    1   1   3
+  65  3 Max Resid: -2.08E-19 g/s-cm^3 at   1   2   4;  -7.14E-09 erg/s-cm^3 at   1   2   4
+  65    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+  65    Max % change in P =     -0.292;  Max % change in H =      0.168
+  65    Max Saturation change: -0.0306;  Steam in region: 1.4059E+13 (g)
+Step Number   65 completed; Simulation time ....................  4.59601     (yr)
+
+--- Begin Time Step No.    66 ---  Time Step Length: 4.700389E-02 (yr)
+        Time step set for maximum Water Saturation change
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  4.4742E-09
+  66  1 Max Diff:  -2.531E+05 in P at    1   1   3;   1.816E+07 in H at    1   1   3
+  66  1 Max %diff:  -0.395     in P at    1   1   3;  0.145     in H at    1   1   3
+  66  1 Max Resid: -1.10E-10 g/s-cm^3 at   1   1   3;  -1.98E+00 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  4.4777E-09
+  66  2 Max Diff:  -3.980E+04 in P at    1   1   3;  -1.295E+06 in H at    1   1   3
+  66  2 Max %diff:  -6.219E-02 in P at    1   1   3; -1.030E-02 in H at    1   1   3
+  66  2 Max Resid:  2.19E-15 g/s-cm^3 at   1   1   4;  -8.57E-04 erg/s-cm^3 at   1   1   3
+  66    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  66    Max % change in P =     -0.456;  Max % change in H =      0.134
+  66    Max Saturation change: -0.0303;  Steam in region: 1.4214E+13 (g)
+Step Number   66 completed; Simulation time ....................  4.64301     (yr)
+
+--- Begin Time Step No.    67 ---  Time Step Length: 4.649013E-02 (yr)
+        Time step set for maximum Water Saturation change
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  5.1242E-09
+  67  1 Max Diff:  -4.340E+05 in P at    1   1   3;   9.383E+06 in H at    1   1   3
+  67  1 Max %diff:  -0.683     in P at    1   1   3;  7.462E-02 in H at    1   1   3
+  67  1 Max Resid: -9.88E-11 g/s-cm^3 at   1   1   3;  -2.35E+00 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  6.9224E-09
+  67  2 Max Diff:  -6.760E+04 in P at    1   1   3;  -3.046E+06 in H at    1   1   3
+  67  2 Max %diff:  -0.106     in P at    1   1   3; -2.423E-02 in H at    1   1   3
+  67  2 Max Resid:  1.27E-13 g/s-cm^3 at   1   1   3;   5.64E-04 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  5.5312E-09
+  67  3 Max Diff:   -34.6     in P at    1   1   3;  -3.346E+03 in H at    1   1   3
+  67  3 Max %diff:  -5.449E-05 in P at    1   1   3; -2.662E-05 in H at    1   1   3
+  67  3 Max Resid: -2.36E-19 g/s-cm^3 at   1   1   3;  -8.96E-09 erg/s-cm^3 at   1   1   3
+  67    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+  67    Max % change in P =     -0.784;  Max % change in H =      0.050
+  67    Max Saturation change: -0.0298;  Steam in region: 1.4364E+13 (g)
+Step Number   67 completed; Simulation time ....................  4.68950     (yr)
+
+--- Begin Time Step No.    68 ---  Time Step Length: 4.649013E-02 (yr)
+        Time step not adjusted
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  5.6045E-09
+  68  1 Max Diff:  -7.677E+05 in P at    1   1   3;  -9.237E+06 in H at    1   1   3
+  68  1 Max %diff:   -1.22     in P at    1   1   3; -7.353E-02 in H at    1   1   3
+  68  1 Max Resid: -6.76E-11 g/s-cm^3 at   1   1   3;  -2.67E+00 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  7.8716E-09
+  68  2 Max Diff:  -1.010E+05 in P at    1   1   3;  -5.424E+06 in H at    1   1   3
+  68  2 Max %diff:  -0.161     in P at    1   1   3; -4.320E-02 in H at    1   1   3
+  68  2 Max Resid:  2.82E-13 g/s-cm^3 at   1   1   3;   2.98E-03 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  2.0220E-09
+  68  3 Max Diff:    26.5     in P at    1   1   3;  -1.395E+03 in H at    1   1   3
+  68  3 Max %diff:   4.225E-05 in P at    1   1   3; -1.111E-05 in H at    1   1   3
+  68  3 Max Resid:  9.21E-19 g/s-cm^3 at   2   1   4;   3.91E-08 erg/s-cm^3 at   2   1   4
+  68    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+  68    Max % change in P =     -1.368;  Max % change in H =     -0.117
+  68    Max Saturation change: -0.0286;  Steam in region: 1.4507E+13 (g)
+Step Number   68 completed; Simulation time ....................  4.73599     (yr)
+
+--- Begin Time Step No.    69 ---  Time Step Length: 1.400802E-02 (yr)
+        Time step set to time for writing output data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  3.4124E-09
+  69  1 Max Diff:  -3.048E+05 in P at    1   1   3;  -6.926E+06 in H at    1   1   3
+  69  1 Max %diff:  -0.489     in P at    1   1   3; -5.519E-02 in H at    1   1   3
+  69  1 Max Resid: -1.30E-11 g/s-cm^3 at   1   1   3;  -3.90E-01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  1.5027E-09
+  69  2 Max Diff:  -3.985E+03 in P at    1   1   3;  -1.910E+05 in H at    1   1   3
+  69  2 Max %diff:  -6.395E-03 in P at    1   1   3; -1.522E-03 in H at    1   1   3
+  69  2 Max Resid:  1.56E-15 g/s-cm^3 at   1   1   3;   1.60E-05 erg/s-cm^3 at   1   1   3
+  69    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  69    Max % change in P =     -0.493;  Max % change in H =     -0.057
+  69    Max Saturation change: -0.0085;  Steam in region: 1.4550E+13 (g)
+Step Number   69 completed; Simulation time ....................  4.75000     (yr)
+
+--- Begin Time Step No.    70 ---  Time Step Length: 4.649013E-02 (yr)
+        Time step reset to value before writing output
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  5.8758E-09
+  70  1 Max Diff:  -1.486E+06 in P at    1   1   3;  -5.426E+07 in H at    1   1   3
+  70  1 Max %diff:   -2.44     in P at    1   1   3; -0.434     in H at    1   1   3
+  70  1 Max Resid:  2.12E-11 g/s-cm^3 at   1   1   3;  -2.39E+00 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  1.6222E-09
+  70  2 Max Diff:  -1.179E+05 in P at    1   1   3;  -7.629E+06 in H at    1   1   3
+  70  2 Max %diff:  -0.194     in P at    1   1   3; -6.109E-02 in H at    1   1   3
+  70  2 Max Resid:  1.83E-13 g/s-cm^3 at   1   1   3;   2.11E-03 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  4.4961E-09
+  70  3 Max Diff:    44.9     in P at    1   1   3;    725.     in H at    1   1   3
+  70  3 Max %diff:   7.389E-05 in P at    1   1   3;  5.804E-06 in H at    1   1   3
+  70  3 Max Resid:  1.15E-18 g/s-cm^3 at   2   1   4;   4.72E-08 erg/s-cm^3 at   2   1   4
+  70    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+  70    Max % change in P =     -2.574;  Max % change in H =     -0.493
+  70    Max Saturation change: -0.0253;  Steam in region: 1.4679E+13 (g)
+Step Number   70 completed; Simulation time ....................  4.79649     (yr)
+
+--- Begin Time Step No.    71 ---  Time Step Length: 5.521319E-02 (yr)
+        Time step set for maximum Water Saturation change
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  6.1953E-09
+  71  1 Max Diff:  -2.613E+06 in P at    1   1   3;  -1.252E+08 in H at    1   1   3
+  71  1 Max %diff:   -4.50     in P at    1   1   3;  -1.01     in H at    1   1   3
+  71  1 Max Resid:  1.57E-10 g/s-cm^3 at   1   1   3;  -1.94E+00 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  1.7351E-09
+  71  2 Max Diff:  -1.194E+05 in P at    1   1   3;  -9.954E+06 in H at    1   1   3
+  71  2 Max %diff:  -0.206     in P at    1   1   3; -8.058E-02 in H at    1   1   3
+  71  2 Max Resid: -5.99E-13 g/s-cm^3 at   1   1   3;  -1.85E-02 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  1.7559E-09
+  71  3 Max Diff:   -844.     in P at    1   1   3;  -4.721E+04 in H at    1   1   3
+  71  3 Max %diff:  -1.456E-03 in P at    1   1   3; -3.822E-04 in H at    1   1   3
+  71  3 Max Resid:  1.84E-17 g/s-cm^3 at   1   1   3;  -2.62E-07 erg/s-cm^3 at   2   1   4
+  71    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+  71    Max % change in P =     -4.502;  Max % change in H =     -1.083
+  71    Max Saturation change: -0.0237;  Steam in region: 1.4816E+13 (g)
+Step Number   71 completed; Simulation time ....................  4.85170     (yr)
+
+--- Begin Time Step No.    72 ---  Time Step Length: 6.983576E-02 (yr)
+        Time step set for maximum Water Saturation change
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  2.7101E-09
+  72  1 Max Diff:  -4.133E+06 in P at    1   1   3;  -2.334E+08 in H at    1   1   3
+  72  1 Max %diff:   -7.68     in P at    1   1   3;  -1.93     in H at    1   1   3
+  72  1 Max Resid:  3.59E-10 g/s-cm^3 at   1   1   3;  -1.23E+00 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  4.0668E-09
+  72  2 Max Diff:  -2.022E+04 in P at    1   1   3;  -7.437E+06 in H at    1   1   3
+  72  2 Max %diff:  -3.756E-02 in P at    1   1   3; -6.141E-02 in H at    1   1   3
+  72  2 Max Resid: -2.51E-12 g/s-cm^3 at   1   1   3;  -1.07E-01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  2.7573E-09
+  72  3 Max Diff:  -6.106E+03 in P at    1   1   3;  -3.810E+05 in H at    1   1   3
+  72  3 Max %diff:  -1.135E-02 in P at    1   1   3; -3.146E-03 in H at    1   1   3
+  72  3 Max Resid:  1.19E-15 g/s-cm^3 at   1   1   3;   4.65E-06 erg/s-cm^3 at   1   1   3
+  72    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+  72    Max % change in P =     -7.174;  Max % change in H =     -1.953
+  72    Max Saturation change: -0.0182;  Steam in region: 1.4966E+13 (g)
+Step Number   72 completed; Simulation time ....................  4.92154     (yr)
+
+--- Begin Time Step No.    73 ---  Time Step Length: 7.846092E-02 (yr)
+        Time step set to time for writing output data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  1.6162E-09
+  73   1     Node Changed from Water to Two-Phase     at I,J,K=    1   2   4
+            P & H of node:  6.366500E+07 1.238470E+10  
+          P&H previous time step 6.482638E+07 1.238455E+10 ; At this P, HW= 1.239817E+10
+          P&H will be adjusted from  6.366500E+07 1.238470E+10 ; At this P, HW= 1.233553E+10
+                         to  6.457088E+07 1.238458E+10 ; At this P, HW= 1.238444E+10
+  73  1 Max Diff:  -4.521E+06 in P at    1   1   3;  -2.872E+08 in H at    1   1   3
+  73  1 Max %diff:   -9.17     in P at    1   1   3;  -2.43     in H at    1   1   3
+  73  1 Max Resid: -1.02E-09 g/s-cm^3 at   1   2   4;  -1.26E+01 erg/s-cm^3 at   1   2   4
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   12
+     Relative norm of residual .............................  3.1803E-09
+  73  2 Max Diff:   5.121E+05 in P at    1   2   3;   8.207E+06 in H at    1   1   3
+  73  2 Max %diff:   0.638     in P at    1   2   3;  6.936E-02 in H at    1   1   3
+  73  2 Max Resid: -4.32E-12 g/s-cm^3 at   1   2   4;  -2.94E-01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  9.4046E-09
+  73  3 Max Diff:  -1.617E+04 in P at    1   1   3;  -1.159E+06 in H at    1   1   3
+  73  3 Max %diff:  -3.264E-02 in P at    1   1   3; -9.796E-03 in H at    1   1   3
+  73  3 Max Resid:  5.02E-15 g/s-cm^3 at   1   1   3;  -6.45E-06 erg/s-cm^3 at   1   2   4
+  73    Convergence: criterion met- Residuals    ;  3 NR iters;  1 nodes changed to/from 2-phase
+  73    Max % change in P =     -7.949;  Max % change in H =     -2.313
+  73    Max Saturation change: -0.0185;  Steam in region: 1.5133E+13 (g)
+Step Number   73 completed; Simulation time ....................  5.00000     (yr)
+
+--- Begin Time Step No.    74 ---  Time Step Length: 9.870399E-02 (yr)
+        Time step set for maximum Pressure change
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  3.4301E-09
+  74  1 Max Diff:  -3.617E+06 in P at    1   1   3;  -2.598E+08 in H at    1   1   3
+  74  1 Max %diff:   -7.88     in P at    1   1   3;  -2.25     in H at    1   1   3
+  74  1 Max Resid:  2.24E-10 g/s-cm^3 at   1   1   3;  -6.82E-01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  2.5550E-09
+  74  2 Max Diff:   4.125E+04 in P at    1   1   3;  -1.120E+06 in H at    1   1   3
+  74  2 Max %diff:   8.975E-02 in P at    1   1   3; -9.681E-03 in H at    1   1   3
+  74  2 Max Resid: -8.00E-13 g/s-cm^3 at   1   1   3;  -6.64E-02 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  1.8885E-09
+  74  3 Max Diff:  -4.127E+03 in P at    1   1   3;  -3.005E+05 in H at    1   1   3
+  74  3 Max %diff:  -8.980E-03 in P at    1   1   3; -2.597E-03 in H at    1   1   3
+  74  3 Max Resid:  3.43E-16 g/s-cm^3 at   1   1   3;  -1.80E-06 erg/s-cm^3 at   1   1   3
+  74    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+  74    Max % change in P =     -7.227;  Max % change in H =     -2.208
+  74    Max Saturation change: -0.0228;  Steam in region: 1.5357E+13 (g)
+Step Number   74 completed; Simulation time ....................  5.09870     (yr)
+
+--- Begin Time Step No.    75 ---  Time Step Length: 0.128315     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   12
+     Relative norm of residual .............................  6.6441E-09
+  75  1 Max Diff:  -1.918E+06 in P at    1   1   3;  -1.582E+08 in H at    1   1   3
+  75  1 Max %diff:   -4.35     in P at    1   1   3;  -1.39     in H at    1   1   3
+  75  1 Max Resid: -6.02E-11 g/s-cm^3 at   1   2   4;  -1.52E+00 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  2.9416E-09
+  75  2 Max Diff:  -9.663E+04 in P at    1   1   3;  -8.149E+06 in H at    1   1   3
+  75  2 Max %diff:  -0.220     in P at    1   1   3; -7.146E-02 in H at    1   1   3
+  75  2 Max Resid: -1.29E-13 g/s-cm^3 at   1   2   4;  -5.52E-03 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  2.6588E-09
+  75  3 Max Diff:   -359.     in P at    1   1   3;  -2.883E+04 in H at    1   1   3
+  75  3 Max %diff:  -8.178E-04 in P at    1   1   3; -2.529E-04 in H at    1   1   3
+  75  3 Max Resid:  1.23E-18 g/s-cm^3 at   1   1   3;  -1.31E-07 erg/s-cm^3 at   1   1   3
+     Time-step Saturation change of-0.0400 exceeds limit (0.0300); I,J,K:   1  2  4
+
+  75    TIME STEP CUT,  new step length: 9.616736E-02 (yr)
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  4.6306E-09
+  75  1 Max Diff:  -1.815E+06 in P at    1   1   3;  -1.461E+08 in H at    1   1   3
+  75  1 Max %diff:   -4.11     in P at    1   1   3;  -1.28     in H at    1   1   3
+  75  1 Max Resid: -4.30E-11 g/s-cm^3 at   1   2   4;  -7.84E-01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  7.3287E-09
+  75  2 Max Diff:  -4.310E+04 in P at    1   1   3;  -3.979E+06 in H at    1   1   3
+  75  2 Max %diff:  -9.774E-02 in P at    1   1   3; -3.484E-02 in H at    1   1   3
+  75  2 Max Resid: -4.49E-14 g/s-cm^3 at   1   1   3;  -3.11E-03 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  1.8626E-09
+  75  3 Max Diff:   -193.     in P at    1   1   3;  -1.406E+04 in H at    1   1   3
+  75  3 Max %diff:  -4.368E-04 in P at    1   1   3; -1.232E-04 in H at    1   1   3
+  75  3 Max Resid:  9.77E-19 g/s-cm^3 at   1   1   3;  -4.37E-08 erg/s-cm^3 at   1   1   3
+  75    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+  75    Max % change in P =     -4.043;  Max % change in H =     -1.297
+  75    Max Saturation change: -0.0290;  Steam in region: 1.5587E+13 (g)
+Step Number   75 completed; Simulation time ....................  5.19487     (yr)
+
+--- Begin Time Step No.    76 ---  Time Step Length: 5.512865E-02 (yr)
+        Time step set to time for writing output data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  2.8744E-09
+  76  1 Max Diff:  -6.207E+05 in P at    1   1   3;  -5.485E+07 in H at    1   1   3
+  76  1 Max %diff:   -1.43     in P at    1   1   3; -0.483     in H at    1   1   3
+  76  1 Max Resid: -3.09E-11 g/s-cm^3 at   1   2   4;  -3.66E-01 erg/s-cm^3 at   1   2   4
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  6.1009E-09
+  76  2 Max Diff:  -1.427E+04 in P at    1   1   3;  -1.030E+06 in H at    1   1   3
+  76  2 Max %diff:  -3.283E-02 in P at    1   1   3; -9.064E-03 in H at    1   1   3
+  76  2 Max Resid:  1.10E-14 g/s-cm^3 at   1   1   3;  -1.24E-04 erg/s-cm^3 at   1   2   4
+  76    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  76    Max % change in P =     -1.440;  Max % change in H =     -0.489
+  76    Max Saturation change: -0.0182;  Steam in region: 1.5721E+13 (g)
+Step Number   76 completed; Simulation time ....................  5.25000     (yr)
+
+--- Begin Time Step No.    77 ---  Time Step Length: 9.616736E-02 (yr)
+        Time step reset to value before writing output
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   12
+     Relative norm of residual .............................  3.4019E-09
+  77  1 Max Diff:  -4.184E+05 in P at    1   1   4;  -2.988E+07 in H at    1   1   3
+  77  1 Max %diff:  -0.682     in P at    1   1   4; -0.264     in H at    1   1   3
+  77  1 Max Resid: -2.62E-10 g/s-cm^3 at   1   2   3;  -3.24E+00 erg/s-cm^3 at   1   2   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   12
+     Relative norm of residual .............................  1.9573E-09
+  77  2 Max Diff:  -2.642E+05 in P at    1   2   3;  -6.963E+06 in H at    1   1   3
+  77  2 Max %diff:  -0.339     in P at    1   2   3; -6.147E-02 in H at    1   1   3
+  77  2 Max Resid: -1.29E-12 g/s-cm^3 at   1   2   4;  -1.60E-02 erg/s-cm^3 at   1   2   4
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  9.7645E-09
+  77  3 Max Diff:    917.     in P at    1   2   3;  -1.236E+04 in H at    1   1   3
+  77  3 Max %diff:   1.177E-03 in P at    1   2   3; -1.091E-04 in H at    1   1   3
+  77  3 Max Resid: -3.98E-17 g/s-cm^3 at   1   2   4;  -7.06E-07 erg/s-cm^3 at   1   1   3
+  77    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+  77    Max % change in P =     -0.732;  Max % change in H =     -0.324
+  77    Max Saturation change: -0.0315;  Steam in region: 1.5951E+13 (g)
+Step Number   77 completed; Simulation time ....................  5.34617     (yr)
+
+--- Begin Time Step No.    78 ---  Time Step Length: 9.151551E-02 (yr)
+        Time step set for maximum Water Saturation change
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  8.7267E-09
+  78  1 Max Diff:  -7.091E+05 in P at    1   2   3;   1.534E+07 in H at    1   2   4
+  78  1 Max %diff:  -0.918     in P at    1   2   3;  0.123     in H at    1   2   4
+  78  1 Max Resid: -4.66E-11 g/s-cm^3 at   1   2   4;  -5.60E-01 erg/s-cm^3 at   1   2   4
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  2.7725E-09
+  78  2 Max Diff:  -1.509E+04 in P at    1   1   3;  -1.113E+06 in H at    1   1   3
+  78  2 Max %diff:  -3.497E-02 in P at    1   1   3; -9.833E-03 in H at    1   1   3
+  78  2 Max Resid: -4.32E-14 g/s-cm^3 at   1   2   4;  -5.23E-04 erg/s-cm^3 at   1   2   4
+  78    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  78    Max % change in P =     -0.919;  Max % change in H =      0.127
+  78    Max Saturation change: -0.0251;  Steam in region: 1.6160E+13 (g)
+Step Number   78 completed; Simulation time ....................  5.43768     (yr)
+
+--- Begin Time Step No.    79 ---  Time Step Length: 6.231712E-02 (yr)
+        Time step set to time for writing output data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  3.9925E-09
+  79   1     Node Changed from Water to Two-Phase     at I,J,K=    2   1   4
+            P & H of node:  6.451047E+07 1.238370E+10  
+          P&H previous time step 6.468161E+07 1.238386E+10 ; At this P, HW= 1.239040E+10
+          P&H will be adjusted from  6.451047E+07 1.238370E+10 ; At this P, HW= 1.238119E+10
+                         to  6.455668E+07 1.238375E+10 ; At this P, HW= 1.238368E+10
+  79  1 Max Diff:  -4.256E+05 in P at    1   2   3;  -1.112E+07 in H at    1   1   4
+  79  1 Max %diff:  -0.554     in P at    1   2   3; -8.856E-02 in H at    1   1   4
+  79  1 Max Resid: -3.98E-11 g/s-cm^3 at   2   1   4;  -4.98E-01 erg/s-cm^3 at   2   1   4
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  4.2822E-09
+  79  2 Max Diff:   2.422E+04 in P at    2   1   3;   1.526E+05 in H at    1   2   4
+  79  2 Max %diff:   2.952E-02 in P at    2   1   3;  1.224E-03 in H at    1   2   4
+  79  2 Max Resid: -8.22E-15 g/s-cm^3 at   1   2   4;  -9.98E-05 erg/s-cm^3 at   1   2   4
+  79    Convergence: criterion met- Residuals    ;  2 NR iters;  1 nodes changed to/from 2-phase
+  79    Max % change in P =     -0.545;  Max % change in H =     -0.089
+  79    Max Saturation change: -0.0151;  Steam in region: 1.6297E+13 (g)
+Step Number   79 completed; Simulation time ....................  5.50000     (yr)
+
+--- Begin Time Step No.    80 ---  Time Step Length: 9.151551E-02 (yr)
+        Time step reset to value before writing output
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  8.3554E-09
+  80  1 Max Diff:  -5.131E+05 in P at    1   2   3;  -1.820E+07 in H at    1   1   4
+  80  1 Max %diff:  -0.673     in P at    1   2   3; -0.145     in H at    1   1   4
+  80  1 Max Resid: -2.95E-11 g/s-cm^3 at   1   2   4;  -3.57E-01 erg/s-cm^3 at   1   2   4
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  4.5008E-09
+  80  2 Max Diff:   3.242E+03 in P at    1   2   3;   2.658E+05 in H at    1   2   4
+  80  2 Max %diff:   4.250E-03 in P at    1   2   3;  2.130E-03 in H at    1   2   4
+  80  2 Max Resid: -2.00E-14 g/s-cm^3 at   1   2   4;  -2.45E-04 erg/s-cm^3 at   1   2   4
+  80    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  80    Max % change in P =     -0.664;  Max % change in H =     -0.144
+  80    Max Saturation change: -0.0186;  Steam in region: 1.6490E+13 (g)
+Step Number   80 completed; Simulation time ....................  5.59152     (yr)
+
+--- Begin Time Step No.    81 ---  Time Step Length: 0.118970     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   12
+     Relative norm of residual .............................  3.2864E-09
+  81  1 Max Diff:  -5.981E+05 in P at    1   2   3;  -2.522E+07 in H at    1   1   4
+  81  1 Max %diff:  -0.790     in P at    1   2   3; -0.202     in H at    1   1   4
+  81  1 Max Resid: -2.72E-11 g/s-cm^3 at   1   2   4;  -3.32E-01 erg/s-cm^3 at   1   2   4
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  9.7738E-09
+  81  2 Max Diff:   2.668E+03 in P at    1   2   3;   2.893E+05 in H at    1   2   4
+  81  2 Max %diff:  -4.628E-03 in P at    1   1   3;  2.315E-03 in H at    1   2   4
+  81  2 Max Resid: -2.21E-14 g/s-cm^3 at   1   2   4;  -2.71E-04 erg/s-cm^3 at   1   2   4
+  81    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  81    Max % change in P =     -0.781;  Max % change in H =     -0.200
+  81    Max Saturation change: -0.0198;  Steam in region: 1.6726E+13 (g)
+Step Number   81 completed; Simulation time ....................  5.71049     (yr)
+
+--- Begin Time Step No.    82 ---  Time Step Length: 3.951432E-02 (yr)
+        Time step set to time for writing output data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  3.9068E-09
+  82  1 Max Diff:  -1.937E+05 in P at    1   2   3;  -8.474E+06 in H at    1   1   4
+  82  1 Max %diff:  -0.257     in P at    1   2   3; -6.775E-02 in H at    1   1   4
+  82  1 Max Resid: -6.66E-12 g/s-cm^3 at   1   2   4;  -7.99E-02 erg/s-cm^3 at   1   2   4
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  5.3899E-09
+  82  2 Max Diff:    230.     in P at    1   2   3;   3.564E+04 in H at    1   2   4
+  82  2 Max %diff:  -5.137E-04 in P at    1   1   3;  2.851E-04 in H at    1   2   4
+  82  2 Max Resid:  8.17E-16 g/s-cm^3 at   1   1   4;   2.23E-05 erg/s-cm^3 at   1   1   4
+  82    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  82    Max % change in P =     -0.256;  Max % change in H =     -0.068
+  82    Max Saturation change: -0.0061;  Steam in region: 1.6803E+13 (g)
+Step Number   82 completed; Simulation time ....................  5.75000     (yr)
+
+--- Begin Time Step No.    83 ---  Time Step Length: 0.118970     (yr)
+        Time step reset to value before writing output
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  9.0354E-09
+  83  1 Max Diff:  -5.901E+05 in P at    1   2   3;  -2.595E+07 in H at    1   1   4
+  83  1 Max %diff:  -0.926     in P at    1   1   3; -0.214     in H at    1   1   3
+  83  1 Max Resid: -1.68E-11 g/s-cm^3 at   1   2   4;  -2.07E-01 erg/s-cm^3 at   1   2   4
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  7.0730E-09
+  83  2 Max Diff:   8.488E+03 in P at    1   1   4;  -5.522E+05 in H at    1   1   3
+  83  2 Max %diff:   1.432E-02 in P at    1   1   4; -4.888E-03 in H at    1   1   3
+  83  2 Max Resid: -8.92E-15 g/s-cm^3 at   1   2   4;  -1.09E-04 erg/s-cm^3 at   1   2   4
+  83    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  83    Max % change in P =     -0.931;  Max % change in H =     -0.219
+  83    Max Saturation change: -0.0159;  Steam in region: 1.7020E+13 (g)
+Step Number   83 completed; Simulation time ....................  5.86897     (yr)
+
+--- Begin Time Step No.    84 ---  Time Step Length: 0.131030     (yr)
+        Time step set to time for reading new input data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   12
+     Relative norm of residual .............................  3.9133E-09
+  84  1 Max Diff:  -6.600E+05 in P at    1   2   3;  -4.202E+07 in H at    1   1   3
+  84  1 Max %diff:   -1.49     in P at    1   1   3; -0.373     in H at    1   1   3
+  84  1 Max Resid: -1.36E-11 g/s-cm^3 at   1   2   4;  -1.69E-01 erg/s-cm^3 at   1   2   4
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  8.8122E-09
+  84  2 Max Diff:  -4.220E+03 in P at    1   1   3;  -5.666E+05 in H at    1   1   3
+  84  2 Max %diff:  -1.002E-02 in P at    1   1   3; -5.035E-03 in H at    1   1   3
+  84  2 Max Resid: -6.04E-15 g/s-cm^3 at   1   2   4;  -3.09E-04 erg/s-cm^3 at   1   1   3
+  84    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  84    Max % change in P =     -1.478;  Max % change in H =     -0.377
+  84    Max Saturation change: -0.0171;  Steam in region: 1.7246E+13 (g)
+Step Number   84 completed; Simulation time ....................  6.00000     (yr)
+
+--- Simulation Period Number  4 ---
+          Period begins       6.000000     (yr)
+          Period ends         7.000000     (yr)
+          Initial time step  1.0000000E-02 (yr)
+          Number of parameters with new data input:  0
+          Print/plot options are not changed
+          New values input for well or point sources or sinks
+
+--- Begin Time Step No.    85 ---  Time Step Length: 1.000000E-02 (yr)
+        Time step set to input value for initial step
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...    8
+     Relative norm of residual .............................  4.4364E-09
+  85  1 Max Diff:  -5.061E+04 in P at    1   2   3;  -3.343E+06 in H at    1   1   3
+  85  1 Max %diff:  -0.117     in P at    1   1   3; -2.972E-02 in H at    1   1   3
+  85  1 Max Resid: -4.17E-09 g/s-cm^3 at   1   1   3;  -5.39E+01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...    8
+     Relative norm of residual .............................  1.6706E-09
+  85  2 Max Diff:  -1.307E+05 in P at    1   1   3;  -2.765E+06 in H at    1   1   3
+  85  2 Max %diff:  -0.312     in P at    1   1   3; -2.458E-02 in H at    1   1   3
+  85  2 Max Resid: -2.32E-11 g/s-cm^3 at   1   1   3;  -5.40E-01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...    8
+     Relative norm of residual .............................  4.0779E-09
+  85  3 Max Diff:  -2.804E+03 in P at    1   1   3;  -1.689E+05 in H at    1   1   3
+  85  3 Max %diff:  -6.685E-03 in P at    1   1   3; -1.502E-03 in H at    1   1   3
+  85  3 Max Resid:  2.84E-15 g/s-cm^3 at   1   1   3;   1.94E-05 erg/s-cm^3 at   1   1   3
+  85    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+  85    Max % change in P =     -0.434;  Max % change in H =     -0.056
+  85    Max Saturation change: -0.0073;  Steam in region: 1.7270E+13 (g)
+Step Number   85 completed; Simulation time ....................  6.01000     (yr)
+
+--- Begin Time Step No.    86 ---  Time Step Length: 1.300000E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  1.2140E-09
+  86  1 Max Diff:  -3.222E+05 in P at    1   1   3;  -1.456E+07 in H at    1   1   3
+  86  1 Max %diff:  -0.774     in P at    1   1   3; -0.130     in H at    1   1   3
+  86  1 Max Resid: -1.35E-12 g/s-cm^3 at   2   1   4;  -6.00E-01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  2.0449E-09
+  86  2 Max Diff:  -6.598E+03 in P at    1   1   3;  -4.946E+05 in H at    1   1   3
+  86  2 Max %diff:  -1.586E-02 in P at    1   1   3; -4.403E-03 in H at    1   1   3
+  86  2 Max Resid:  1.10E-14 g/s-cm^3 at   1   1   3;   1.26E-04 erg/s-cm^3 at   1   1   3
+  86    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  86    Max % change in P =     -0.784;  Max % change in H =     -0.134
+  86    Max Saturation change: -0.0094;  Steam in region: 1.7301E+13 (g)
+Step Number   86 completed; Simulation time ....................  6.02300     (yr)
+
+--- Begin Time Step No.    87 ---  Time Step Length: 1.690000E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  2.9836E-09
+  87  1 Max Diff:  -5.828E+05 in P at    1   1   3;  -3.161E+07 in H at    1   1   3
+  87  1 Max %diff:   -1.42     in P at    1   1   3; -0.282     in H at    1   1   3
+  87  1 Max Resid:  4.94E-11 g/s-cm^3 at   1   1   3;  -6.06E-01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  4.3554E-09
+  87  2 Max Diff:  -1.346E+04 in P at    1   1   3;  -1.170E+06 in H at    1   1   3
+  87  2 Max %diff:  -3.282E-02 in P at    1   1   3; -1.045E-02 in H at    1   1   3
+  87  2 Max Resid:  8.62E-15 g/s-cm^3 at   1   1   3;   6.03E-05 erg/s-cm^3 at   1   1   3
+  87    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  87    Max % change in P =     -1.433;  Max % change in H =     -0.292
+  87    Max Saturation change: -0.0119;  Steam in region: 1.7339E+13 (g)
+Step Number   87 completed; Simulation time ....................  6.03990     (yr)
+
+--- Begin Time Step No.    88 ---  Time Step Length: 2.197000E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  6.2267E-09
+  88  1 Max Diff:  -1.053E+06 in P at    1   1   3;  -6.489E+07 in H at    1   1   3
+  88  1 Max %diff:   -2.63     in P at    1   1   3; -0.583     in H at    1   1   3
+  88  1 Max Resid:  1.77E-10 g/s-cm^3 at   1   1   3;  -3.69E-01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  5.0327E-09
+  88  2 Max Diff:  -2.291E+04 in P at    1   1   3;  -2.478E+06 in H at    1   1   3
+  88  2 Max %diff:  -5.736E-02 in P at    1   1   3; -2.226E-02 in H at    1   1   3
+  88  2 Max Resid: -1.99E-13 g/s-cm^3 at   1   1   3;  -3.92E-03 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  3.4250E-09
+  88  3 Max Diff:   -50.8     in P at    1   1   3;  -3.184E+03 in H at    1   1   3
+  88  3 Max %diff:  -1.272E-04 in P at    1   1   3; -2.860E-05 in H at    1   1   3
+  88  3 Max Resid:  1.69E-18 g/s-cm^3 at   1   1   3;  -1.56E-08 erg/s-cm^3 at   1   2   3
+  88    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+  88    Max % change in P =     -2.623;  Max % change in H =     -0.602
+  88    Max Saturation change: -0.0147;  Steam in region: 1.7385E+13 (g)
+Step Number   88 completed; Simulation time ....................  6.06187     (yr)
+
+--- Begin Time Step No.    89 ---  Time Step Length: 2.856100E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  1.4582E-09
+  89  1 Max Diff:  -1.853E+06 in P at    1   1   3;  -1.262E+08 in H at    1   1   3
+  89  1 Max %diff:   -4.86     in P at    1   1   3;  -1.15     in H at    1   1   3
+  89  1 Max Resid:  4.79E-10 g/s-cm^3 at   1   1   3;   9.21E-02 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  3.0684E-09
+  89  2 Max Diff:  -2.190E+04 in P at    1   1   3;  -4.234E+06 in H at    1   1   3
+  89  2 Max %diff:  -5.753E-02 in P at    1   1   3; -3.848E-02 in H at    1   1   3
+  89  2 Max Resid: -1.93E-12 g/s-cm^3 at   1   1   3;  -4.05E-02 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  4.6133E-09
+  89  3 Max Diff:   -774.     in P at    1   1   3;  -5.295E+04 in H at    1   1   3
+  89  3 Max %diff:  -2.033E-03 in P at    1   1   3; -4.813E-04 in H at    1   1   3
+  89  3 Max Resid:  1.35E-16 g/s-cm^3 at   1   1   3;  -3.85E-07 erg/s-cm^3 at   2   1   3
+  89    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+  89    Max % change in P =     -4.696;  Max % change in H =     -1.172
+  89    Max Saturation change: -0.0172;  Steam in region: 1.7438E+13 (g)
+Step Number   89 completed; Simulation time ....................  6.09043     (yr)
+
+--- Begin Time Step No.    90 ---  Time Step Length: 3.712930E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  1.6469E-09
+  90  1 Max Diff:  -3.026E+06 in P at    1   1   3;  -2.256E+08 in H at    1   1   3
+  90  1 Max %diff:   -8.63     in P at    1   1   3;  -2.09     in H at    1   1   3
+  90  1 Max Resid:  1.10E-09 g/s-cm^3 at   1   1   3;  -8.62E-01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...    8
+     Relative norm of residual .............................  4.6137E-09
+  90  2 Max Diff:   2.741E+04 in P at    1   1   3;  -4.832E+06 in H at    1   1   3
+  90  2 Max %diff:   7.816E-02 in P at    1   1   3; -4.486E-02 in H at    1   1   3
+  90  2 Max Resid: -1.09E-11 g/s-cm^3 at   1   1   3;  -1.96E-01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  5.0224E-09
+  90  3 Max Diff:  -5.383E+03 in P at    1   1   3;  -3.933E+05 in H at    1   1   3
+  90  3 Max %diff:  -1.535E-02 in P at    1   1   3; -3.652E-03 in H at    1   1   3
+  90  3 Max Resid:  4.01E-15 g/s-cm^3 at   1   1   3;  -1.69E-05 erg/s-cm^3 at   1   1   3
+  90    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+  90    Max % change in P =     -7.891;  Max % change in H =     -2.098
+  90    Max Saturation change: -0.0178;  Steam in region: 1.7499E+13 (g)
+Step Number   90 completed; Simulation time ....................  6.12756     (yr)
+
+--- Begin Time Step No.    91 ---  Time Step Length: 4.705434E-02 (yr)
+        Time step set for maximum Pressure change
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  1.1664E-09
+  91  1 Max Diff:  -4.171E+06 in P at    1   1   3;  -3.420E+08 in H at    1   1   3
+  91  1 Max %diff:   -13.5     in P at    1   1   3;  -3.28     in H at    1   1   3
+  91  1 Max Resid:  1.98E-09 g/s-cm^3 at   1   1   3;  -7.46E+00 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  7.0364E-09
+  91  2 Max Diff:   1.296E+05 in P at    1   1   3;  -3.357E+06 in H at    1   1   3
+  91  2 Max %diff:   0.418     in P at    1   1   3; -3.220E-02 in H at    1   1   3
+  91  2 Max Resid: -3.99E-11 g/s-cm^3 at   1   1   3;  -1.30E-01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  4.2184E-09
+  91  3 Max Diff:  -9.954E+03 in P at    1   1   3;  -6.315E+05 in H at    1   1   3
+  91  3 Max %diff:  -3.210E-02 in P at    1   1   3; -6.058E-03 in H at    1   1   3
+  91  3 Max Resid:  5.88E-15 g/s-cm^3 at   1   1   3;  -3.45E-04 erg/s-cm^3 at   1   1   3
+     Time-step Pressure  % change of   -11.555 exceeds limit; I,J,K:   1  1  3
+
+  91    TIME STEP CUT,  new step length: 4.072180E-02 (yr)
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  5.4808E-09
+  91  1 Max Diff:  -3.615E+06 in P at    1   1   3;  -2.954E+08 in H at    1   1   3
+  91  1 Max %diff:   -11.5     in P at    1   1   3;  -2.82     in H at    1   1   3
+  91  1 Max Resid:  1.70E-09 g/s-cm^3 at   1   1   3;  -2.63E+00 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...    8
+     Relative norm of residual .............................  6.8936E-09
+  91  2 Max Diff:   9.978E+04 in P at    1   1   3;  -2.332E+06 in H at    1   1   3
+  91  2 Max %diff:   0.316     in P at    1   1   3; -2.227E-02 in H at    1   1   3
+  91  2 Max Resid: -2.50E-11 g/s-cm^3 at   1   1   3;  -1.95E-01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...    8
+     Relative norm of residual .............................  7.7026E-09
+  91  3 Max Diff:  -7.197E+03 in P at    1   1   3;  -4.992E+05 in H at    1   1   3
+  91  3 Max %diff:  -2.282E-02 in P at    1   1   3; -4.767E-03 in H at    1   1   3
+  91  3 Max Resid:  6.20E-15 g/s-cm^3 at   1   1   3;  -1.09E-04 erg/s-cm^3 at   1   1   3
+  91    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+  91    Max % change in P =    -10.047;  Max % change in H =     -2.769
+  91    Max Saturation change: -0.0140;  Steam in region: 1.7563E+13 (g)
+Step Number   91 completed; Simulation time ....................  6.16828     (yr)
+
+--- Begin Time Step No.    92 ---  Time Step Length: 4.053097E-02 (yr)
+        Time step set for maximum Pressure change
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  3.4141E-09
+  92  1 Max Diff:  -3.445E+06 in P at    1   1   3;  -3.088E+08 in H at    1   1   3
+  92  1 Max %diff:   -12.3     in P at    1   1   3;  -3.04     in H at    1   1   3
+  92  1 Max Resid:  1.96E-09 g/s-cm^3 at   1   1   3;  -3.27E+00 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  6.9382E-09
+  92  2 Max Diff:   1.190E+05 in P at    1   1   3;  -4.006E+05 in H at    1   1   3
+  92  2 Max %diff:   0.422     in P at    1   1   3; -3.942E-03 in H at    1   1   3
+  92  2 Max Resid: -3.19E-11 g/s-cm^3 at   1   1   3;  -5.85E-02 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  2.1209E-09
+  92  3 Max Diff:  -4.363E+03 in P at    1   1   3;  -2.402E+05 in H at    1   1   3
+  92  3 Max %diff:  -1.547E-02 in P at    1   1   3; -2.364E-03 in H at    1   1   3
+  92  3 Max Resid: -2.32E-15 g/s-cm^3 at   1   1   3;  -1.18E-04 erg/s-cm^3 at   1   1   3
+  92    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+  92    Max % change in P =    -10.561;  Max % change in H =     -2.955
+  92    Max Saturation change: -0.0165;  Steam in region: 1.7629E+13 (g)
+Step Number   92 completed; Simulation time ....................  6.20881     (yr)
+
+--- Begin Time Step No.    93 ---  Time Step Length: 4.118693E-02 (yr)
+        Time step set to time for writing output data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  2.1058E-09
+  93  1 Max Diff:  -3.058E+06 in P at    1   1   3;  -2.995E+08 in H at    1   1   3
+  93  1 Max %diff:   -12.2     in P at    1   1   3;  -3.04     in H at    1   1   3
+  93  1 Max Resid:  1.98E-09 g/s-cm^3 at   1   1   3;   5.70E+00 erg/s-cm^3 at   2   1   4
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  1.8914E-09
+  93  2 Max Diff:  -3.756E+05 in P at    2   1   3;  -1.901E+06 in H at    1   1   3
+  93  2 Max %diff:  -0.483     in P at    2   1   3; -1.928E-02 in H at    1   1   3
+  93  2 Max Resid: -3.30E-11 g/s-cm^3 at   1   1   3;  -4.30E-02 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  5.9144E-09
+  93  3 Max Diff:  -4.157E+03 in P at    1   1   3;  -2.616E+05 in H at    1   1   3
+  93  3 Max %diff:  -1.648E-02 in P at    1   1   3; -2.653E-03 in H at    1   1   3
+  93  3 Max Resid: -1.98E-15 g/s-cm^3 at   1   1   3;  -1.34E-04 erg/s-cm^3 at   1   1   3
+  93    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+  93    Max % change in P =    -10.556;  Max % change in H =     -2.968
+  93    Max Saturation change: -0.0172;  Steam in region: 1.7701E+13 (g)
+Step Number   93 completed; Simulation time ....................  6.25000     (yr)
+
+--- Begin Time Step No.    94 ---  Time Step Length: 4.053097E-02 (yr)
+        Time step reset to value before writing output
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  3.5928E-09
+  94  1 Max Diff:  -2.532E+06 in P at    1   1   3;  -2.688E+08 in H at    1   1   3
+  94  1 Max %diff:   -11.2     in P at    1   1   3;  -2.80     in H at    1   1   3
+  94  1 Max Resid:  1.83E-09 g/s-cm^3 at   1   1   3;  -4.40E+00 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  2.8931E-09
+  94  2 Max Diff:   9.221E+04 in P at    1   1   3;   1.251E+06 in H at    1   1   3
+  94  2 Max %diff:   0.405     in P at    1   1   3;  1.304E-02 in H at    1   1   3
+  94  2 Max Resid: -2.67E-11 g/s-cm^3 at   1   1   3;  -1.78E-01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  4.6798E-09
+  94  3 Max Diff:  -6.078E+03 in P at    1   1   3;  -5.588E+05 in H at    1   1   3
+  94  3 Max %diff:  -2.668E-02 in P at    1   1   3; -5.825E-03 in H at    1   1   3
+  94  3 Max Resid:  1.23E-14 g/s-cm^3 at   1   1   3;  -1.42E-04 erg/s-cm^3 at   1   1   3
+  94    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+  94    Max % change in P =     -9.693;  Max % change in H =     -2.719
+  94    Max Saturation change: -0.0168;  Steam in region: 1.7778E+13 (g)
+Step Number   94 completed; Simulation time ....................  6.29053     (yr)
+
+--- Begin Time Step No.    95 ---  Time Step Length: 4.053097E-02 (yr)
+        Time step not adjusted
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  4.6781E-09
+  95   1     Node Changed from Water to Two-Phase     at I,J,K=    1   2   3
+            P & H of node:  6.455806E+07 1.242402E+10  
+          P&H previous time step 6.567743E+07 1.242394E+10 ; At this P, HW= 1.244367E+10
+          P&H will be adjusted from  6.455806E+07 1.242402E+10 ; At this P, HW= 1.238375E+10
+                         to  6.530804E+07 1.242397E+10 ; At this P, HW= 1.242396E+10
+  95  1 Max Diff:  -2.027E+06 in P at    1   1   3;  -2.316E+08 in H at    1   1   3
+  95  1 Max %diff:   -9.76     in P at    1   1   3;  -2.47     in H at    1   1   3
+  95  1 Max Resid:  1.69E-09 g/s-cm^3 at   1   1   3;  -7.43E+00 erg/s-cm^3 at   1   2   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  3.5848E-09
+  95  2 Max Diff:   2.536E+05 in P at    1   3   3;   7.522E+06 in H at    1   1   3
+  95  2 Max %diff:   0.604     in P at    1   1   3;  8.029E-02 in H at    1   1   3
+  95  2 Max Resid: -1.35E-11 g/s-cm^3 at   1   1   3;  -3.62E-01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  2.6158E-09
+  95  3 Max Diff:  -7.868E+03 in P at    1   1   3;  -8.873E+05 in H at    1   1   3
+  95  3 Max %diff:  -3.769E-02 in P at    1   1   3; -9.471E-03 in H at    1   1   3
+  95  3 Max Resid:  9.84E-14 g/s-cm^3 at   1   2   3;  -1.34E-03 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  4
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  2.4719E-09
+  95  4 Max Diff:   -30.4     in P at    1   1   3;  -3.360E+03 in H at    1   1   3
+  95  4 Max %diff:  -1.457E-04 in P at    1   1   3; -3.586E-05 in H at    1   1   3
+  95  4 Max Resid:  5.11E-16 g/s-cm^3 at   1   2   3;  -6.36E-06 erg/s-cm^3 at   1   1   3
+  95    Convergence: criterion met- Residuals    ;  4 NR iters;  1 nodes changed to/from 2-phase
+  95    Max % change in P =     -8.376;  Max % change in H =     -2.345
+  95    Max Saturation change: -0.0160;  Steam in region: 1.7863E+13 (g)
+Step Number   95 completed; Simulation time ....................  6.33106     (yr)
+
+--- Begin Time Step No.    96 ---  Time Step Length: 4.838974E-02 (yr)
+        Time step set for maximum Pressure change
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  1.5339E-09
+  96  1 Max Diff:  -1.575E+06 in P at    1   1   3;  -1.944E+08 in H at    1   1   3
+  96  1 Max %diff:   -8.16     in P at    1   1   3;  -2.12     in H at    1   1   3
+  96  1 Max Resid:  8.94E-10 g/s-cm^3 at   1   1   3;  -4.82E+00 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  6.5676E-09
+  96  2 Max Diff:   3.030E+04 in P at    1   1   3;  -5.327E+05 in H at    1   1   3
+  96  2 Max %diff:   0.157     in P at    1   1   3; -5.807E-03 in H at    1   1   3
+  96  2 Max Resid: -9.05E-12 g/s-cm^3 at   1   1   3;  -2.40E-01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  4.5199E-09
+  96  3 Max Diff:  -6.031E+03 in P at    1   1   3;  -7.205E+05 in H at    1   1   3
+  96  3 Max %diff:  -3.121E-02 in P at    1   1   3; -7.855E-03 in H at    1   1   3
+  96  3 Max Resid:  9.40E-14 g/s-cm^3 at   1   2   3;  -1.29E-03 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  4
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  6.5703E-09
+  96  4 Max Diff:   -35.5     in P at    1   1   3;  -4.136E+03 in H at    1   1   3
+  96  4 Max %diff:  -1.836E-04 in P at    1   1   3; -4.509E-05 in H at    1   1   3
+  96  4 Max Resid:  6.86E-16 g/s-cm^3 at   1   2   3;  -8.54E-06 erg/s-cm^3 at   1   1   3
+  96    Convergence: criterion met- Residuals    ;  4 NR iters;  0 nodes changed to/from 2-phase
+  96    Max % change in P =     -7.427;  Max % change in H =     -2.088
+  96    Max Saturation change: -0.0176;  Steam in region: 1.7976E+13 (g)
+Step Number   96 completed; Simulation time ....................  6.37945     (yr)
+
+--- Begin Time Step No.    97 ---  Time Step Length: 6.290666E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  4.9963E-09
+  97   1     Node Changed from Water to Two-Phase     at I,J,K=    1   3   4
+            P & H of node:  6.439304E+07 1.238277E+10  
+          P&H previous time step 6.456279E+07 1.238292E+10 ; At this P, HW= 1.238401E+10
+          P&H will be adjusted from  6.439304E+07 1.238277E+10 ; At this P, HW= 1.237487E+10
+                         to  6.454072E+07 1.238290E+10 ; At this P, HW= 1.238282E+10
+  97  1 Max Diff:  -1.015E+06 in P at    1   1   3;  -1.359E+08 in H at    1   1   3
+  97  1 Max %diff:   -5.54     in P at    1   1   3;  -1.50     in H at    1   1   3
+  97  1 Max Resid:  2.95E-10 g/s-cm^3 at   1   1   3;  -3.52E+00 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  4.3112E-09
+  97  2 Max Diff:   7.245E+04 in P at    1   3   3;  -3.802E+06 in H at    1   1   3
+  97  2 Max %diff:   9.944E-02 in P at    1   4   4; -4.209E-02 in H at    1   1   3
+  97  2 Max Resid: -2.46E-12 g/s-cm^3 at   1   1   3;  -6.87E-02 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  7.2482E-09
+  97  3 Max Diff:  -2.143E+03 in P at    1   1   3;  -2.677E+05 in H at    1   1   3
+  97  3 Max %diff:  -1.171E-02 in P at    1   1   3; -2.963E-03 in H at    1   1   3
+  97  3 Max Resid:  3.93E-14 g/s-cm^3 at   1   2   3;  -5.10E-04 erg/s-cm^3 at   1   1   3
+  97    Convergence: criterion met- Residuals    ;  3 NR iters;  1 nodes changed to/from 2-phase
+  97    Max % change in P =     -5.347;  Max % change in H =     -1.526
+  97    Max Saturation change: -0.0200;  Steam in region: 1.8134E+13 (g)
+Step Number   97 completed; Simulation time ....................  6.44236     (yr)
+
+--- Begin Time Step No.    98 ---  Time Step Length: 5.764167E-02 (yr)
+        Time step set to time for writing output data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  5.8118E-09
+  98  1 Max Diff:  -6.210E+05 in P at    2   1   3;  -4.900E+07 in H at    1   1   3
+  98  1 Max %diff:   -1.81     in P at    1   1   3; -0.545     in H at    1   1   3
+  98  1 Max Resid: -3.46E-11 g/s-cm^3 at   2   1   4;  -1.12E+00 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  7.7807E-09
+  98  2 Max Diff:  -2.429E+04 in P at    1   1   3;  -3.236E+06 in H at    1   1   3
+  98  2 Max %diff:  -0.135     in P at    1   1   3; -3.604E-02 in H at    1   1   3
+  98  2 Max Resid:  4.46E-13 g/s-cm^3 at   1   2   3;  -6.83E-03 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  2.9274E-09
+  98  3 Max Diff:   -169.     in P at    1   1   3;  -2.168E+04 in H at    1   1   3
+  98  3 Max %diff:  -9.437E-04 in P at    1   1   3; -2.414E-04 in H at    1   1   3
+  98  3 Max Resid:  4.18E-15 g/s-cm^3 at   1   2   3;  -5.22E-05 erg/s-cm^3 at   1   1   3
+  98    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+  98    Max % change in P =     -1.909;  Max % change in H =     -0.579
+  98    Max Saturation change: -0.0169;  Steam in region: 1.8281E+13 (g)
+Step Number   98 completed; Simulation time ....................  6.50000     (yr)
+
+--- Begin Time Step No.    99 ---  Time Step Length: 7.493417E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  1.8599E-09
+  99  1 Max Diff:  -5.785E+05 in P at    2   1   3;  -2.402E+07 in H at    1   1   4
+  99  1 Max %diff:    1.06     in P at    1   1   3;  0.204     in H at    1   1   3
+  99  1 Max Resid: -3.71E-11 g/s-cm^3 at   2   1   4;  -1.26E+00 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  8.4140E-09
+  99  2 Max Diff:  -3.048E+04 in P at    1   1   3;  -4.119E+06 in H at    1   1   3
+  99  2 Max %diff:  -0.168     in P at    1   1   3; -4.579E-02 in H at    1   1   3
+  99  2 Max Resid:  4.70E-13 g/s-cm^3 at   1   2   3;  -8.68E-03 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  2.2324E-09
+  99  3 Max Diff:   -264.     in P at    1   1   3;  -3.378E+04 in H at    1   1   3
+  99  3 Max %diff:  -1.458E-03 in P at    1   1   3; -3.755E-04 in H at    1   1   3
+  99  3 Max Resid:  6.24E-15 g/s-cm^3 at   1   2   3;  -7.82E-05 erg/s-cm^3 at   1   1   3
+  99    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+  99    Max % change in P =     -0.971;  Max % change in H =     -0.194
+  99    Max Saturation change: -0.0232;  Steam in region: 1.8469E+13 (g)
+Step Number   99 completed; Simulation time ....................  6.57493     (yr)
+
+--- Begin Time Step No.   100 ---  Time Step Length: 9.708282E-02 (yr)
+        Time step set for maximum Water Saturation change
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  4.7426E-09
+ 100   1     Node Changed from Water to Two-Phase     at I,J,K=    2   2   4
+            P & H of node:  6.440871E+07 1.238165E+10  
+          P&H previous time step 6.458890E+07 1.238191E+10 ; At this P, HW= 1.238541E+10
+          P&H will be adjusted from  6.440871E+07 1.238165E+10 ; At this P, HW= 1.237572E+10
+                         to  6.452043E+07 1.238181E+10 ; At this P, HW= 1.238173E+10
+ 100  1 Max Diff:  -6.802E+05 in P at    1   1   4;   8.119E+07 in H at    1   1   3
+ 100  1 Max %diff:    3.54     in P at    1   1   3;  0.895     in H at    1   1   3
+ 100  1 Max Resid:  1.67E-10 g/s-cm^3 at   1   1   3;  -1.76E+00 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  2.0757E-09
+ 100  2 Max Diff:   5.251E+04 in P at    2   2   3;  -1.143E+06 in H at    1   1   3
+ 100  2 Max %diff:   6.356E-02 in P at    2   2   3; -1.260E-02 in H at    1   1   3
+ 100  2 Max Resid: -8.57E-13 g/s-cm^3 at   1   1   3;  -5.42E-02 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  7.9559E-09
+ 100  3 Max Diff:  -2.029E+03 in P at    1   1   3;  -2.549E+05 in H at    1   1   3
+ 100  3 Max %diff:  -1.081E-02 in P at    1   1   3; -2.809E-03 in H at    1   1   3
+ 100  3 Max Resid:  3.42E-14 g/s-cm^3 at   1   2   3;  -4.37E-04 erg/s-cm^3 at   1   1   3
+ 100    Convergence: criterion met- Residuals    ;  3 NR iters;  1 nodes changed to/from 2-phase
+ 100    Max % change in P =      3.665;  Max % change in H =      0.887
+ 100    Max Saturation change: -0.0293;  Steam in region: 1.8700E+13 (g)
+Step Number  100 completed; Simulation time ....................  6.67202     (yr)
+
+--- Begin Time Step No.   101 ---  Time Step Length: 7.798301E-02 (yr)
+        Time step set to time for writing output data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  1.4285E-09
+ 101  1 Max Diff:   6.107E+05 in P at    1   1   3;   7.529E+07 in H at    1   1   3
+ 101  1 Max %diff:    3.15     in P at    1   1   3;  0.823     in H at    1   1   3
+ 101  1 Max Resid:  1.27E-09 g/s-cm^3 at   1   2   3;  -1.67E+01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  2.9008E-09
+ 101  2 Max Diff:  -3.861E+05 in P at    1   1   3;  -4.450E+07 in H at    1   1   3
+ 101  2 Max %diff:   -2.03     in P at    1   1   3; -0.489     in H at    1   1   3
+ 101  2 Max Resid:  6.96E-11 g/s-cm^3 at   1   1   3;  -4.26E-01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  4.7960E-09
+ 101  3 Max Diff:  -4.398E+03 in P at    1   1   3;  -9.545E+05 in H at    1   1   3
+ 101  3 Max %diff:  -2.316E-02 in P at    1   1   3; -1.048E-02 in H at    1   1   3
+ 101  3 Max Resid: -2.12E-13 g/s-cm^3 at   1   1   3;  -5.87E-03 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  4
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  9.1561E-09
+ 101  4 Max Diff:   -185.     in P at    1   1   3;  -2.250E+04 in H at    1   1   3
+ 101  4 Max %diff:  -9.746E-04 in P at    1   1   3; -2.472E-04 in H at    1   1   3
+ 101  4 Max Resid:  2.93E-15 g/s-cm^3 at   1   2   3;  -3.68E-05 erg/s-cm^3 at   1   1   3
+ 101    Convergence: criterion met- Residuals    ;  4 NR iters;  0 nodes changed to/from 2-phase
+ 101    Max % change in P =      1.172;  Max % change in H =      0.329
+ 101    Max Saturation change: -0.0134;  Steam in region: 1.8857E+13 (g)
+Step Number  101 completed; Simulation time ....................  6.75000     (yr)
+
+--- Begin Time Step No.   102 ---  Time Step Length: 0.101378     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  6.0488E-09
+ 102  1 Max Diff:  -6.725E+05 in P at    1   1   4;  -7.223E+07 in H at    1   1   3
+ 102  1 Max %diff:   -3.48     in P at    1   1   3; -0.800     in H at    1   1   3
+ 102  1 Max Resid:  1.26E-10 g/s-cm^3 at   1   1   3;  -3.47E+00 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  1.3841E-09
+ 102  2 Max Diff:  -5.733E+04 in P at    1   1   3;  -8.546E+06 in H at    1   1   3
+ 102  2 Max %diff:  -0.313     in P at    1   1   3; -9.471E-02 in H at    1   1   3
+ 102  2 Max Resid:  1.18E-12 g/s-cm^3 at   1   2   3;  -5.22E-02 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  1.9121E-09
+ 102  3 Max Diff:  -1.806E+03 in P at    1   1   3;  -2.326E+05 in H at    1   1   3
+ 102  3 Max %diff:  -9.877E-03 in P at    1   1   3; -2.578E-03 in H at    1   1   3
+ 102  3 Max Resid:  3.06E-14 g/s-cm^3 at   1   2   3;  -3.92E-04 erg/s-cm^3 at   1   1   3
+ 102    Convergence: criterion met- Residuals    ;  3 NR iters;  0 nodes changed to/from 2-phase
+ 102    Max % change in P =     -3.673;  Max % change in H =     -0.890
+ 102    Max Saturation change: -0.0149;  Steam in region: 1.9029E+13 (g)
+Step Number  102 completed; Simulation time ....................  6.85138     (yr)
+
+--- Begin Time Step No.   103 ---  Time Step Length: 0.148622     (yr)
+        Time step set to time for reading new input data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   13
+     Relative norm of residual .............................  6.8746E-09
+ 103  1 Max Diff:  -2.935E+06 in P at    1   1   3;  -3.672E+08 in H at    1   1   3
+ 103  1 Max %diff:   -19.1     in P at    1   1   3;  -4.24     in H at    1   1   3
+ 103  1 Max Resid:  1.90E-09 g/s-cm^3 at   1   1   3;  -8.56E+01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  7.3578E-09
+ 103  2 Max Diff:   6.005E+04 in P at    1   1   3;  -1.739E+07 in H at    1   1   3
+ 103  2 Max %diff:   0.390     in P at    1   1   3; -0.201     in H at    1   1   3
+ 103  2 Max Resid: -1.61E-10 g/s-cm^3 at   1   1   3;   8.33E-01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   12
+     Relative norm of residual .............................  8.3146E-09
+ 103  3 Max Diff:  -1.808E+05 in P at    1   1   3;  -2.493E+07 in H at    1   1   3
+ 103  3 Max %diff:   -1.19     in P at    1   1   3; -0.289     in H at    1   1   3
+ 103  3 Max Resid:  6.60E-12 g/s-cm^3 at   1   1   3;  -4.83E-01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  4
+     GMRES solver return status: 0; Number of iterations ...   12
+     Relative norm of residual .............................  1.9138E-09
+ 103  4 Max Diff:  -5.212E+03 in P at    1   1   3;  -8.802E+05 in H at    1   1   3
+ 103  4 Max %diff:  -3.422E-02 in P at    1   1   3; -1.022E-02 in H at    1   1   3
+ 103  4 Max Resid: -1.20E-13 g/s-cm^3 at   1   1   3;  -1.94E-03 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  5
+     GMRES solver return status: 0; Number of iterations ...   12
+     Relative norm of residual .............................  2.6668E-09
+ 103  5 Max Diff:   -105.     in P at    1   1   3;  -1.520E+04 in H at    1   1   3
+ 103  5 Max %diff:  -6.924E-04 in P at    1   1   3; -1.765E-04 in H at    1   1   3
+ 103  5 Max Resid: -2.48E-15 g/s-cm^3 at   1   1   3;  -3.10E-05 erg/s-cm^3 at   1   1   3
+     Time-step Pressure  % change of   -16.740 exceeds limit; I,J,K:   1  1  3
+
+ 103    TIME STEP CUT,  new step length: 8.878467E-02 (yr)
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  2.2580E-09
+ 103  1 Max Diff:  -1.406E+06 in P at    1   1   3;  -1.738E+08 in H at    1   1   3
+ 103  1 Max %diff:   -8.33     in P at    1   1   3;  -1.96     in H at    1   1   3
+ 103  1 Max Resid:  7.02E-10 g/s-cm^3 at   1   1   3;  -1.38E+01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  3.7265E-09
+ 103  2 Max Diff:  -1.581E+04 in P at    1   1   3;  -7.653E+06 in H at    1   1   3
+ 103  2 Max %diff:  -9.374E-02 in P at    1   1   3; -8.656E-02 in H at    1   1   3
+ 103  2 Max Resid: -1.40E-11 g/s-cm^3 at   1   1   3;  -6.20E-01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   11
+     Relative norm of residual .............................  4.1054E-09
+ 103  3 Max Diff:  -2.515E+04 in P at    1   1   3;  -3.385E+06 in H at    1   1   3
+ 103  3 Max %diff:  -0.149     in P at    1   1   3; -3.830E-02 in H at    1   1   3
+ 103  3 Max Resid:  4.38E-13 g/s-cm^3 at   1   2   3;  -9.31E-03 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  4
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  5.5257E-09
+ 103  4 Max Diff:   -183.     in P at    1   1   3;  -2.568E+04 in H at    1   1   3
+ 103  4 Max %diff:  -1.089E-03 in P at    1   1   3; -2.906E-04 in H at    1   1   3
+ 103  4 Max Resid:  4.20E-15 g/s-cm^3 at   1   2   3;  -5.24E-05 erg/s-cm^3 at   1   1   3
+ 103    Convergence: criterion met- Residuals    ;  4 NR iters;  0 nodes changed to/from 2-phase
+ 103    Max % change in P =     -7.912;  Max % change in H =     -2.049
+ 103    Max Saturation change: -0.0163;  Steam in region: 1.9159E+13 (g)
+Step Number  103 completed; Simulation time ....................  6.94016     (yr)
+
+--- Begin Time Step No.   104 ---  Time Step Length: 5.983742E-02 (yr)
+        Time step set to time for reading new input data
+
+          Newton-Raphson Iteration  1
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  7.6971E-09
+ 104  1 Max Diff:  -1.317E+06 in P at    1   1   3;  -1.757E+08 in H at    1   1   3
+ 104  1 Max %diff:   -8.48     in P at    1   1   3;  -2.03     in H at    1   1   3
+ 104  1 Max Resid:  1.09E-09 g/s-cm^3 at   1   1   3;  -1.16E+01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  2
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  3.2408E-09
+ 104  2 Max Diff:   2.261E+04 in P at    1   1   3;  -2.157E+06 in H at    1   1   3
+ 104  2 Max %diff:   0.145     in P at    1   1   3; -2.491E-02 in H at    1   1   3
+ 104  2 Max Resid: -1.84E-11 g/s-cm^3 at   1   1   3;  -5.89E-01 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  3
+     GMRES solver return status: 0; Number of iterations ...   10
+     Relative norm of residual .............................  2.5560E-09
+ 104  3 Max Diff:  -1.643E+04 in P at    1   1   3;  -2.318E+06 in H at    1   1   3
+ 104  3 Max %diff:  -0.106     in P at    1   1   3; -2.677E-02 in H at    1   1   3
+ 104  3 Max Resid:  3.18E-13 g/s-cm^3 at   1   2   3;  -6.00E-03 erg/s-cm^3 at   1   1   3
+
+          Newton-Raphson Iteration  4
+     GMRES solver return status: 0; Number of iterations ...    9
+     Relative norm of residual .............................  7.2688E-09
+ 104  4 Max Diff:   -95.7     in P at    1   1   3;  -1.399E+04 in H at    1   1   3
+ 104  4 Max %diff:  -6.162E-04 in P at    1   1   3; -1.616E-04 in H at    1   1   3
+ 104  4 Max Resid: -2.52E-15 g/s-cm^3 at   1   1   3;  -3.15E-05 erg/s-cm^3 at   1   1   3
+ 104    Convergence: criterion met- Residuals    ;  4 NR iters;  0 nodes changed to/from 2-phase
+ 104    Max % change in P =     -7.783;  Max % change in H =     -2.039
+ 104    Max Saturation change: -0.0115;  Steam in region: 1.9240E+13 (g)
+Step Number  104 completed; Simulation time ....................  7.00000     (yr)
+
+          --- Summary data for completed simulation ---
+
+          Total number of time steps:                             104
+          Total number of Newton-Raphson iterations:              265
+          Initial Time:                                   0.000000     (yr)
+          Ending Time:                                    7.000000     (yr)
+          Avg Time Step Length:                          6.7307692E-02 (yr)
+          Maximum Time Step:                             0.1840150     (yr)
+          Minimum Time Step:                             1.0000000E-02 (yr)
+          Maximum number of Newton-Raphson iterations for a time step:   5
+          Average number of Newton-Raphson iterations per time step:   2.5
+          Maximum number of GMRES iterations for a solve:               14
+          Average number of GMRES iterations per solve:               10.5
+
+          Factors Controlling Time Step Length:
+                5 - (P) Maximum pressure change
+                0 - (H) Maximum enthalpy change
+               10 - (W) Maximum water saturation change
+               34 - (M) Maximum time step increase
+                5 - (D) Time to read new input data
+               24 - (O) Time to write output data
+                0 - (R) Reset to value before reading new data
+               17 - (R) Reset to value before writing output data
+                4 - (I) Value for initial time step
+                0 - (M) Maximum time step allowed
+
+          Reasons for Cutting the Time Step Length:
+                2 - (P) Pressure change exceeded maximum allowed
+                0 - (H) Enthalpy change exceeded maximum allowed
+                3 - (W) Saturation change exceeded maximum allowed
+                0 - (C) Excessive multiple nodes changed phase in a N-R iteration
+                0 - (C) Excessive multiple nodes changed phase in a time step
+                0 - (I) Maximum N-R iterations reached without convergence
+                0 - (N) Newton-Raphson iterations stalled out
+                0 - (T) Pressure or enthalpy exceeded limits of enthalpy tables
+                0 - (T) Pressure below limits of enthalpy tables
+                0 - (L) Pressure exceeded lithostatic limit
+                0 - (G) GMRES solver failed to converge
+
+          Convergence Criteria Satisfied:
+              104 - (R) Mass and energy residuals (input)
+                0 - (C) Absolute changes in pressure and enthalpy (hard coded)
+                0 - (%) Percent changes in pressure and enthalpy from previous step (input)
+                  Maximum residual for Mass:   -5.34E-14; at Time Step   55
+                  Maximum residual for Energy: -8.57E-04; at Time Step   66
+
+          Distribution of Phases at End of Simulation: 
+            Number of Compressed Water Nodes ....  173
+            Number of 2-phase Water/Steam Nodes .   37
+            Number of Superheated Steam Nodes ...    0
+            Number of Supercritical Fluid Nodes .    0
+            Number of Air-Water Nodes ...........    0
+
+          Number of nodes changing phase during simulation:       7
+               (to/from 2-phase or air-water phases only)
+
+
+                                        ***** Simulation Completed ***** 
+               Last time value calculated ...........................................  7.000      (yr)
+               Last time step index .................................................     104

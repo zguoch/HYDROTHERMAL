@@ -1,0 +1,5 @@
+  Transient unsaturated infiltration                                            
+ From VS2D manual, example #1                                                   
+.ex11.orig                              
+     x	y	time	water-table elevation	
+     (cm)         	(cm)         	(s) 	(cm)         	

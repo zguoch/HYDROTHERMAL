@@ -1,0 +1,900 @@
+
+--- Run Information ---
+          Input filename:  Dat.ex3.orig
+          Input format version:  VER3.2  
+          Output filename suffix for this run:  .ex3.orig                               
+          Execution Date and Time:   17 Feb 2016 08:40:31
+
+--- Program Version ---
+          HYDROTHERM  Version: v3_2_0   
+
+          Initial Time ..........  0.000     (yr)
+
+          *** WARNING -  One-dimensional region, direct solver will be used  ***
+--- Linear Equation Solver ---
+
+--- SSOR Linear Equation Solver selected
+
+--- Printing Controls ---
+          Printout formatted for 132 columns
+          Complete output written to Calc_log file and terminal screen
+          Fluxes for source/sink nodes printed to Out_source
+          Fluxes for specified value nodes, specified flux nodes, 
+               and seepage nodes printed to Out_bcflow
+          Time series data written to Plot_timeseries file for  0 nodes
+          Number of Variable Arrays Selected to be Printed:  8
+
+--- Solver Information ---
+          Matrix maximum bandwidth (4*NX+3):     7
+
+--- Read X, Y, and Z dimensions of cells ---
+          Reading Input Array - XSPA
+          Reading Input Array - YSPA
+          Reading Input Array - ZSPA
+
+--- Read the remaining  8 arrays ---
+          Reading Input Array - PORO
+          Reading Input Array - XPER
+          Reading Input Array - YPER
+          Reading Input Array - ZPER
+          Reading Input Array - THER
+          Reading Input Array - COND
+          Reading Input Array - PRES
+          Reading Input Array - TEMP
+
+--- Simulation Period Number  1 ---
+          Period begins       0.000000     (yr)
+          Period ends         10000.00     (yr)
+          Initial time step  1.0000000E-02 (yr)
+          Number of parameters with new data input:  0
+          Print/plot options are not changed
+          New values input for well or point sources or sinks
+
+--- Begin Time Step No.     1 ---  Time Step Length: 1.000000E-02 (yr)
+        Time step set to input value for initial step
+
+          Newton-Raphson Iteration  1
+   1  1 Max Diff:   7.690E+03 in P at    1   1   2;  -2.407E+07 in H at    1   1   1
+   1  1 Max %diff:   2.373E-02 in P at    1   1  16; -0.283     in H at    1   1   1
+   1  1 Max Resid: -9.64E-10 g/s-cm^3 at   1   1   1;  -1.90E+01 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+   1  2 Max Diff:    20.0     in P at    1   1   1;  -1.692E+06 in H at    1   1   1
+   1  2 Max %diff:   5.416E-05 in P at    1   1   1; -1.989E-02 in H at    1   1   1
+   1  2 Max Resid: -5.70E-13 g/s-cm^3 at   1   1   1;  -4.63E-03 erg/s-cm^3 at   1   1   1
+   1    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+   1    Max % change in P =      0.024; delta P =   2669.     at I,J,K    1   1  16
+   1    Max % change in H =     -0.302; delta H = -2.5760E+07 at I,J,K    1   1   1
+Step Number    1 completed; Simulation time .................... 1.000000E-02 (yr)
+
+--- Begin Time Step No.     2 ---  Time Step Length: 1.300000E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+   2  1 Max Diff:    306.     in P at    1   1   1;  -8.119E+06 in H at    1   1   1
+   2  1 Max %diff:   8.265E-04 in P at    1   1   1; -9.553E-02 in H at    1   1   1
+   2  1 Max Resid: -1.15E-11 g/s-cm^3 at   1   1   1;  -9.19E-02 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+   2  2 Max Diff:  -3.292E-02 in P at    1   1   1;    928.     in H at    1   1   1
+   2  2 Max %diff:  -8.905E-08 in P at    1   1   1;  1.092E-05 in H at    1   1   1
+   2  2 Max Resid: -2.92E-19 g/s-cm^3 at   1   1   1;   8.70E-06 erg/s-cm^3 at   1   1   1
+   2    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+   2    Max % change in P =      0.001; delta P =   305.5     at I,J,K    1   1   1
+   2    Max % change in H =     -0.095; delta H = -8.1178E+06 at I,J,K    1   1   1
+Step Number    2 completed; Simulation time .................... 2.300000E-02 (yr)
+
+--- Begin Time Step No.     3 ---  Time Step Length: 1.690000E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+   3  1 Max Diff:    23.7     in P at    1   1   1;  -2.128E+06 in H at    1   1   1
+   3  1 Max %diff:  -1.526E-04 in P at    1   1  20; -2.504E-02 in H at    1   1   1
+   3  1 Max Resid: -8.31E-13 g/s-cm^3 at   1   1   1;  -6.70E-03 erg/s-cm^3 at   1   1   1
+   3    Convergence: criterion met- Residuals    ;  1 NR iters;  0 nodes changed to/from 2-phase
+   3    Max % change in P =      0.000; delta P =  -5.844     at I,J,K    1   1  20
+   3    Max % change in H =     -0.025; delta H = -2.1278E+06 at I,J,K    1   1   1
+Step Number    3 completed; Simulation time .................... 3.990000E-02 (yr)
+
+--- Begin Time Step No.     4 ---  Time Step Length: 2.197000E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+   4  1 Max Diff:   -14.2     in P at    1   1   3;  -5.103E+05 in H at    1   1   1
+   4  1 Max %diff:  -2.219E-04 in P at    1   1  20;  9.909E-03 in H at    1   1  21
+   4  1 Max Resid: -6.18E-14 g/s-cm^3 at   1   1   1;  -5.11E-04 erg/s-cm^3 at   1   1   1
+   4    Convergence: criterion met- Residuals    ;  1 NR iters;  0 nodes changed to/from 2-phase
+   4    Max % change in P =      0.000; delta P =  -8.496     at I,J,K    1   1  20
+   4    Max % change in H =      0.010; delta H =  4.1543E+05 at I,J,K    1   1  21
+Step Number    4 completed; Simulation time .................... 6.187000E-02 (yr)
+
+--- Begin Time Step No.     5 ---  Time Step Length: 2.856100E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+   5  1 Max Diff:   -18.5     in P at    1   1   3;   5.371E+05 in H at    1   1  21
+   5  1 Max %diff:  -2.875E-04 in P at    1   1  20;  1.281E-02 in H at    1   1  21
+   5  1 Max Resid: -1.50E-14 g/s-cm^3 at   1   1   1;  -1.27E-04 erg/s-cm^3 at   1   1   1
+   5    Convergence: criterion met- Residuals    ;  1 NR iters;  0 nodes changed to/from 2-phase
+   5    Max % change in P =      0.000; delta P =  -11.01     at I,J,K    1   1  20
+   5    Max % change in H =      0.013; delta H =  5.3705E+05 at I,J,K    1   1  21
+Step Number    5 completed; Simulation time .................... 9.043100E-02 (yr)
+
+--- Begin Time Step No.     6 ---  Time Step Length: 3.712930E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+   6  1 Max Diff:   -24.0     in P at    1   1   3;   6.931E+05 in H at    1   1  21
+   6  1 Max %diff:  -3.715E-04 in P at    1   1  20;  1.653E-02 in H at    1   1  21
+   6  1 Max Resid: -1.57E-14 g/s-cm^3 at   1   1   1;  -1.33E-04 erg/s-cm^3 at   1   1   1
+   6    Convergence: criterion met- Residuals    ;  1 NR iters;  0 nodes changed to/from 2-phase
+   6    Max % change in P =      0.000; delta P =  -14.23     at I,J,K    1   1  20
+   6    Max % change in H =      0.017; delta H =  6.9313E+05 at I,J,K    1   1  21
+Step Number    6 completed; Simulation time .................... 0.127560     (yr)
+
+--- Begin Time Step No.     7 ---  Time Step Length: 4.826809E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+   7  1 Max Diff:   -31.1     in P at    1   1   3;   8.926E+05 in H at    1   1  21
+   7  1 Max %diff:  -4.792E-04 in P at    1   1  20;  2.128E-02 in H at    1   1  21
+   7  1 Max Resid: -2.49E-14 g/s-cm^3 at   1   1   1;  -2.11E-04 erg/s-cm^3 at   1   1   1
+   7    Convergence: criterion met- Residuals    ;  1 NR iters;  0 nodes changed to/from 2-phase
+   7    Max % change in P =      0.000; delta P =  -18.35     at I,J,K    1   1  20
+   7    Max % change in H =      0.021; delta H =  8.9263E+05 at I,J,K    1   1  21
+Step Number    7 completed; Simulation time .................... 0.175828     (yr)
+
+--- Begin Time Step No.     8 ---  Time Step Length: 6.274852E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+   8  1 Max Diff:   -40.2     in P at    1   1   3;   1.146E+06 in H at    1   1  21
+   8  1 Max %diff:  -6.167E-04 in P at    1   1  20;  2.732E-02 in H at    1   1  21
+   8  1 Max Resid: -4.15E-14 g/s-cm^3 at   1   1   1;  -3.52E-04 erg/s-cm^3 at   1   1   1
+   8    Convergence: criterion met- Residuals    ;  1 NR iters;  0 nodes changed to/from 2-phase
+   8    Max % change in P =     -0.001; delta P =  -23.62     at I,J,K    1   1  20
+   8    Max % change in H =      0.027; delta H =  1.1463E+06 at I,J,K    1   1  21
+Step Number    8 completed; Simulation time .................... 0.238577     (yr)
+
+--- Begin Time Step No.     9 ---  Time Step Length: 8.157307E-02 (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+   9  1 Max Diff:   -51.9     in P at    1   1   3;   1.467E+06 in H at    1   1  21
+   9  1 Max %diff:  -7.912E-04 in P at    1   1  20;  3.495E-02 in H at    1   1  21
+   9  1 Max Resid: -6.93E-14 g/s-cm^3 at   1   1   1;  -5.88E-04 erg/s-cm^3 at   1   1   1
+   9    Convergence: criterion met- Residuals    ;  1 NR iters;  0 nodes changed to/from 2-phase
+   9    Max % change in P =     -0.001; delta P =  -30.30     at I,J,K    1   1  20
+   9    Max % change in H =      0.035; delta H =  1.4669E+06 at I,J,K    1   1  21
+Step Number    9 completed; Simulation time .................... 0.320150     (yr)
+
+--- Begin Time Step No.    10 ---  Time Step Length: 0.106045     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  10  1 Max Diff:   -67.0     in P at    1   1   3;   1.868E+06 in H at    1   1  21
+  10  1 Max %diff:  -1.011E-03 in P at    1   1  20;  4.449E-02 in H at    1   1  21
+  10  1 Max Resid: -1.15E-13 g/s-cm^3 at   1   1   1;  -9.78E-04 erg/s-cm^3 at   1   1   1
+  10    Convergence: criterion met- Residuals    ;  1 NR iters;  0 nodes changed to/from 2-phase
+  10    Max % change in P =     -0.001; delta P =  -38.72     at I,J,K    1   1  20
+  10    Max % change in H =      0.045; delta H =  1.8682E+06 at I,J,K    1   1  21
+Step Number   10 completed; Simulation time .................... 0.426195     (yr)
+
+--- Begin Time Step No.    11 ---  Time Step Length: 0.137858     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  11  1 Max Diff:   -86.2     in P at    1   1   3;   2.365E+06 in H at    1   1  21
+  11  1 Max %diff:  -1.286E-03 in P at    1   1  20;  5.629E-02 in H at    1   1  21
+  11  1 Max Resid: -1.91E-13 g/s-cm^3 at   1   1   1;  -1.62E-03 erg/s-cm^3 at   1   1   1
+  11    Convergence: criterion met- Residuals    ;  1 NR iters;  0 nodes changed to/from 2-phase
+  11    Max % change in P =     -0.001; delta P =  -49.24     at I,J,K    1   1  20
+  11    Max % change in H =      0.056; delta H =  2.3651E+06 at I,J,K    1   1  21
+Step Number   11 completed; Simulation time .................... 0.564053     (yr)
+
+--- Begin Time Step No.    12 ---  Time Step Length: 0.179216     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  12  1 Max Diff:   -111.     in P at    1   1   3;   2.971E+06 in H at    1   1  21
+  12  1 Max %diff:  -1.625E-03 in P at    1   1  20;  7.067E-02 in H at    1   1  21
+  12  1 Max Resid: -3.16E-13 g/s-cm^3 at   1   1   1;  -2.68E-03 erg/s-cm^3 at   1   1   1
+  12    Convergence: criterion met- Residuals    ;  1 NR iters;  0 nodes changed to/from 2-phase
+  12    Max % change in P =     -0.002; delta P =  -62.21     at I,J,K    1   1  20
+  12    Max % change in H =      0.071; delta H =  2.9711E+06 at I,J,K    1   1  21
+Step Number   12 completed; Simulation time .................... 0.743270     (yr)
+
+--- Begin Time Step No.    13 ---  Time Step Length: 0.232981     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  13  1 Max Diff:   -141.     in P at    1   1   3;   3.695E+06 in H at    1   1  21
+  13  1 Max %diff:  -2.036E-03 in P at    1   1  20;  8.782E-02 in H at    1   1  21
+  13  1 Max Resid: -5.18E-13 g/s-cm^3 at   1   1   1;  -4.38E-03 erg/s-cm^3 at   1   1   1
+  13    Convergence: criterion met- Residuals    ;  1 NR iters;  0 nodes changed to/from 2-phase
+  13    Max % change in P =     -0.002; delta P =  -77.96     at I,J,K    1   1  20
+  13    Max % change in H =      0.088; delta H =  3.6954E+06 at I,J,K    1   1  21
+Step Number   13 completed; Simulation time .................... 0.976250     (yr)
+
+--- Begin Time Step No.    14 ---  Time Step Length: 0.302875     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  14  1 Max Diff:   -180.     in P at    1   1   3;   4.538E+06 in H at    1   1  21
+  14  1 Max %diff:  -2.525E-03 in P at    1   1  20;  0.108     in H at    1   1  21
+  14  1 Max Resid: -8.42E-13 g/s-cm^3 at   1   1   1;  -7.12E-03 erg/s-cm^3 at   1   1   1
+  14    Convergence: criterion met- Residuals    ;  1 NR iters;  0 nodes changed to/from 2-phase
+  14    Max % change in P =     -0.003; delta P =  -96.67     at I,J,K    1   1  20
+  14    Max % change in H =      0.108; delta H =  4.5384E+06 at I,J,K    1   1  21
+Step Number   14 completed; Simulation time ....................  1.27913     (yr)
+
+--- Begin Time Step No.    15 ---  Time Step Length: 0.393738     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  15  1 Max Diff:   -228.     in P at    1   1   3;   5.484E+06 in H at    1   1  21
+  15  1 Max %diff:  -3.090E-03 in P at    1   1  20;  0.130     in H at    1   1  21
+  15  1 Max Resid: -1.35E-12 g/s-cm^3 at   1   1   1;  -1.15E-02 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  15  2 Max Diff:  -2.470E-02 in P at    1   1   1;    182.     in H at    1   1  21
+  15  2 Max %diff:  -5.611E-07 in P at    1   1  20;  4.308E-06 in H at    1   1  21
+  15  2 Max Resid: -2.59E-18 g/s-cm^3 at   1   1   1;   9.69E-07 erg/s-cm^3 at   1   1   1
+  15    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  15    Max % change in P =     -0.003; delta P =  -118.3     at I,J,K    1   1  20
+  15    Max % change in H =      0.130; delta H =  5.4847E+06 at I,J,K    1   1  21
+Step Number   15 completed; Simulation time ....................  1.67286     (yr)
+
+--- Begin Time Step No.    16 ---  Time Step Length: 0.511859     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  16  1 Max Diff:   -287.     in P at    1   1   3;   6.494E+06 in H at    1   1  21
+  16  1 Max %diff:  -3.719E-03 in P at    1   1  20;  0.154     in H at    1   1  21
+  16  1 Max Resid: -2.15E-12 g/s-cm^3 at   1   1   1;  -1.82E-02 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  16  2 Max Diff:  -3.807E-02 in P at    1   1   1;    255.     in H at    1   1  21
+  16  2 Max %diff:  -8.284E-07 in P at    1   1  20;  6.032E-06 in H at    1   1  21
+  16  2 Max Resid: -1.79E-18 g/s-cm^3 at   1   1   1;   1.56E-06 erg/s-cm^3 at   1   1   1
+  16    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  16    Max % change in P =     -0.004; delta P =  -142.4     at I,J,K    1   1  20
+  16    Max % change in H =      0.154; delta H =  6.4946E+06 at I,J,K    1   1  21
+Step Number   16 completed; Simulation time ....................  2.18472     (yr)
+
+--- Begin Time Step No.    17 ---  Time Step Length: 0.665417     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  17  1 Max Diff:   -358.     in P at    1   1   3;   7.497E+06 in H at    1   1  21
+  17  1 Max %diff:  -4.385E-03 in P at    1   1  20;  0.177     in H at    1   1  21
+  17  1 Max Resid: -3.36E-12 g/s-cm^3 at   1   1   1;  -2.84E-02 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  17  2 Max Diff:  -5.590E-02 in P at    1   1   1;    339.     in H at    1   1  21
+  17  2 Max %diff:  -1.161E-06 in P at    1   1  20;  8.021E-06 in H at    1   1  21
+  17  2 Max Resid: -2.94E-18 g/s-cm^3 at   1   1   1;   2.44E-06 erg/s-cm^3 at   1   1   1
+  17    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  17    Max % change in P =     -0.004; delta P =  -167.9     at I,J,K    1   1  20
+  17    Max % change in H =      0.177; delta H =  7.4973E+06 at I,J,K    1   1  21
+Step Number   17 completed; Simulation time ....................  2.85014     (yr)
+
+--- Begin Time Step No.    18 ---  Time Step Length: 0.865042     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  18  1 Max Diff:   -443.     in P at    1   1   3;   8.386E+06 in H at    1   1  21
+  18  1 Max %diff:  -5.041E-03 in P at    1   1  20;  0.198     in H at    1   1  21
+  18  1 Max Resid: -5.14E-12 g/s-cm^3 at   1   1   1;  -4.35E-02 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  18  2 Max Diff:  -7.828E-02 in P at    1   1   1;    425.     in H at    1   1  21
+  18  2 Max %diff:  -1.535E-06 in P at    1   1  20;  1.001E-05 in H at    1   1  21
+  18  2 Max Resid:  1.12E-18 g/s-cm^3 at   1   1   1;   3.79E-06 erg/s-cm^3 at   1   1   1
+  18    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  18    Max % change in P =     -0.005; delta P =  -193.1     at I,J,K    1   1  20
+  18    Max % change in H =      0.198; delta H =  8.3868E+06 at I,J,K    1   1  21
+Step Number   18 completed; Simulation time ....................  3.71518     (yr)
+
+--- Begin Time Step No.    19 ---  Time Step Length:  1.12455     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  19  1 Max Diff:   -545.     in P at    1   1   3;   9.028E+06 in H at    1   1  21
+  19  1 Max %diff:  -5.623E-03 in P at    1   1  20;  0.212     in H at    1   1  21
+  19  1 Max Resid: -7.71E-12 g/s-cm^3 at   1   1   1;  -6.51E-02 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  19  2 Max Diff:  -0.105     in P at    1   1   1;    492.     in H at    1   1  21
+  19  2 Max %diff:  -1.895E-06 in P at    1   1  20;  1.157E-05 in H at    1   1  21
+  19  2 Max Resid:  4.82E-19 g/s-cm^3 at   1   1   1;   5.67E-06 erg/s-cm^3 at   1   1   1
+  19    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  19    Max % change in P =     -0.006; delta P =  -215.4     at I,J,K    1   1  20
+  19    Max % change in H =      0.213; delta H =  9.0289E+06 at I,J,K    1   1  21
+Step Number   19 completed; Simulation time ....................  4.83973     (yr)
+
+--- Begin Time Step No.    20 ---  Time Step Length:  1.46192     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  20  1 Max Diff:   -669.     in P at    1   1   4;   9.284E+06 in H at    1   1  21
+  20  1 Max %diff:  -6.054E-03 in P at    1   1  20;  0.218     in H at    1   1  21
+  20  1 Max Resid: -1.13E-11 g/s-cm^3 at   1   1   1;  -9.51E-02 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  20  2 Max Diff:  -0.135     in P at    1   1   1;    519.     in H at    1   1  21
+  20  2 Max %diff:  -2.168E-06 in P at    1   1  20;  1.218E-05 in H at    1   1  21
+  20  2 Max Resid: -5.35E-19 g/s-cm^3 at   1   1   1;   8.29E-06 erg/s-cm^3 at   1   1   1
+  20    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  20    Max % change in P =     -0.006; delta P =  -231.8     at I,J,K    1   1  20
+  20    Max % change in H =      0.218; delta H =  9.2847E+06 at I,J,K    1   1  21
+Step Number   20 completed; Simulation time ....................  6.30165     (yr)
+
+--- Begin Time Step No.    21 ---  Time Step Length:  1.90050     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  21  1 Max Diff:   -820.     in P at    1   1   4;   9.051E+06 in H at    1   1  21
+  21  1 Max %diff:  -6.261E-03 in P at    1   1  20;  0.212     in H at    1   1  21
+  21  1 Max Resid: -1.60E-11 g/s-cm^3 at   1   1   1;  -1.35E-01 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  21  2 Max Diff:  -0.171     in P at    1   1   1;    492.     in H at    1   1  21
+  21  2 Max %diff:  -2.282E-06 in P at    1   1  20;  1.152E-05 in H at    1   1  21
+  21  2 Max Resid:  6.26E-19 g/s-cm^3 at   1   1   1;   1.18E-05 erg/s-cm^3 at   1   1   1
+  21    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  21    Max % change in P =     -0.006; delta P =  -239.8     at I,J,K    1   1  20
+  21    Max % change in H =      0.213; delta H =  9.0517E+06 at I,J,K    1   1  21
+Step Number   21 completed; Simulation time ....................  8.20215     (yr)
+
+--- Begin Time Step No.    22 ---  Time Step Length:  2.47065     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  22  1 Max Diff:  -1.001E+03 in P at    1   1   4;   8.312E+06 in H at    1   1  21
+  22  1 Max %diff:  -6.201E-03 in P at    1   1  20;  0.194     in H at    1   1  21
+  22  1 Max Resid: -2.21E-11 g/s-cm^3 at   1   1   1;  -1.86E-01 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  22  2 Max Diff:  -0.218     in P at    1   1   1;    452.     in H at    1   1   2
+  22  2 Max %diff:  -2.200E-06 in P at    1   1  20;  9.641E-06 in H at    1   1  21
+  22  2 Max Resid:  6.53E-19 g/s-cm^3 at   1   1   1;   1.63E-05 erg/s-cm^3 at   1   1   1
+  22    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  22    Max % change in P =     -0.006; delta P =  -237.4     at I,J,K    1   1  20
+  22    Max % change in H =      0.195; delta H =  8.3119E+06 at I,J,K    1   1  21
+Step Number   22 completed; Simulation time ....................  10.6728     (yr)
+
+--- Begin Time Step No.    23 ---  Time Step Length:  3.21184     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  23  1 Max Diff:  -1.222E+03 in P at    1   1   4;   7.163E+06 in H at    1   1  21
+  23  1 Max %diff:  -5.880E-03 in P at    1   1  20;  0.167     in H at    1   1  21
+  23  1 Max Resid: -2.95E-11 g/s-cm^3 at   1   1   1;  -2.48E-01 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  23  2 Max Diff:  -0.284     in P at    1   1   1;    602.     in H at    1   1   2
+  23  2 Max %diff:  -1.951E-06 in P at    1   1  20;  7.181E-06 in H at    1   1   2
+  23  2 Max Resid:  8.17E-20 g/s-cm^3 at   1   1   1;   2.18E-05 erg/s-cm^3 at   1   1   1
+  23    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  23    Max % change in P =     -0.006; delta P =  -225.1     at I,J,K    1   1  20
+  23    Max % change in H =      0.168; delta H =  7.1632E+06 at I,J,K    1   1  21
+Step Number   23 completed; Simulation time ....................  13.8846     (yr)
+
+--- Begin Time Step No.    24 ---  Time Step Length:  4.17539     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  24  1 Max Diff:  -1.490E+03 in P at    1   1   4;  -7.513E+06 in H at    1   1   2
+  24  1 Max %diff:  -5.363E-03 in P at    1   1  20;  0.135     in H at    1   1  21
+  24  1 Max Resid: -3.82E-11 g/s-cm^3 at   1   1   1;  -3.22E-01 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  24  2 Max Diff:  -0.386     in P at    1   1   1;    776.     in H at    1   1   2
+  24  2 Max %diff:  -1.611E-06 in P at    1   1  20;  9.270E-06 in H at    1   1   2
+  24  2 Max Resid: -1.20E-20 g/s-cm^3 at   1   1   1;   2.84E-05 erg/s-cm^3 at   1   1   1
+  24    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  24    Max % change in P =     -0.005; delta P =  -205.3     at I,J,K    1   1  20
+  24    Max % change in H =      0.136; delta H =  5.8062E+06 at I,J,K    1   1  21
+Step Number   24 completed; Simulation time ....................  18.0600     (yr)
+
+--- Begin Time Step No.    25 ---  Time Step Length:  5.42801     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  25  1 Max Diff:  -1.816E+03 in P at    1   1   4;  -8.434E+06 in H at    1   1   2
+  25  1 Max %diff:  -5.854E-03 in P at    1   1   6;  0.104     in H at    1   1  21
+  25  1 Max Resid: -4.81E-11 g/s-cm^3 at   1   1   1;  -4.04E-01 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  25  2 Max Diff:  -0.541     in P at    1   1   1;    971.     in H at    1   1   2
+  25  2 Max %diff:  -1.464E-06 in P at    1   1   1;  1.160E-05 in H at    1   1   2
+  25  2 Max Resid:  3.43E-18 g/s-cm^3 at   1   1   1;   3.59E-05 erg/s-cm^3 at   1   1   1
+  25    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  25    Max % change in P =     -0.006; delta P =  -1710.     at I,J,K    1   1   6
+  25    Max % change in H =      0.104; delta H =  4.4801E+06 at I,J,K    1   1  21
+Step Number   25 completed; Simulation time ....................  23.4880     (yr)
+
+--- Begin Time Step No.    26 ---  Time Step Length:  7.05641     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  26  1 Max Diff:  -2.221E+03 in P at    1   1   5;  -9.334E+06 in H at    1   1   2
+  26  1 Max %diff:  -7.282E-03 in P at    1   1   6; -0.112     in H at    1   1   2
+  26  1 Max Resid: -5.88E-11 g/s-cm^3 at   1   1   1;  -4.94E-01 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  26  2 Max Diff:  -0.774     in P at    1   1   1;   1.177E+03 in H at    1   1   2
+  26  2 Max %diff:  -2.095E-06 in P at    1   1   1;  1.409E-05 in H at    1   1   2
+  26  2 Max Resid:  3.09E-18 g/s-cm^3 at   1   1   1;   4.40E-05 erg/s-cm^3 at   1   1   1
+  26    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  26    Max % change in P =     -0.007; delta P =  -2127.     at I,J,K    1   1   6
+  26    Max % change in H =     -0.112; delta H = -9.3325E+06 at I,J,K    1   1   2
+Step Number   26 completed; Simulation time ....................  30.5444     (yr)
+
+--- Begin Time Step No.    27 ---  Time Step Length:  9.17333     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  27  1 Max Diff:  -2.733E+03 in P at    1   1   5;  -1.018E+07 in H at    1   1   2
+  27  1 Max %diff:  -9.054E-03 in P at    1   1   6; -0.122     in H at    1   1   2
+  27  1 Max Resid: -6.99E-11 g/s-cm^3 at   1   1   1;  -5.86E-01 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  27  2 Max Diff:   -1.12     in P at    1   1   1;   1.385E+03 in H at    1   1   2
+  27  2 Max %diff:  -3.020E-06 in P at    1   1   1;  1.659E-05 in H at    1   1   2
+  27  2 Max Resid:  9.21E-18 g/s-cm^3 at   1   1   1;   5.25E-05 erg/s-cm^3 at   1   1   1
+  27    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  27    Max % change in P =     -0.009; delta P =  -2644.     at I,J,K    1   1   6
+  27    Max % change in H =     -0.122; delta H = -1.0181E+07 at I,J,K    1   1   2
+Step Number   27 completed; Simulation time ....................  39.7178     (yr)
+
+--- Begin Time Step No.    28 ---  Time Step Length:  11.9253     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  28  1 Max Diff:  -3.346E+03 in P at    1   1   5;  -1.094E+07 in H at    1   1   2
+  28  1 Max %diff:  -1.128E-02 in P at    1   1   7; -0.131     in H at    1   1   2
+  28  1 Max Resid: -8.05E-11 g/s-cm^3 at   1   1   1;  -6.75E-01 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  28  2 Max Diff:   -1.61     in P at    1   1   1;   1.576E+03 in H at    1   1   2
+  28  2 Max %diff:  -4.349E-06 in P at    1   1   1;  1.891E-05 in H at    1   1   2
+  28  2 Max Resid:  7.88E-18 g/s-cm^3 at   1   1   1;   6.07E-05 erg/s-cm^3 at   1   1   1
+  28    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  28    Max % change in P =     -0.011; delta P =  -3096.     at I,J,K    1   1   7
+  28    Max % change in H =     -0.131; delta H = -1.0940E+07 at I,J,K    1   1   2
+Step Number   28 completed; Simulation time ....................  51.6431     (yr)
+
+--- Begin Time Step No.    29 ---  Time Step Length:  15.5029     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  29  1 Max Diff:  -4.067E+03 in P at    1   1   5;  -1.156E+07 in H at    1   1   2
+  29  1 Max %diff:  -1.398E-02 in P at    1   1   7; -0.139     in H at    1   1   2
+  29  1 Max Resid: -8.97E-11 g/s-cm^3 at   1   1   1;  -7.51E-01 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  29  2 Max Diff:   -2.30     in P at    1   1   1;   1.729E+03 in H at    1   1   2
+  29  2 Max %diff:  -6.217E-06 in P at    1   1   1;  2.077E-05 in H at    1   1   2
+  29  2 Max Resid:  7.47E-18 g/s-cm^3 at   1   1   1;   6.79E-05 erg/s-cm^3 at   1   1   1
+  29    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  29    Max % change in P =     -0.014; delta P =  -3838.     at I,J,K    1   1   7
+  29    Max % change in H =     -0.139; delta H = -1.1557E+07 at I,J,K    1   1   2
+Step Number   29 completed; Simulation time ....................  67.1460     (yr)
+
+--- Begin Time Step No.    30 ---  Time Step Length:  20.1538     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  30  1 Max Diff:  -4.902E+03 in P at    1   1   5;  -1.196E+07 in H at    1   1   2
+  30  1 Max %diff:  -1.720E-02 in P at    1   1   8;  0.168     in H at    1   1  16
+  30  1 Max Resid: -9.59E-11 g/s-cm^3 at   1   1   1;  -8.01E-01 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  30  2 Max Diff:   -3.25     in P at    1   1   1;   1.814E+03 in H at    1   1   2
+  30  2 Max %diff:  -9.106E-06 in P at    1   1   8;  2.182E-05 in H at    1   1   2
+  30  2 Max Resid:  1.07E-17 g/s-cm^3 at   1   1   1;   7.29E-05 erg/s-cm^3 at   1   1   1
+  30    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  30    Max % change in P =     -0.017; delta P =  -4417.     at I,J,K    1   1   8
+  30    Max % change in H =      0.168; delta H =  9.0865E+06 at I,J,K    1   1  16
+Step Number   30 completed; Simulation time ....................  87.2999     (yr)
+
+--- Begin Time Step No.    31 ---  Time Step Length:  26.2000     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  31  1 Max Diff:  -5.867E+03 in P at    1   1   6;   1.242E+07 in H at    1   1  13
+  31  1 Max %diff:  -2.098E-02 in P at    1   1   8;  0.212     in H at    1   1  15
+  31  1 Max Resid: -9.71E-11 g/s-cm^3 at   1   1   1;  -8.10E-01 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  31  2 Max Diff:   -4.51     in P at    1   1   1;   1.796E+03 in H at    1   1   2
+  31  2 Max %diff:  -1.386E-05 in P at    1   1   9;  2.385E-05 in H at    1   1  13
+  31  2 Max Resid:  1.39E-17 g/s-cm^3 at   1   1   1;   7.42E-05 erg/s-cm^3 at   1   1   1
+  31    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  31    Max % change in P =     -0.021; delta P =  -5388.     at I,J,K    1   1   8
+  31    Max % change in H =      0.213; delta H =  1.1964E+07 at I,J,K    1   1  15
+Step Number   31 completed; Simulation time ....................  113.500     (yr)
+
+--- Begin Time Step No.    32 ---  Time Step Length:  34.0599     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  32  1 Max Diff:  -6.948E+03 in P at    1   1   6;   1.540E+07 in H at    1   1  13
+  32  1 Max %diff:  -2.516E-02 in P at    1   1   8;  0.263     in H at    1   1  15
+  32  1 Max Resid: -9.15E-11 g/s-cm^3 at   1   1   1;  -7.62E-01 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  32  2 Max Diff:   -6.11     in P at    1   1   1;   2.213E+03 in H at    1   1  13
+  32  2 Max %diff:  -2.036E-05 in P at    1   1   9;  3.640E-05 in H at    1   1  13
+  32  2 Max Resid:  9.76E-18 g/s-cm^3 at   1   1   1;   7.01E-05 erg/s-cm^3 at   1   1   1
+  32    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  32    Max % change in P =     -0.025; delta P =  -6461.     at I,J,K    1   1   8
+  32    Max % change in H =      0.264; delta H =  1.4871E+07 at I,J,K    1   1  15
+Step Number   32 completed; Simulation time ....................  147.560     (yr)
+
+--- Begin Time Step No.    33 ---  Time Step Length:  44.2779     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  33  1 Max Diff:  -8.097E+03 in P at    1   1   6;   1.856E+07 in H at    1   1  13
+  33  1 Max %diff:  -2.963E-02 in P at    1   1   9;  0.317     in H at    1   1  15
+  33  1 Max Resid: -7.74E-11 g/s-cm^3 at   1   1   1;  -6.44E-01 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  33  2 Max Diff:   -8.03     in P at    1   1   1;   3.197E+03 in H at    1   1  13
+  33  2 Max %diff:  -2.862E-05 in P at    1   1  10;  5.287E-05 in H at    1   1  14
+  33  2 Max Resid:  7.03E-18 g/s-cm^3 at   1   1   1;   5.95E-05 erg/s-cm^3 at   1   1   1
+  33    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  33    Max % change in P =     -0.030; delta P =  -7082.     at I,J,K    1   1   9
+  33    Max % change in H =      0.319; delta H =  1.7986E+07 at I,J,K    1   1  15
+Step Number   33 completed; Simulation time ....................  191.838     (yr)
+
+--- Begin Time Step No.    34 ---  Time Step Length:  57.5613     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  34  1 Max Diff:  -9.267E+03 in P at    1   1   6;   2.166E+07 in H at    1   1  14
+  34  1 Max %diff:  -3.407E-02 in P at    1   1   9;  0.370     in H at    1   1  15
+  34  1 Max Resid: -5.48E-11 g/s-cm^3 at   1   1   1;  -4.55E-01 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  34  2 Max Diff:   -10.1     in P at    1   1   1;   4.308E+03 in H at    1   1  13
+  34  2 Max %diff:  -3.815E-05 in P at    1   1  10;  7.192E-05 in H at    1   1  14
+  34  2 Max Resid:  1.91E-18 g/s-cm^3 at   1   1   1;   4.22E-05 erg/s-cm^3 at   1   1   1
+  34    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  34    Max % change in P =     -0.034; delta P =  -8142.     at I,J,K    1   1   9
+  34    Max % change in H =      0.371; delta H =  2.1024E+07 at I,J,K    1   1  15
+Step Number   34 completed; Simulation time ....................  249.399     (yr)
+
+--- Begin Time Step No.    35 ---  Time Step Length:  74.8297     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  35  1 Max Diff:  -1.047E+04 in P at    1   1   5;   2.431E+07 in H at    1   1  14
+  35  1 Max %diff:  -3.801E-02 in P at    1   1   9;  0.414     in H at    1   1  15
+  35  1 Max Resid: -2.73E-11 g/s-cm^3 at   1   1   1;  -2.27E-01 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  35  2 Max Diff:   -12.3     in P at    1   1   1;   5.389E+03 in H at    1   1  13
+  35  2 Max %diff:  -4.755E-05 in P at    1   1  10;  9.050E-05 in H at    1   1  14
+  35  2 Max Resid: -3.13E-19 g/s-cm^3 at   1   1   1;   2.11E-05 erg/s-cm^3 at   1   1   1
+  35    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  35    Max % change in P =     -0.038; delta P =  -9081.     at I,J,K    1   1   9
+  35    Max % change in H =      0.415; delta H =  2.3617E+07 at I,J,K    1   1  15
+Step Number   35 completed; Simulation time ....................  324.229     (yr)
+
+--- Begin Time Step No.    36 ---  Time Step Length:  97.2786     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  36  1 Max Diff:  -1.168E+04 in P at    1   1   4;   2.616E+07 in H at    1   1  14
+  36  1 Max %diff:  -4.106E-02 in P at    1   1   9;  0.443     in H at    1   1  15
+  36  1 Max Resid: -4.68E-12 g/s-cm^3 at   1   1   1;  -3.89E-02 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  36  2 Max Diff:   -14.3     in P at    1   1   1;   6.278E+03 in H at    1   1  13
+  36  2 Max %diff:  -5.516E-05 in P at    1   1  10;  1.053E-04 in H at    1   1  14
+  36  2 Max Resid: -1.69E-18 g/s-cm^3 at   1   1   1;   3.57E-06 erg/s-cm^3 at   1   1   1
+  36    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  36    Max % change in P =     -0.041; delta P =  -9806.     at I,J,K    1   1   9
+  36    Max % change in H =      0.445; delta H =  2.5409E+07 at I,J,K    1   1  15
+Step Number   36 completed; Simulation time ....................  421.507     (yr)
+
+--- Begin Time Step No.    37 ---  Time Step Length:  126.462     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  37  1 Max Diff:  -1.331E+04 in P at    1   1   1;   2.707E+07 in H at    1   1  14
+  37  1 Max %diff:  -4.316E-02 in P at    1   1   8;  0.455     in H at    1   1  15
+  37  1 Max Resid: -3.28E-12 g/s-cm^3 at   1   1   1;  -2.72E-02 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  37  2 Max Diff:   -16.2     in P at    1   1   1;   6.890E+03 in H at    1   1  13
+  37  2 Max %diff:  -5.978E-05 in P at    1   1   9;  1.141E-04 in H at    1   1  14
+  37  2 Max Resid: -7.94E-20 g/s-cm^3 at   1   1   1;   2.50E-06 erg/s-cm^3 at   1   1   1
+  37    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  37    Max % change in P =     -0.043; delta P = -1.1068E+04 at I,J,K    1   1   8
+  37    Max % change in H =      0.457; delta H =  2.6190E+07 at I,J,K    1   1  15
+Step Number   37 completed; Simulation time ....................  547.969     (yr)
+
+--- Begin Time Step No.    38 ---  Time Step Length:  164.401     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  38  1 Max Diff:  -1.521E+04 in P at    1   1   1;   2.737E+07 in H at    1   1  13
+  38  1 Max %diff:  -4.465E-02 in P at    1   1   7;  0.451     in H at    1   1  14
+  38  1 Max Resid: -4.27E-11 g/s-cm^3 at   1   1   1;  -3.55E-01 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  38  2 Max Diff:   -18.6     in P at    1   1   1;   7.265E+03 in H at    1   1  13
+  38  2 Max %diff:  -6.211E-05 in P at    1   1   9;  1.173E-04 in H at    1   1  14
+  38  2 Max Resid:  2.96E-18 g/s-cm^3 at   1   1   1;   3.29E-05 erg/s-cm^3 at   1   1   1
+  38    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  38    Max % change in P =     -0.045; delta P = -1.2231E+04 at I,J,K    1   1   7
+  38    Max % change in H =      0.453; delta H =  2.7114E+07 at I,J,K    1   1  14
+Step Number   38 completed; Simulation time ....................  712.370     (yr)
+
+--- Begin Time Step No.    39 ---  Time Step Length:  213.721     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  39  1 Max Diff:  -1.710E+04 in P at    1   1   1;   2.732E+07 in H at    1   1  12
+  39  1 Max %diff:  -4.678E-02 in P at    1   1   4;  0.441     in H at    1   1  14
+  39  1 Max Resid: -1.35E-10 g/s-cm^3 at   1   1   1;  -1.12E+00 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  39  2 Max Diff:   -21.9     in P at    1   1   1;   7.628E+03 in H at    1   1  12
+  39  2 Max %diff:  -6.452E-05 in P at    1   1   7;  1.205E-04 in H at    1   1  13
+  39  2 Max Resid:  2.69E-17 g/s-cm^3 at   1   1   1;   1.04E-04 erg/s-cm^3 at   1   1   1
+  39    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  39    Max % change in P =     -0.047; delta P = -1.5254E+04 at I,J,K    1   1   4
+  39    Max % change in H =      0.443; delta H =  2.6595E+07 at I,J,K    1   1  14
+Step Number   39 completed; Simulation time ....................  926.091     (yr)
+
+--- Begin Time Step No.    40 ---  Time Step Length:  277.837     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  40  1 Max Diff:  -1.887E+04 in P at    1   1   1;   2.788E+07 in H at    1   1  11
+  40  1 Max %diff:  -5.120E-02 in P at    1   1   1;  0.431     in H at    1   1  13
+  40  1 Max Resid: -2.72E-10 g/s-cm^3 at   1   1   1;  -2.27E+00 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  40  2 Max Diff:   -26.0     in P at    1   1   1;   8.419E+03 in H at    1   1  11
+  40  2 Max %diff:  -7.100E-05 in P at    1   1   3;  1.269E-04 in H at    1   1  12
+  40  2 Max Resid:  9.49E-17 g/s-cm^3 at   1   1   1;   2.09E-04 erg/s-cm^3 at   1   1   1
+  40    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  40    Max % change in P =     -0.051; delta P = -1.8891E+04 at I,J,K    1   1   1
+  40    Max % change in H =      0.433; delta H =  2.7080E+07 at I,J,K    1   1  13
+Step Number   40 completed; Simulation time ....................  1203.93     (yr)
+
+--- Begin Time Step No.    41 ---  Time Step Length:  361.189     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  41  1 Max Diff:  -2.030E+04 in P at    1   1   1;   2.927E+07 in H at    1   1   9
+  41  1 Max %diff:  -5.513E-02 in P at    1   1   1;  0.430     in H at    1   1  12
+  41  1 Max Resid: -4.19E-10 g/s-cm^3 at   1   1   1;  -3.51E+00 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  41  2 Max Diff:   -30.2     in P at    1   1   1;   9.769E+03 in H at    1   1   9
+  41  2 Max %diff:  -8.207E-05 in P at    1   1   1;  1.394E-04 in H at    1   1  10
+  41  2 Max Resid:  2.25E-16 g/s-cm^3 at   1   1   1;   3.22E-04 erg/s-cm^3 at   1   1   1
+  41    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  41    Max % change in P =     -0.055; delta P = -2.0333E+04 at I,J,K    1   1   1
+  41    Max % change in H =      0.432; delta H =  2.8024E+07 at I,J,K    1   1  12
+Step Number   41 completed; Simulation time ....................  1565.12     (yr)
+
+--- Begin Time Step No.    42 ---  Time Step Length:  469.545     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  42  1 Max Diff:  -2.109E+04 in P at    1   1   1;   3.078E+07 in H at    1   1   7
+  42  1 Max %diff:  -5.732E-02 in P at    1   1   1;  0.431     in H at    1   1  11
+  42  1 Max Resid: -5.29E-10 g/s-cm^3 at   1   1   1;  -4.44E+00 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  42  2 Max Diff:   -32.9     in P at    1   1   1;   1.101E+04 in H at    1   1   8
+  42  2 Max %diff:  -8.938E-05 in P at    1   1   1;  1.513E-04 in H at    1   1   9
+  42  2 Max Resid:  3.41E-16 g/s-cm^3 at   1   1   1;   4.04E-04 erg/s-cm^3 at   1   1   1
+  42    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  42    Max % change in P =     -0.057; delta P = -2.1128E+04 at I,J,K    1   1   1
+  42    Max % change in H =      0.433; delta H =  2.9129E+07 at I,J,K    1   1  11
+Step Number   42 completed; Simulation time ....................  2034.66     (yr)
+
+--- Begin Time Step No.    43 ---  Time Step Length:  610.409     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  43  1 Max Diff:  -2.088E+04 in P at    1   1   1;   3.094E+07 in H at    1   1   7
+  43  1 Max %diff:  -5.676E-02 in P at    1   1   1;  0.422     in H at    1   1  10
+  43  1 Max Resid: -5.60E-10 g/s-cm^3 at   1   1   1;  -4.72E+00 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  43  2 Max Diff:   -32.4     in P at    1   1   1;   1.116E+04 in H at    1   1   7
+  43  2 Max %diff:  -8.810E-05 in P at    1   1   1;  1.501E-04 in H at    1   1   8
+  43  2 Max Resid:  3.73E-16 g/s-cm^3 at   1   1   1;   4.24E-04 erg/s-cm^3 at   1   1   1
+  43    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  43    Max % change in P =     -0.057; delta P = -2.0911E+04 at I,J,K    1   1   1
+  43    Max % change in H =      0.423; delta H =  2.9452E+07 at I,J,K    1   1  10
+Step Number   43 completed; Simulation time ....................  2645.07     (yr)
+
+--- Begin Time Step No.    44 ---  Time Step Length:  793.531     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  44  1 Max Diff:  -1.938E+04 in P at    1   1   1;   2.896E+07 in H at    1   1   6
+  44  1 Max %diff:  -5.273E-02 in P at    1   1   1;  0.389     in H at    1   1   9
+  44  1 Max Resid: -4.99E-10 g/s-cm^3 at   1   1   1;  -4.22E+00 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  44  2 Max Diff:   -28.0     in P at    1   1   1;   9.846E+03 in H at    1   1   7
+  44  2 Max %diff:  -7.624E-05 in P at    1   1   1;  1.315E-04 in H at    1   1   8
+  44  2 Max Resid:  2.94E-16 g/s-cm^3 at   1   1   1;   3.74E-04 erg/s-cm^3 at   1   1   1
+  44    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  44    Max % change in P =     -0.053; delta P = -1.9412E+04 at I,J,K    1   1   1
+  44    Max % change in H =      0.390; delta H =  2.8035E+07 at I,J,K    1   1   9
+Step Number   44 completed; Simulation time ....................  3438.60     (yr)
+
+--- Begin Time Step No.    45 ---  Time Step Length:  1031.59     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  45  1 Max Diff:  -1.661E+04 in P at    1   1   1;   2.487E+07 in H at    1   1   6
+  45  1 Max %diff:  -4.520E-02 in P at    1   1   1;  0.331     in H at    1   1   9
+  45  1 Max Resid: -3.71E-10 g/s-cm^3 at   1   1   1;  -3.15E+00 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  45  2 Max Diff:   -20.7     in P at    1   1   1;   7.495E+03 in H at    1   1   7
+  45  2 Max %diff:  -5.634E-05 in P at    1   1   1;  9.962E-05 in H at    1   1   8
+  45  2 Max Resid:  1.68E-16 g/s-cm^3 at   1   1   1;   2.75E-04 erg/s-cm^3 at   1   1   1
+  45    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  45    Max % change in P =     -0.045; delta P = -1.6628E+04 at I,J,K    1   1   1
+  45    Max % change in H =      0.333; delta H =  2.3979E+07 at I,J,K    1   1   9
+Step Number   45 completed; Simulation time ....................  4470.19     (yr)
+
+--- Begin Time Step No.    46 ---  Time Step Length:  529.806     (yr)
+        Time step set to time for writing output data
+
+          Newton-Raphson Iteration  1
+  46  1 Max Diff:  -6.747E+03 in P at    1   1   1;   1.010E+07 in H at    1   1   6
+  46  1 Max %diff:  -1.836E-02 in P at    1   1   1;  0.134     in H at    1   1   9
+  46  1 Max Resid: -6.14E-11 g/s-cm^3 at   1   1   1;  -5.21E-01 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  46  2 Max Diff:   -3.57     in P at    1   1   1;   1.558E+03 in H at    1   1   6
+  46  2 Max %diff:  -9.710E-06 in P at    1   1   1;  2.016E-05 in H at    1   1   7
+  46  2 Max Resid:  5.71E-18 g/s-cm^3 at   1   1   1;   4.49E-05 erg/s-cm^3 at   1   1   1
+  46    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  46    Max % change in P =     -0.018; delta P =  -6750.     at I,J,K    1   1   1
+  46    Max % change in H =      0.134; delta H =  9.7232E+06 at I,J,K    1   1   9
+Step Number   46 completed; Simulation time ....................  5000.00     (yr)
+
+--- Begin Time Step No.    47 ---  Time Step Length:  1031.59     (yr)
+        Time step reset to value before writing output
+
+          Newton-Raphson Iteration  1
+  47  1 Max Diff:  -8.652E+03 in P at    1   1   1;   1.295E+07 in H at    1   1   6
+  47  1 Max %diff:  -2.355E-02 in P at    1   1   1;  0.172     in H at    1   1   9
+  47  1 Max Resid: -1.01E-10 g/s-cm^3 at   1   1   1;  -8.60E-01 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  47  2 Max Diff:   -5.88     in P at    1   1   1;   2.532E+03 in H at    1   1   6
+  47  2 Max %diff:  -1.602E-05 in P at    1   1   1;  3.304E-05 in H at    1   1   8
+  47  2 Max Resid:  1.67E-17 g/s-cm^3 at   1   1   1;   7.39E-05 erg/s-cm^3 at   1   1   1
+  47    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  47    Max % change in P =     -0.024; delta P =  -8657.     at I,J,K    1   1   1
+  47    Max % change in H =      0.172; delta H =  1.2460E+07 at I,J,K    1   1   9
+Step Number   47 completed; Simulation time ....................  6031.59     (yr)
+
+--- Begin Time Step No.    48 ---  Time Step Length:  1341.07     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  48  1 Max Diff:  -6.721E+03 in P at    1   1   1;   1.005E+07 in H at    1   1   6
+  48  1 Max %diff:  -1.830E-02 in P at    1   1   1;  0.133     in H at    1   1   9
+  48  1 Max Resid: -6.11E-11 g/s-cm^3 at   1   1   1;  -5.20E-01 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  48  2 Max Diff:   -3.70     in P at    1   1   1;   1.781E+03 in H at    1   1   6
+  48  2 Max %diff:  -1.007E-05 in P at    1   1   1;  2.310E-05 in H at    1   1   7
+  48  2 Max Resid:  4.48E-18 g/s-cm^3 at   1   1   1;   4.44E-05 erg/s-cm^3 at   1   1   1
+  48    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  48    Max % change in P =     -0.018; delta P =  -6724.     at I,J,K    1   1   1
+  48    Max % change in H =      0.133; delta H =  9.6697E+06 at I,J,K    1   1   9
+Step Number   48 completed; Simulation time ....................  7372.66     (yr)
+
+--- Begin Time Step No.    49 ---  Time Step Length:  1743.39     (yr)
+        Time step set by factor for maximum time step increase
+
+          Newton-Raphson Iteration  1
+  49  1 Max Diff:  -4.656E+03 in P at    1   1   1;   6.957E+06 in H at    1   1   6
+  49  1 Max %diff:  -1.268E-02 in P at    1   1   1;  9.206E-02 in H at    1   1   9
+  49  1 Max Resid: -2.93E-11 g/s-cm^3 at   1   1   1;  -2.50E-01 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  49  2 Max Diff:   -1.93     in P at    1   1   1;   1.124E+03 in H at    1   1   5
+  49  2 Max %diff:  -5.265E-06 in P at    1   1   1;  1.446E-05 in H at    1   1   7
+  49  2 Max Resid:  1.55E-18 g/s-cm^3 at   1   1   1;   2.12E-05 erg/s-cm^3 at   1   1   1
+  49    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  49    Max % change in P =     -0.013; delta P =  -4658.     at I,J,K    1   1   1
+  49    Max % change in H =      0.092; delta H =  6.6940E+06 at I,J,K    1   1   9
+Step Number   49 completed; Simulation time ....................  9116.05     (yr)
+
+--- Begin Time Step No.    50 ---  Time Step Length:  883.952     (yr)
+        Time step set to time for reading new input data
+
+          Newton-Raphson Iteration  1
+  50  1 Max Diff:  -1.635E+03 in P at    1   1   1;   2.441E+06 in H at    1   1   6
+  50  1 Max %diff:  -4.452E-03 in P at    1   1   1;  3.229E-02 in H at    1   1   9
+  50  1 Max Resid: -3.61E-12 g/s-cm^3 at   1   1   1;  -3.08E-02 erg/s-cm^3 at   1   1   1
+
+          Newton-Raphson Iteration  2
+  50  2 Max Diff:  -0.288     in P at    1   1   1;    247.     in H at    1   1   2
+  50  2 Max %diff:  -7.838E-07 in P at    1   1   1;  2.967E-06 in H at    1   1   5
+  50  2 Max Resid:  9.57E-19 g/s-cm^3 at   1   1   1;   2.62E-06 erg/s-cm^3 at   1   1   1
+  50    Convergence: criterion met- Residuals    ;  2 NR iters;  0 nodes changed to/from 2-phase
+  50    Max % change in P =     -0.004; delta P =  -1635.     at I,J,K    1   1   1
+  50    Max % change in H =      0.032; delta H =  2.3486E+06 at I,J,K    1   1   9
+Step Number   50 completed; Simulation time ....................  10000.0     (yr)
+
+          --- Summary data for completed simulation ---
+
+          Total number of time steps:                              50
+          Total number of Newton-Raphson iterations:               88
+          Initial Time:                                   0.000000     (yr)
+          Ending Time:                                    10000.00     (yr)
+          Avg Time Step Length:                           200.0000     (yr)
+          Maximum Time Step:                              1743.389     (yr)
+          Minimum Time Step:                             1.0000000E-02 (yr)
+          Maximum number of Newton-Raphson iterations for a time step:   2
+          Average number of Newton-Raphson iterations per time step:   1.8
+
+          Factors Controlling Time Step Length:
+                0 - (P) Maximum pressure change
+                0 - (H) Maximum enthalpy change
+                0 - (W) Maximum water saturation change
+               46 - (M) Maximum time step increase
+                1 - (D) Time to read new input data
+                1 - (O) Time to write output data
+                0 - (R) Reset to value before reading new data
+                1 - (R) Reset to value before writing output data
+                1 - (I) Value for initial time step
+                0 - (M) Maximum time step allowed
+
+          Reasons for Cutting the Time Step Length:
+                0 - (P) Pressure change exceeded maximum allowed
+                0 - (H) Enthalpy change exceeded maximum allowed
+                0 - (W) Saturation change exceeded maximum allowed
+                0 - (C) Excessive multiple nodes changed phase in a N-R iteration
+                0 - (C) Excessive multiple nodes changed phase in a time step
+                0 - (I) Maximum N-R iterations reached without convergence
+                0 - (N) Newton-Raphson iterations stalled out
+                0 - (T) Pressure or enthalpy exceeded limits of enthalpy tables
+                0 - (T) Pressure below limits of enthalpy tables
+                0 - (L) Pressure exceeded lithostatic limit
+                0 - (G) GMRES solver failed to converge
+
+          Convergence Criteria Satisfied:
+               50 - (R) Mass and energy residuals (input)
+                0 - (C) Absolute changes in pressure and enthalpy (hard coded)
+                0 - (%) Percent changes in pressure and enthalpy from previous step (input)
+                  Maximum residual for Mass:   -8.42E-13; at Time Step   14
+                  Maximum residual for Energy: -7.12E-03; at Time Step   14
+
+          Distribution of Phases at End of Simulation: 
+            Number of Compressed Water Nodes ....   22
+            Number of 2-phase Water/Steam Nodes .    0
+            Number of Superheated Steam Nodes ...    0
+            Number of Supercritical Fluid Nodes .    0
+            Number of Air-Water Nodes ...........    0
+
+          Number of nodes changing phase during simulation:       0
+               (to/from 2-phase or air-water phases only)
+
+
+                                        ***** Simulation Completed ***** 
+               Last time value calculated ........................................... 1.0000E+04  (yr)
+               Last time step index .................................................      50
