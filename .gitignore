@@ -3,3 +3,4 @@ src/*.mod
 src/*.o
 Out_*
 Calc_log.*
+IC_pressporo.*
