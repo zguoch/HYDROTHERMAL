@@ -4,3 +4,4 @@ src/*.o
 Out_*
 Calc_log.*
 IC_pressporo.*
+Plot_*
