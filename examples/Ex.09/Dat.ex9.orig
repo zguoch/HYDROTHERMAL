@@ -189,7 +189,7 @@ TOP
 # Transient data
 # TIME PERIOD #1
 # .. tchg,delt,nsrce[I],lchgpr[T/F],nparms[I]
-   2000., 0.00001,  0,      f      0
+   4000., 0.00001,  0,      f      0
 # ---------------------------------
 # TIME PERIOD: End of simulation record
 # ..  tchg

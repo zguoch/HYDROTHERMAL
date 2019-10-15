@@ -1,8 +1,8 @@
 # compiler
-FC = mpif90
+FC = gfortran
 BIN=../
 # compile flags
-FCFLAGS = -g -c -fdefault-real-16 -freal-8-real-16 #-fbacktrace -fno-align-commons
+FCFLAGS = -g -c -fdefault-real-8 -freal-8-real-16 #-fbacktrace -fno-align-commons
 # link flags
 FLFLAGS = -g -fbacktrace
 
